@@ -1,0 +1,7002 @@
+[
+  {
+    "type": "buy",
+    "amount": 629,
+    "price": 0.1561,
+    "date": "2024-11-22",
+    "address": "0xb12b5b0c1f10dede54b206f10fa43cf853fc080e"
+  },
+  {
+    "type": "sell",
+    "amount": 461,
+    "price": 0.1561,
+    "date": "2024-11-22",
+    "address": "0x3c6516c769744f3eb82d1e2117d799ba67913a8a"
+  },
+  {
+    "type": "buy",
+    "amount": 464,
+    "price": 0.1561,
+    "date": "2024-11-22",
+    "address": "0xeb8d2a829661fef2d75f06b2d9472a257c3d6422"
+  },
+  {
+    "type": "sell",
+    "amount": 60,
+    "price": 0.1561,
+    "date": "2024-11-21",
+    "address": "0x8ffb47f216a3864081694a7f8527ec37d424d325"
+  },
+  {
+    "type": "buy",
+    "amount": 495,
+    "price": 0.1561,
+    "date": "2024-11-21",
+    "address": "0x4d08c6400a18fae9f6b28335844a99865f279900"
+  },
+  {
+    "type": "buy",
+    "amount": 332,
+    "price": 0.1561,
+    "date": "2024-11-20",
+    "address": "0xb128d61dad98945c2c50fd15d023bc8f966223b9"
+  },
+  {
+    "type": "sell",
+    "amount": 585,
+    "price": 0.1561,
+    "date": "2024-11-20",
+    "address": "0x5bfbfc669d835944b2dd06ac809ae30bd5d798e5"
+  },
+  {
+    "type": "sell",
+    "amount": 303,
+    "price": 0.1561,
+    "date": "2024-11-20",
+    "address": "0xeb03b62b9f8410280672fdabd0c74c489ed8b391"
+  },
+  {
+    "type": "sell",
+    "amount": 226,
+    "price": 0.1561,
+    "date": "2024-11-19",
+    "address": "0x0f97f9df86ddb34350d0b57c46e779dec3b5edaa"
+  },
+  {
+    "type": "sell",
+    "amount": 502,
+    "price": 0.1561,
+    "date": "2024-11-19",
+    "address": "0x5e6a92d0fb72c07f90184acf31c842170f43776e"
+  },
+  {
+    "type": "sell",
+    "amount": 473,
+    "price": 0.1561,
+    "date": "2024-11-18",
+    "address": "0xebbb561a6c5862472f997066ce92ca4920ce2b53"
+  },
+  {
+    "type": "sell",
+    "amount": 975,
+    "price": 0.1561,
+    "date": "2024-11-17",
+    "address": "0x9090d1b0313be8ee6c4f1ae58c6cd77e77be630c"
+  },
+  {
+    "type": "buy",
+    "amount": 838,
+    "price": 0.1561,
+    "date": "2024-11-17",
+    "address": "0xaf9a1aceb0443b44a58ea6e45497fe77c22b4be5"
+  },
+  {
+    "type": "buy",
+    "amount": 554,
+    "price": 0.1561,
+    "date": "2024-11-16",
+    "address": "0x12bb0cc2ab7b354aa46318b21cc277612471f6e1"
+  },
+  {
+    "type": "buy",
+    "amount": 225,
+    "price": 0.1561,
+    "date": "2024-11-16",
+    "address": "0xc30583a0f3517e94101dda42104ae40b20b4eff0"
+  },
+  {
+    "type": "sell",
+    "amount": 535,
+    "price": 0.1561,
+    "date": "2024-11-16",
+    "address": "0x8b6a01299c4b2d17e78b8f4061a4c3a489587834"
+  },
+  {
+    "type": "sell",
+    "amount": 342,
+    "price": 0.1561,
+    "date": "2024-11-15",
+    "address": "0xd99049bee9d7649f258c22307ec3a6be328831ed"
+  },
+  {
+    "type": "sell",
+    "amount": 512,
+    "price": 0.1561,
+    "date": "2024-11-15",
+    "address": "0x449da7293215cb2eb6fa5a23d29b98a46e6cfaf1"
+  },
+  {
+    "type": "buy",
+    "amount": 206,
+    "price": 0.1561,
+    "date": "2024-11-12",
+    "address": "0x5df94baa84f111c1d8e818578debee4bb82fc4a4"
+  },
+  {
+    "type": "sell",
+    "amount": 399,
+    "price": 0.1561,
+    "date": "2024-11-11",
+    "address": "0xe8d12022cc91bdacc5296e9f24a5b37c7b77bc75"
+  },
+  {
+    "type": "buy",
+    "amount": 25,
+    "price": 0.1561,
+    "date": "2024-11-09",
+    "address": "0xad374da960774560408c24269619e2ac281d9e2b"
+  },
+  {
+    "type": "buy",
+    "amount": 690,
+    "price": 0.1561,
+    "date": "2024-11-08",
+    "address": "0xa28be8f9b8045713de8daa33bc8f1d01623bc53e"
+  },
+  {
+    "type": "sell",
+    "amount": 535,
+    "price": 0.1561,
+    "date": "2024-11-07",
+    "address": "0x685f73b46c2056b983bc5668bea79c4d907c52ed"
+  },
+  {
+    "type": "buy",
+    "amount": 259,
+    "price": 0.1561,
+    "date": "2024-11-06",
+    "address": "0x478ef3a46562ddb26ae08da8faeeebb9ca8d4a40"
+  },
+  {
+    "type": "sell",
+    "amount": 599,
+    "price": 0.1561,
+    "date": "2024-11-06",
+    "address": "0xd70c7a6dccf4629665111c1b6a8786e5faf2d164"
+  },
+  {
+    "type": "buy",
+    "amount": 325,
+    "price": 0.1561,
+    "date": "2024-11-06",
+    "address": "0xe9aca6cde795fa7540c4cad64d00d067401f4d3f"
+  },
+  {
+    "type": "buy",
+    "amount": 350,
+    "price": 0.1561,
+    "date": "2024-11-05",
+    "address": "0x96eaf8f7c2d7373923fcfd542c9c7e49761ff973"
+  },
+  {
+    "type": "sell",
+    "amount": 156,
+    "price": 0.1561,
+    "date": "2024-11-05",
+    "address": "0x8e8c9abd52eb9aa658f816cf0313cfa5df89bf86"
+  },
+  {
+    "type": "sell",
+    "amount": 170,
+    "price": 0.1561,
+    "date": "2024-11-04",
+    "address": "0x5a662c0de55809b821171cb49a606e9578011176"
+  },
+  {
+    "type": "sell",
+    "amount": 117,
+    "price": 0.1561,
+    "date": "2024-11-04",
+    "address": "0x36bbd81cd3816d3287daecf0c243be1c6e29b70a"
+  },
+  {
+    "type": "sell",
+    "amount": 419,
+    "price": 0.1561,
+    "date": "2024-11-03",
+    "address": "0x85756e53a913d063285367eecc219f691b463bb2"
+  },
+  {
+    "type": "buy",
+    "amount": 422,
+    "price": 0.1561,
+    "date": "2024-11-03",
+    "address": "0x48a790b9fb5c46b370d84368b0c94de69c7b5a6e"
+  },
+  {
+    "type": "buy",
+    "amount": 511,
+    "price": 0.1561,
+    "date": "2024-11-03",
+    "address": "0x5a446788a71891d23c0311cb286eae48a628b174"
+  },
+  {
+    "type": "buy",
+    "amount": 204,
+    "price": 0.1561,
+    "date": "2024-11-03",
+    "address": "0xbbf4c8c1b2f2f9a0b6987547891040b62f590da4"
+  },
+  {
+    "type": "buy",
+    "amount": 307,
+    "price": 0.1561,
+    "date": "2024-11-03",
+    "address": "0x3028ad1db7d0416a4bd5fb4fd1772daf42b47ef7"
+  },
+  {
+    "type": "buy",
+    "amount": 873,
+    "price": 0.1561,
+    "date": "2024-11-02",
+    "address": "0xb63577be22b5691e41579e6213ceddbeb5da8da7"
+  },
+  {
+    "type": "sell",
+    "amount": 324,
+    "price": 0.1561,
+    "date": "2024-11-01",
+    "address": "0x849d8f0b9c14618875e655ca6e118a8cfcc0c403"
+  },
+  {
+    "type": "sell",
+    "amount": 92,
+    "price": 0.1561,
+    "date": "2024-11-01",
+    "address": "0x04cbdb00079bd9471b0e61ee443a5634395046c8"
+  },
+  {
+    "type": "buy",
+    "amount": 980,
+    "price": 0.1561,
+    "date": "2024-10-30",
+    "address": "0x0463a0b3f458dc7d7ec1a667bced5a54676fd9a8"
+  },
+  {
+    "type": "buy",
+    "amount": 971,
+    "price": 0.1561,
+    "date": "2024-10-30",
+    "address": "0xd5fa9f726a3d723c97c40e95681231a366cab35c"
+  },
+  {
+    "type": "buy",
+    "amount": 576,
+    "price": 0.1561,
+    "date": "2024-10-30",
+    "address": "0x012d4eeb31eb851078916404e54ec7511dc75f73"
+  },
+  {
+    "type": "sell",
+    "amount": 519,
+    "price": 0.1561,
+    "date": "2024-10-29",
+    "address": "0x70a8722e4ef6c42e143e1a3be7e1db3d0ac444ad"
+  },
+  {
+    "type": "sell",
+    "amount": 128,
+    "price": 0.1561,
+    "date": "2024-10-29",
+    "address": "0x050435751fccd16452b489bfc94b0857a2becee2"
+  },
+  {
+    "type": "sell",
+    "amount": 405,
+    "price": 0.1561,
+    "date": "2024-10-29",
+    "address": "0x6e5972293d1ed6d28f5d9bb58f61caea5d73bd55"
+  },
+  {
+    "type": "buy",
+    "amount": 386,
+    "price": 0.1561,
+    "date": "2024-10-28",
+    "address": "0xb4400791527b531ccb43369279595141ce98b039"
+  },
+  {
+    "type": "buy",
+    "amount": 812,
+    "price": 0.1561,
+    "date": "2024-10-27",
+    "address": "0xc04baa181984b4405cb2064f0c92950493a881bf"
+  },
+  {
+    "type": "buy",
+    "amount": 537,
+    "price": 0.1561,
+    "date": "2024-10-27",
+    "address": "0x4446cd5bb94b4da43d366bee600315d40434b244"
+  },
+  {
+    "type": "sell",
+    "amount": 438,
+    "price": 0.1561,
+    "date": "2024-10-27",
+    "address": "0x64610a88dbf37d6644c06046c5652efac63d8d75"
+  },
+  {
+    "type": "buy",
+    "amount": 650,
+    "price": 0.1561,
+    "date": "2024-10-27",
+    "address": "0x9b80ac861d2a08e349f8689f8223b655e66e086b"
+  },
+  {
+    "type": "buy",
+    "amount": 298,
+    "price": 0.1561,
+    "date": "2024-10-26",
+    "address": "0xcf44e43c895d04676058e3c5154b470f2bc79a73"
+  },
+  {
+    "type": "buy",
+    "amount": 75,
+    "price": 0.1561,
+    "date": "2024-10-26",
+    "address": "0xc3f3d492a4312d42da7b97dff32ea4bddd555c78"
+  },
+  {
+    "type": "buy",
+    "amount": 170,
+    "price": 0.1561,
+    "date": "2024-10-26",
+    "address": "0xeb5af18d181042f65b407f18501310054670655e"
+  },
+  {
+    "type": "sell",
+    "amount": 744,
+    "price": 0.1561,
+    "date": "2024-10-25",
+    "address": "0xa8381ea49c1a5739551f166ffbf43e58830e47ce"
+  },
+  {
+    "type": "buy",
+    "amount": 640,
+    "price": 0.1561,
+    "date": "2024-10-25",
+    "address": "0x9f1b05214222db3108f38db69eee014744d9e802"
+  },
+  {
+    "type": "buy",
+    "amount": 256,
+    "price": 0.1561,
+    "date": "2024-10-24",
+    "address": "0x75e11d5736b5a01d16a3f80e04ca5fde3a041193"
+  },
+  {
+    "type": "buy",
+    "amount": 968,
+    "price": 0.1561,
+    "date": "2024-10-22",
+    "address": "0x12fe36f8816de302df4a7a6499e42e05336afb54"
+  },
+  {
+    "type": "buy",
+    "amount": 609,
+    "price": 0.1561,
+    "date": "2024-10-21",
+    "address": "0xb692e63e4d469525f5609d26776f68e6068887ec"
+  },
+  {
+    "type": "buy",
+    "amount": 231,
+    "price": 0.1561,
+    "date": "2024-10-21",
+    "address": "0x74957d66d9654f0edf2dda16ed39a91c74c5825e"
+  },
+  {
+    "type": "buy",
+    "amount": 810,
+    "price": 0.1561,
+    "date": "2024-10-19",
+    "address": "0xa7babc7cff333bacf776a27ac4b620720b4a1204"
+  },
+  {
+    "type": "buy",
+    "amount": 79,
+    "price": 0.1561,
+    "date": "2024-10-19",
+    "address": "0x493de6b9862f60089c0c384504585d25254356b3"
+  },
+  {
+    "type": "buy",
+    "amount": 405,
+    "price": 0.1561,
+    "date": "2024-10-19",
+    "address": "0x023d12e87b6169b31fcf35fab24488891595c242"
+  },
+  {
+    "type": "sell",
+    "amount": 48,
+    "price": 0.1561,
+    "date": "2024-10-18",
+    "address": "0xdefdb7c08ec5b79e703cb6bc71dd754d91921165"
+  },
+  {
+    "type": "sell",
+    "amount": 678,
+    "price": 0.1561,
+    "date": "2024-10-18",
+    "address": "0xbce2a00088ef3e07af0d61c8368bb1d517c9f5bc"
+  },
+  {
+    "type": "buy",
+    "amount": 288,
+    "price": 0.1561,
+    "date": "2024-10-16",
+    "address": "0x8b71cfa5152f79b72ec3461613b63b13a268536b"
+  },
+  {
+    "type": "buy",
+    "amount": 232,
+    "price": 0.1561,
+    "date": "2024-10-16",
+    "address": "0xdaa78cb97d5f233bd200e23855d47a980a188de1"
+  },
+  {
+    "type": "buy",
+    "amount": 745,
+    "price": 0.1561,
+    "date": "2024-10-14",
+    "address": "0x6a6aa5022855e7acb1b9a8a528fa60fda176ee5f"
+  },
+  {
+    "type": "sell",
+    "amount": 156,
+    "price": 0.1561,
+    "date": "2024-10-14",
+    "address": "0x0f8b7c58cd2a4e5b9cc450b0431a1b240019fd82"
+  },
+  {
+    "type": "buy",
+    "amount": 254,
+    "price": 0.1561,
+    "date": "2024-10-14",
+    "address": "0x61224e8dff634bac991ade4a048ed84e3dd96b0f"
+  },
+  {
+    "type": "sell",
+    "amount": 179,
+    "price": 0.1561,
+    "date": "2024-10-13",
+    "address": "0xcd109c35714ace8d5c4c48d6d95228d2b7944c20"
+  },
+  {
+    "type": "buy",
+    "amount": 489,
+    "price": 0.1561,
+    "date": "2024-10-13",
+    "address": "0x3505c889b8e38f6faa698779ae6cb9a3d21c9fef"
+  },
+  {
+    "type": "buy",
+    "amount": 7,
+    "price": 0.1561,
+    "date": "2024-10-13",
+    "address": "0x163ee33dedfa9773f48168a56f6cec1c38c7a55f"
+  },
+  {
+    "type": "sell",
+    "amount": 726,
+    "price": 0.1561,
+    "date": "2024-10-10",
+    "address": "0x7c05ce39f57871342f8fda9d74a2243cc156fa69"
+  },
+  {
+    "type": "sell",
+    "amount": 767,
+    "price": 0.1561,
+    "date": "2024-10-10",
+    "address": "0x46ece7b114fd510be7fd7d0e54d6da16e4e0999d"
+  },
+  {
+    "type": "buy",
+    "amount": 805,
+    "price": 0.1561,
+    "date": "2024-10-08",
+    "address": "0x58f431e233d97c6d7ad73d484e353166c10682e4"
+  },
+  {
+    "type": "buy",
+    "amount": 21,
+    "price": 0.1561,
+    "date": "2024-10-08",
+    "address": "0x30d5765077a9b103985cf11a3f789862cab62bfd"
+  },
+  {
+    "type": "sell",
+    "amount": 405,
+    "price": 0.1561,
+    "date": "2024-10-08",
+    "address": "0xecd0f21558d0e3a294afc5b0636d7f786f11d0b2"
+  },
+  {
+    "type": "sell",
+    "amount": 727,
+    "price": 0.1561,
+    "date": "2024-10-07",
+    "address": "0x0440add6929032d732d2a9f4455d6e9200517dda"
+  },
+  {
+    "type": "buy",
+    "amount": 667,
+    "price": 0.1561,
+    "date": "2024-10-07",
+    "address": "0xc0553c7f37753c46a804c087cd452ae892fb61bf"
+  },
+  {
+    "type": "sell",
+    "amount": 182,
+    "price": 0.1561,
+    "date": "2024-10-05",
+    "address": "0x8ca424bca6a94dc8da1268e5f3b1fc5dff5c275a"
+  },
+  {
+    "type": "sell",
+    "amount": 726,
+    "price": 0.1561,
+    "date": "2024-10-04",
+    "address": "0x4c252786c5d260615fb8dad53203575b3d38568f"
+  },
+  {
+    "type": "buy",
+    "amount": 70,
+    "price": 0.1561,
+    "date": "2024-10-03",
+    "address": "0x24b63368cbcc43b46959e7b9506a49a373819caa"
+  },
+  {
+    "type": "sell",
+    "amount": 410,
+    "price": 0.1561,
+    "date": "2024-10-03",
+    "address": "0x6cb4b79cbc7ff514f554d6a0617df41470708f43"
+  },
+  {
+    "type": "sell",
+    "amount": 517,
+    "price": 0.1561,
+    "date": "2024-10-01",
+    "address": "0xd8c8a7c71e1f7386cc54f45fa93a593aecd60ed4"
+  },
+  {
+    "type": "sell",
+    "amount": 60,
+    "price": 0.1561,
+    "date": "2024-10-01",
+    "address": "0xc9f744957ec2e88e513b1c4e6562004baed3c925"
+  },
+  {
+    "type": "buy",
+    "amount": 233,
+    "price": 0.1561,
+    "date": "2024-10-01",
+    "address": "0x40d81dc591b80bd71d5d96fbbdfda0df890433bc"
+  },
+  {
+    "type": "buy",
+    "amount": 70,
+    "price": 0.1561,
+    "date": "2024-09-30",
+    "address": "0xde179bc45d2066e68573cbe8ac1cf1b6b255c857"
+  },
+  {
+    "type": "buy",
+    "amount": 522,
+    "price": 0.1561,
+    "date": "2024-09-30",
+    "address": "0xe6b59c5982c8ed602e1076530b7aba3017993465"
+  },
+  {
+    "type": "sell",
+    "amount": 113,
+    "price": 0.1561,
+    "date": "2024-09-30",
+    "address": "0xe41fc56c3fa1bc35f191bf61000449eb386fe120"
+  },
+  {
+    "type": "sell",
+    "amount": 938,
+    "price": 0.1561,
+    "date": "2024-09-30",
+    "address": "0xdc8e6b19ab2fcad8667ced36eb7977956055b5ad"
+  },
+  {
+    "type": "sell",
+    "amount": 998,
+    "price": 0.1561,
+    "date": "2024-09-30",
+    "address": "0x3c95b1e005ada17260fe2a8900a11fb42f5e66bd"
+  },
+  {
+    "type": "sell",
+    "amount": 816,
+    "price": 0.1561,
+    "date": "2024-09-29",
+    "address": "0xb0f07c9d0ac91f05f83c755c81f9af7a5571ced3"
+  },
+  {
+    "type": "buy",
+    "amount": 202,
+    "price": 0.1561,
+    "date": "2024-09-29",
+    "address": "0x47c324f70519f60049c5e5d6e277a8f2ca509e67"
+  },
+  {
+    "type": "buy",
+    "amount": 930,
+    "price": 0.1561,
+    "date": "2024-09-29",
+    "address": "0x2085986c7cc7d2fd7f1c955396159044cb341967"
+  },
+  {
+    "type": "buy",
+    "amount": 914,
+    "price": 0.1561,
+    "date": "2024-09-29",
+    "address": "0x51898efbdebde46a5a5de6160bd5c4cc2b936968"
+  },
+  {
+    "type": "buy",
+    "amount": 234,
+    "price": 0.1561,
+    "date": "2024-09-29",
+    "address": "0xaf4cd041939c3862a72d380bbdcdaa3727f2cdd8"
+  },
+  {
+    "type": "buy",
+    "amount": 379,
+    "price": 0.1561,
+    "date": "2024-09-28",
+    "address": "0x9ff6a6efea496530d69f4e1e448329c2d81b7687"
+  },
+  {
+    "type": "sell",
+    "amount": 247,
+    "price": 0.1561,
+    "date": "2024-09-27",
+    "address": "0xce4bd6e74025108d3f706c1f4c4276cc763a9c39"
+  },
+  {
+    "type": "buy",
+    "amount": 591,
+    "price": 0.1561,
+    "date": "2024-09-27",
+    "address": "0x7d28cda7def2aec8f3c169f80b4031c6e97c659a"
+  },
+  {
+    "type": "sell",
+    "amount": 218,
+    "price": 0.1561,
+    "date": "2024-09-27",
+    "address": "0x2a4f69975515065ba07b3b89cdd156bee9aa903f"
+  },
+  {
+    "type": "buy",
+    "amount": 473,
+    "price": 0.1561,
+    "date": "2024-09-26",
+    "address": "0x743f2d09bb0a009bd1b1fbfbb7722141a870f1de"
+  },
+  {
+    "type": "sell",
+    "amount": 645,
+    "price": 0.1561,
+    "date": "2024-09-25",
+    "address": "0xaf7820c9b60fa73d7d1ac5667aaea22c17570f0a"
+  },
+  {
+    "type": "buy",
+    "amount": 252,
+    "price": 0.1561,
+    "date": "2024-09-23",
+    "address": "0xd70c0b05b55f73e1c9887246a73a3fbddc063f3a"
+  },
+  {
+    "type": "sell",
+    "amount": 475,
+    "price": 0.1561,
+    "date": "2024-09-22",
+    "address": "0xbb5dffc0299d40684aa8d4ea0f6933e55ea074df"
+  },
+  {
+    "type": "sell",
+    "amount": 820,
+    "price": 0.1561,
+    "date": "2024-09-21",
+    "address": "0x7b3cc78601aa63601120deac387a6e44437189da"
+  },
+  {
+    "type": "buy",
+    "amount": 972,
+    "price": 0.1561,
+    "date": "2024-09-21",
+    "address": "0xb04b8640f6e540c64638469f145ee876d6e96348"
+  },
+  {
+    "type": "buy",
+    "amount": 149,
+    "price": 0.1561,
+    "date": "2024-09-21",
+    "address": "0xcaeed1d1cf1c0da408aec597aded5749585fc6ec"
+  },
+  {
+    "type": "buy",
+    "amount": 758,
+    "price": 0.1561,
+    "date": "2024-09-20",
+    "address": "0x1641c5c1262feabcfb3ec99da330cca46d499cba"
+  },
+  {
+    "type": "sell",
+    "amount": 952,
+    "price": 0.1561,
+    "date": "2024-09-20",
+    "address": "0x0af603ccb986388eabdcebdf930b77e2a5094a8f"
+  },
+  {
+    "type": "sell",
+    "amount": 705,
+    "price": 0.1561,
+    "date": "2024-09-20",
+    "address": "0x8b51bca0747e00c544a904ed5b67ae9235a070bb"
+  },
+  {
+    "type": "buy",
+    "amount": 159,
+    "price": 0.1561,
+    "date": "2024-09-19",
+    "address": "0x466ab739bbbf9a3bb6f7fc93984f9646f1cacc3f"
+  },
+  {
+    "type": "sell",
+    "amount": 380,
+    "price": 0.1561,
+    "date": "2024-09-19",
+    "address": "0xf8e8d0a373a6830d09118af3e3161e96df1f647c"
+  },
+  {
+    "type": "buy",
+    "amount": 844,
+    "price": 0.1561,
+    "date": "2024-09-18",
+    "address": "0xfdd888c89c7bb4cae305fb3fa2cc7e8c7cf308d8"
+  },
+  {
+    "type": "sell",
+    "amount": 342,
+    "price": 0.1561,
+    "date": "2024-09-18",
+    "address": "0x9423778bfac3a7d6890be8cf920cdd067f5c568b"
+  },
+  {
+    "type": "sell",
+    "amount": 438,
+    "price": 0.1561,
+    "date": "2024-09-17",
+    "address": "0xa275c69c5fe2a988ac392e33573393385a66b3db"
+  },
+  {
+    "type": "sell",
+    "amount": 195,
+    "price": 0.1561,
+    "date": "2024-09-15",
+    "address": "0xcabc121fb0c983d0937a2f99bc1cf161e7bcb163"
+  },
+  {
+    "type": "sell",
+    "amount": 659,
+    "price": 0.1561,
+    "date": "2024-09-14",
+    "address": "0x2ab864f361383ae90045504801a293641f78cd16"
+  },
+  {
+    "type": "sell",
+    "amount": 418,
+    "price": 0.1561,
+    "date": "2024-09-14",
+    "address": "0x6a0827664d65e7ff1297996bf7aec1efdaa0f716"
+  },
+  {
+    "type": "sell",
+    "amount": 297,
+    "price": 0.1561,
+    "date": "2024-09-14",
+    "address": "0xec283fbc9c849d28867fd94db86832f3f6087a5f"
+  },
+  {
+    "type": "buy",
+    "amount": 250,
+    "price": 0.1561,
+    "date": "2024-09-13",
+    "address": "0xe84f691fa9201bebe81d87472961545f09b74c00"
+  },
+  {
+    "type": "sell",
+    "amount": 828,
+    "price": 0.1561,
+    "date": "2024-09-12",
+    "address": "0xd9ee43060b165dbde65e222fde9033ef9bb9a4f3"
+  },
+  {
+    "type": "buy",
+    "amount": 127,
+    "price": 0.1561,
+    "date": "2024-09-10",
+    "address": "0x92dbcee2227a204b3d97d0d6709ea3a186801057"
+  },
+  {
+    "type": "sell",
+    "amount": 789,
+    "price": 0.1561,
+    "date": "2024-09-09",
+    "address": "0x70bb3545a816b5dad0c8e6fd54778cf7580aae69"
+  },
+  {
+    "type": "buy",
+    "amount": 275,
+    "price": 0.1561,
+    "date": "2024-09-08",
+    "address": "0xe479d1577cbdd33493057f89383909d0b82da930"
+  },
+  {
+    "type": "buy",
+    "amount": 955,
+    "price": 0.1561,
+    "date": "2024-09-08",
+    "address": "0x783662b2e55c23cf47a68d12a5a0a6ad7dbad35b"
+  },
+  {
+    "type": "sell",
+    "amount": 902,
+    "price": 0.1561,
+    "date": "2024-09-08",
+    "address": "0xa073976b6f6a9e84312782385950fbb572357021"
+  },
+  {
+    "type": "buy",
+    "amount": 866,
+    "price": 0.1561,
+    "date": "2024-09-08",
+    "address": "0x530360d1ec5ca8edbbee69cfe461231d704cf9cd"
+  },
+  {
+    "type": "sell",
+    "amount": 23,
+    "price": 0.1561,
+    "date": "2024-09-05",
+    "address": "0x7968237eba29a3518b7d5fa9b11551efc9f7cfde"
+  },
+  {
+    "type": "sell",
+    "amount": 452,
+    "price": 0.1561,
+    "date": "2024-09-04",
+    "address": "0xab7fddfcbbd391ca75b2fd3a4fbbac0d1120f2c0"
+  },
+  {
+    "type": "buy",
+    "amount": 897,
+    "price": 0.1561,
+    "date": "2024-09-04",
+    "address": "0x15d262dbfa10e5980de6b222854ac9448e46082f"
+  },
+  {
+    "type": "buy",
+    "amount": 402,
+    "price": 0.1561,
+    "date": "2024-09-04",
+    "address": "0xbb8d856591fd1edfa3e4680bc82295fc62c7b0a7"
+  },
+  {
+    "type": "buy",
+    "amount": 314,
+    "price": 0.1561,
+    "date": "2024-09-03",
+    "address": "0xd804ad3af7cb981f0e78695d208e6d5af2c8c6b6"
+  },
+  {
+    "type": "buy",
+    "amount": 376,
+    "price": 0.1561,
+    "date": "2024-09-02",
+    "address": "0xe33aa17b276fcc7e204dda546a62e90f85b68683"
+  },
+  {
+    "type": "buy",
+    "amount": 38,
+    "price": 0.1561,
+    "date": "2024-09-02",
+    "address": "0x0d51b1be0f4d0318857e7816362996cd66e3e6dd"
+  },
+  {
+    "type": "buy",
+    "amount": 103,
+    "price": 0.1561,
+    "date": "2024-09-02",
+    "address": "0x6c143093409dd5f10dc1bb058992235cd8deb731"
+  },
+  {
+    "type": "sell",
+    "amount": 192,
+    "price": 0.1561,
+    "date": "2024-09-01",
+    "address": "0x7aa3e1d1019c54768a9b862ef74c20f03a2b662e"
+  },
+  {
+    "type": "sell",
+    "amount": 936,
+    "price": 0.1561,
+    "date": "2024-09-01",
+    "address": "0x1bf356ce8b707a7112ca88640f9f70db1393121b"
+  },
+  {
+    "type": "sell",
+    "amount": 854,
+    "price": 0.1561,
+    "date": "2024-08-31",
+    "address": "0x8bc80c0d5cd4eee0257c49fa767bf4d3787fdf22"
+  },
+  {
+    "type": "buy",
+    "amount": 449,
+    "price": 0.1561,
+    "date": "2024-08-30",
+    "address": "0xade8c8e0fac114acfa885208a16bcf5572df7309"
+  },
+  {
+    "type": "buy",
+    "amount": 451,
+    "price": 0.1561,
+    "date": "2024-08-29",
+    "address": "0x4d2001186992a3bc4413a23cad778dc6fa46726a"
+  },
+  {
+    "type": "buy",
+    "amount": 970,
+    "price": 0.1561,
+    "date": "2024-08-28",
+    "address": "0x614eb0b108c1986d82d596b35441de9dec1ccf2c"
+  },
+  {
+    "type": "buy",
+    "amount": 719,
+    "price": 0.1561,
+    "date": "2024-08-27",
+    "address": "0xcddbf72d19ef6aff97fe0c04601d7e01a30a0d6b"
+  },
+  {
+    "type": "buy",
+    "amount": 748,
+    "price": 0.1561,
+    "date": "2024-08-27",
+    "address": "0x7ec4aaa0a8fa064159ff14807eb7a016f12f2d22"
+  },
+  {
+    "type": "buy",
+    "amount": 398,
+    "price": 0.1561,
+    "date": "2024-08-27",
+    "address": "0xbae92a7c6ea7255b3bc59fb750aaaba359ea2dd1"
+  },
+  {
+    "type": "buy",
+    "amount": 516,
+    "price": 0.1561,
+    "date": "2024-08-27",
+    "address": "0xc937956472618e30274ddd2a47e8b3ec7cda49d0"
+  },
+  {
+    "type": "sell",
+    "amount": 756,
+    "price": 0.1561,
+    "date": "2024-08-27",
+    "address": "0x0021c70cffb765689475fd36af495950abe08a82"
+  },
+  {
+    "type": "sell",
+    "amount": 405,
+    "price": 0.1561,
+    "date": "2024-08-25",
+    "address": "0x285c94ae72a305b8d7325543065519e861764d57"
+  },
+  {
+    "type": "sell",
+    "amount": 823,
+    "price": 0.1561,
+    "date": "2024-08-25",
+    "address": "0xfec3d873e3b3ba2b757078badf15733b9caefe90"
+  },
+  {
+    "type": "buy",
+    "amount": 573,
+    "price": 0.1561,
+    "date": "2024-08-25",
+    "address": "0xe6995991e359f0c62d99554aff7fdde30a296560"
+  },
+  {
+    "type": "sell",
+    "amount": 728,
+    "price": 0.1561,
+    "date": "2024-08-22",
+    "address": "0x3f9bf9b468e43613651f2b7762eb9c3dfdec3e1c"
+  },
+  {
+    "type": "sell",
+    "amount": 498,
+    "price": 0.1561,
+    "date": "2024-08-21",
+    "address": "0xa9e5b157fb9ac6c137e15d369ea0f447ab04cc5c"
+  },
+  {
+    "type": "sell",
+    "amount": 249,
+    "price": 0.1561,
+    "date": "2024-08-21",
+    "address": "0x7141c5b417295e43a322d1e28b863e2b7e2fc442"
+  },
+  {
+    "type": "sell",
+    "amount": 906,
+    "price": 0.1561,
+    "date": "2024-08-21",
+    "address": "0x4a265e61f041fdb6c89062f98eda1de40ebb2af7"
+  },
+  {
+    "type": "buy",
+    "amount": 928,
+    "price": 0.1561,
+    "date": "2024-08-20",
+    "address": "0x14824407d07725b4257943f9f37d6b14c171ad08"
+  },
+  {
+    "type": "buy",
+    "amount": 797,
+    "price": 0.1561,
+    "date": "2024-08-19",
+    "address": "0xb2fae66752492b91c20bef4380d214a7666cd5db"
+  },
+  {
+    "type": "sell",
+    "amount": 965,
+    "price": 0.1561,
+    "date": "2024-08-19",
+    "address": "0x28e8e630d81dc58a03e01317eb2e6b25ce6ae8bd"
+  },
+  {
+    "type": "sell",
+    "amount": 189,
+    "price": 0.1561,
+    "date": "2024-08-18",
+    "address": "0x5d70ebfce2512e7dde546ef81d1518c5fb543cc4"
+  },
+  {
+    "type": "sell",
+    "amount": 25,
+    "price": 0.1561,
+    "date": "2024-08-18",
+    "address": "0x328b91f222acf2b6b7cd9663efc8ef4d068ba78d"
+  },
+  {
+    "type": "buy",
+    "amount": 219,
+    "price": 0.1561,
+    "date": "2024-08-17",
+    "address": "0x162490029ea1b5e3d34b9512add42444e7db7a69"
+  },
+  {
+    "type": "sell",
+    "amount": 376,
+    "price": 0.1561,
+    "date": "2024-08-17",
+    "address": "0x6eeda309a84b678353830398ac0e51f9a6b3fd9b"
+  },
+  {
+    "type": "sell",
+    "amount": 2,
+    "price": 0.1561,
+    "date": "2024-08-16",
+    "address": "0x939e028a64e184cdf7782685c07afcaaa9f1a3c5"
+  },
+  {
+    "type": "buy",
+    "amount": 577,
+    "price": 0.1561,
+    "date": "2024-08-16",
+    "address": "0x1f66496068925130964342a56636bb9160bfb94c"
+  },
+  {
+    "type": "sell",
+    "amount": 306,
+    "price": 0.1561,
+    "date": "2024-08-14",
+    "address": "0x41b221588ab44320a49876873cef29100f1a3181"
+  },
+  {
+    "type": "buy",
+    "amount": 306,
+    "price": 0.1561,
+    "date": "2024-08-14",
+    "address": "0x749ac4aba371c6708c65f6c1febe0f8fecd751f7"
+  },
+  {
+    "type": "sell",
+    "amount": 911,
+    "price": 0.1561,
+    "date": "2024-08-13",
+    "address": "0x77bfb57f50bf7073256c55ccb83aac65f3b3de61"
+  },
+  {
+    "type": "buy",
+    "amount": 672,
+    "price": 0.1561,
+    "date": "2024-08-13",
+    "address": "0x4b3b75cd7d446130f23505a9edc7434870f07400"
+  },
+  {
+    "type": "sell",
+    "amount": 808,
+    "price": 0.1561,
+    "date": "2024-08-13",
+    "address": "0x10a9b4457843b624534213b5dc69e3bfd70ae836"
+  },
+  {
+    "type": "buy",
+    "amount": 454,
+    "price": 0.1561,
+    "date": "2024-08-12",
+    "address": "0xa5b6c914d0463b085a1d47e0d7e0bc488294ca1c"
+  },
+  {
+    "type": "sell",
+    "amount": 637,
+    "price": 0.1561,
+    "date": "2024-08-12",
+    "address": "0xf989753c0d1ce492b1a1f096c1f910bcd3b62415"
+  },
+  {
+    "type": "sell",
+    "amount": 116,
+    "price": 0.1561,
+    "date": "2024-08-11",
+    "address": "0x61e026df6d49179482a3264180d5439be560c7a6"
+  },
+  {
+    "type": "sell",
+    "amount": 84,
+    "price": 0.1561,
+    "date": "2024-08-10",
+    "address": "0x33b7fdcddb9a116a048ea7b790a49e02fa774a8f"
+  },
+  {
+    "type": "buy",
+    "amount": 210,
+    "price": 0.1561,
+    "date": "2024-08-10",
+    "address": "0xeb25e610b967b32123544867276a6b8a78399ad1"
+  },
+  {
+    "type": "sell",
+    "amount": 494,
+    "price": 0.1561,
+    "date": "2024-08-09",
+    "address": "0x47b8426c7961e8d5326a7c4afce4b8f88c350285"
+  },
+  {
+    "type": "buy",
+    "amount": 410,
+    "price": 0.1561,
+    "date": "2024-08-08",
+    "address": "0x5b98a722529425674bab2371d1f9d1b0dfef8b07"
+  },
+  {
+    "type": "buy",
+    "amount": 682,
+    "price": 0.1561,
+    "date": "2024-08-08",
+    "address": "0x55f9ba16fa36aaf691d632326b8772bd9c209f34"
+  },
+  {
+    "type": "buy",
+    "amount": 84,
+    "price": 0.1561,
+    "date": "2024-08-08",
+    "address": "0xd51a7907b89fc5f37973a75cd0de6b6a08432e4b"
+  },
+  {
+    "type": "buy",
+    "amount": 332,
+    "price": 0.1561,
+    "date": "2024-08-07",
+    "address": "0x9311ca6b061531489c477165cc763eb5c7a5aa14"
+  },
+  {
+    "type": "sell",
+    "amount": 350,
+    "price": 0.1561,
+    "date": "2024-08-06",
+    "address": "0x57a76713dab42e2596f54c74e76bc03fc442934a"
+  },
+  {
+    "type": "sell",
+    "amount": 593,
+    "price": 0.1561,
+    "date": "2024-08-04",
+    "address": "0xa91519ccc51a5747d36c670850d813edfb8644f4"
+  },
+  {
+    "type": "buy",
+    "amount": 307,
+    "price": 0.1561,
+    "date": "2024-08-04",
+    "address": "0xecc5756780ac25350c2ced08dd4393af389dbb60"
+  },
+  {
+    "type": "sell",
+    "amount": 775,
+    "price": 0.1561,
+    "date": "2024-08-04",
+    "address": "0xae62ab10671ad9581031839006641559c5a869fe"
+  },
+  {
+    "type": "sell",
+    "amount": 341,
+    "price": 0.1561,
+    "date": "2024-08-03",
+    "address": "0x91ad3c05edca184bfe8f8b7c2d24afe8664b10cd"
+  },
+  {
+    "type": "sell",
+    "amount": 390,
+    "price": 0.1561,
+    "date": "2024-07-31",
+    "address": "0xf99f54f37fc930038dc81a55ac0c63ff31244fee"
+  },
+  {
+    "type": "buy",
+    "amount": 981,
+    "price": 0.1561,
+    "date": "2024-07-30",
+    "address": "0xcc6b909d60ed5ecd5086722aac8f7562f2950358"
+  },
+  {
+    "type": "buy",
+    "amount": 784,
+    "price": 0.1561,
+    "date": "2024-07-29",
+    "address": "0x5b08ab7aff64e0a7b0ba90c0d8d49c7449dc3073"
+  },
+  {
+    "type": "sell",
+    "amount": 535,
+    "price": 0.1561,
+    "date": "2024-07-29",
+    "address": "0x7d6c1138aafd094b3ce02b4c8e1f9de427fb54b4"
+  },
+  {
+    "type": "sell",
+    "amount": 176,
+    "price": 0.1561,
+    "date": "2024-07-28",
+    "address": "0xec7a757cbda02e378453d0df796013afa5c06cc4"
+  },
+  {
+    "type": "buy",
+    "amount": 386,
+    "price": 0.1561,
+    "date": "2024-07-28",
+    "address": "0x9debc5e1f3cd0efb8b2e4f0c7b561b1e5bbc2389"
+  },
+  {
+    "type": "sell",
+    "amount": 264,
+    "price": 0.1561,
+    "date": "2024-07-28",
+    "address": "0x742e90e705ec06d8caaca569abe045b87e2c371f"
+  },
+  {
+    "type": "buy",
+    "amount": 215,
+    "price": 0.1561,
+    "date": "2024-07-28",
+    "address": "0x42410144910953f3e6abea898f47ddd1245daa2c"
+  },
+  {
+    "type": "buy",
+    "amount": 271,
+    "price": 0.1561,
+    "date": "2024-07-28",
+    "address": "0x57c1d8ec4ad539f94791551bbe278d254be8d280"
+  },
+  {
+    "type": "sell",
+    "amount": 903,
+    "price": 0.1561,
+    "date": "2024-07-27",
+    "address": "0x6c29ceae2a2dd468fe55af58d0e364c630b1984e"
+  },
+  {
+    "type": "sell",
+    "amount": 103,
+    "price": 0.1561,
+    "date": "2024-07-26",
+    "address": "0x56fb652159bfe5c16fde7821d7395f1aba7e6559"
+  },
+  {
+    "type": "sell",
+    "amount": 210,
+    "price": 0.1561,
+    "date": "2024-07-26",
+    "address": "0x0d2f097f7214d83bb40ac5c962498d265a4acc64"
+  },
+  {
+    "type": "buy",
+    "amount": 92,
+    "price": 0.1561,
+    "date": "2024-07-26",
+    "address": "0xe97e4cbf4940a59f0160533bf1ac21f51a152e3c"
+  },
+  {
+    "type": "buy",
+    "amount": 989,
+    "price": 0.1561,
+    "date": "2024-07-25",
+    "address": "0xe455116fd474b907a5cc4b3c301935478f050b1d"
+  },
+  {
+    "type": "buy",
+    "amount": 846,
+    "price": 0.1561,
+    "date": "2024-07-25",
+    "address": "0x36e6743ef66dcd35eed46c12146fa8e2ffa92b5d"
+  },
+  {
+    "type": "sell",
+    "amount": 478,
+    "price": 0.1561,
+    "date": "2024-07-23",
+    "address": "0xe6b2e8a7d88e5ef256e0c83c6f097b24c97919e7"
+  },
+  {
+    "type": "buy",
+    "amount": 287,
+    "price": 0.1561,
+    "date": "2024-07-22",
+    "address": "0xc70611ec4dbfdcce7a2b6ff596305761d53e6be3"
+  },
+  {
+    "type": "sell",
+    "amount": 506,
+    "price": 0.1561,
+    "date": "2024-07-22",
+    "address": "0xf4c514fd68459726e6b222765b15072e852e886b"
+  },
+  {
+    "type": "sell",
+    "amount": 844,
+    "price": 0.1561,
+    "date": "2024-07-21",
+    "address": "0x27c7c4f62c2be9745cdbe2a6113e12981920e859"
+  },
+  {
+    "type": "sell",
+    "amount": 185,
+    "price": 0.1561,
+    "date": "2024-07-21",
+    "address": "0xa6cbe309603dcbbd10b512549d89b2296711bc35"
+  },
+  {
+    "type": "buy",
+    "amount": 795,
+    "price": 0.1561,
+    "date": "2024-07-21",
+    "address": "0xa50da70ab7e45b001e14cb7b80796bdec46cb7da"
+  },
+  {
+    "type": "sell",
+    "amount": 338,
+    "price": 0.1561,
+    "date": "2024-07-21",
+    "address": "0x30186efc4f188ce8d4d67696f462fc332f6e6e04"
+  },
+  {
+    "type": "buy",
+    "amount": 263,
+    "price": 0.1561,
+    "date": "2024-07-20",
+    "address": "0xbd2bfb3cd259a71aac3894cf27e1c4dc89949b6b"
+  },
+  {
+    "type": "buy",
+    "amount": 456,
+    "price": 0.1561,
+    "date": "2024-07-19",
+    "address": "0x13022cbcd21b8a547ef46f80f9c69c67143171e4"
+  },
+  {
+    "type": "buy",
+    "amount": 969,
+    "price": 0.1561,
+    "date": "2024-07-18",
+    "address": "0xb2dfcbf881bb9da6af3008148ca2597633c42d15"
+  },
+  {
+    "type": "sell",
+    "amount": 667,
+    "price": 0.1561,
+    "date": "2024-07-18",
+    "address": "0xc527573c5b1da76a221008edec139f1930399067"
+  },
+  {
+    "type": "sell",
+    "amount": 12,
+    "price": 0.1561,
+    "date": "2024-07-18",
+    "address": "0x35ae8ff20dc2e78ed8cb0aa7200031c1810d6c0e"
+  },
+  {
+    "type": "buy",
+    "amount": 26,
+    "price": 0.1561,
+    "date": "2024-07-18",
+    "address": "0x0c687acda61a1ab9ed22c83d4fec62fc8dddb3af"
+  },
+  {
+    "type": "buy",
+    "amount": 458,
+    "price": 0.1561,
+    "date": "2024-07-13",
+    "address": "0xdadb343de149a798cd9c75e98e35105509b42b3b"
+  },
+  {
+    "type": "sell",
+    "amount": 276,
+    "price": 0.1561,
+    "date": "2024-07-13",
+    "address": "0xe69dd5741fc4d72473bed36f646dd22f3ebcc0df"
+  },
+  {
+    "type": "sell",
+    "amount": 721,
+    "price": 0.1561,
+    "date": "2024-07-12",
+    "address": "0x213a19afe25d26571fd6b45ea4c497ad5779c089"
+  },
+  {
+    "type": "sell",
+    "amount": 167,
+    "price": 0.1561,
+    "date": "2024-07-11",
+    "address": "0x5275695ac788b2c09c299591728b21f89b8e931f"
+  },
+  {
+    "type": "sell",
+    "amount": 466,
+    "price": 0.1561,
+    "date": "2024-07-11",
+    "address": "0xa3602f6f3ea27606e62be8424c68de90b79d9af5"
+  },
+  {
+    "type": "buy",
+    "amount": 235,
+    "price": 0.1561,
+    "date": "2024-07-10",
+    "address": "0xe5f9aba2b1b000a357c7ddf5af1077bebfa9774a"
+  },
+  {
+    "type": "buy",
+    "amount": 461,
+    "price": 0.1561,
+    "date": "2024-07-07",
+    "address": "0x8c4d64c015eb6c65fd221fa941f7d3dca7aa1b6d"
+  },
+  {
+    "type": "sell",
+    "amount": 658,
+    "price": 0.1561,
+    "date": "2024-07-07",
+    "address": "0x732a9923b0bf587634f21b60e1e61f454ce783c4"
+  },
+  {
+    "type": "buy",
+    "amount": 295,
+    "price": 0.1561,
+    "date": "2024-07-05",
+    "address": "0xeb752a15214de41c446c24bd1de0ba16ec67cb0e"
+  },
+  {
+    "type": "sell",
+    "amount": 886,
+    "price": 0.1561,
+    "date": "2024-07-01",
+    "address": "0xdd24c4fc86f7d3a230b7a38fb9e091dde60f1538"
+  },
+  {
+    "type": "buy",
+    "amount": 214,
+    "price": 0.1561,
+    "date": "2024-06-30",
+    "address": "0x585a6dfbc2066458cc3ba7522fb64d151d53ecf3"
+  },
+  {
+    "type": "buy",
+    "amount": 498,
+    "price": 0.1561,
+    "date": "2024-06-29",
+    "address": "0x8c9db754dd89287ddf132306a28ef27e05a78681"
+  },
+  {
+    "type": "sell",
+    "amount": 533,
+    "price": 0.1561,
+    "date": "2024-06-27",
+    "address": "0x8f2d6abae66075a21aa98baf479c3eb4b104ccc0"
+  },
+  {
+    "type": "buy",
+    "amount": 309,
+    "price": 0.1561,
+    "date": "2024-06-26",
+    "address": "0x6da6ee7ebd4d160300627a2a216f66d0cd7c78e6"
+  },
+  {
+    "type": "buy",
+    "amount": 234,
+    "price": 0.1561,
+    "date": "2024-06-26",
+    "address": "0x518c578d3ce452c50460bc8dc359fe27c9fa0fd5"
+  },
+  {
+    "type": "sell",
+    "amount": 920,
+    "price": 0.1561,
+    "date": "2024-06-25",
+    "address": "0x58fb0f6cad0831d0a3c61d5f22ae2eb7d50de33b"
+  },
+  {
+    "type": "buy",
+    "amount": 214,
+    "price": 0.1561,
+    "date": "2024-06-25",
+    "address": "0x032ced57e6a2c13b0c05bc58a00fa1ef3e55a8cb"
+  },
+  {
+    "type": "sell",
+    "amount": 687,
+    "price": 0.1561,
+    "date": "2024-06-25",
+    "address": "0x785dccc1e4383d4d7a378cab98e7e68a3641d4b6"
+  },
+  {
+    "type": "sell",
+    "amount": 607,
+    "price": 0.1561,
+    "date": "2024-06-24",
+    "address": "0x042bd658276ed56977377faaebf5da19b922f40d"
+  },
+  {
+    "type": "buy",
+    "amount": 63,
+    "price": 0.1561,
+    "date": "2024-06-23",
+    "address": "0xa04f8f6a56967e153546e8bc65f6be5196be176b"
+  },
+  {
+    "type": "buy",
+    "amount": 731,
+    "price": 0.1561,
+    "date": "2024-06-23",
+    "address": "0x0184f2136bfaf759d0c1a0e683491dd3d8c958c0"
+  },
+  {
+    "type": "sell",
+    "amount": 542,
+    "price": 0.1561,
+    "date": "2024-06-22",
+    "address": "0x95523dce921dbb5023a03e4a887af725df5c5d0d"
+  },
+  {
+    "type": "buy",
+    "amount": 908,
+    "price": 0.1561,
+    "date": "2024-06-22",
+    "address": "0xc6b539427c6dd3956ad46177f714d970ef45c972"
+  },
+  {
+    "type": "buy",
+    "amount": 845,
+    "price": 0.1561,
+    "date": "2024-06-21",
+    "address": "0x838316914988b512567e5c484041b0df023cbd8c"
+  },
+  {
+    "type": "buy",
+    "amount": 458,
+    "price": 0.1561,
+    "date": "2024-06-21",
+    "address": "0x75671571879918d6c54749aee7723ca46d626bc7"
+  },
+  {
+    "type": "sell",
+    "amount": 807,
+    "price": 0.1561,
+    "date": "2024-06-20",
+    "address": "0x0fc0d46cdbaab5063e657a8d031fd9c6f7b06d86"
+  },
+  {
+    "type": "sell",
+    "amount": 989,
+    "price": 0.1561,
+    "date": "2024-06-20",
+    "address": "0x641035d3e5b11b44623dddff61848794096878a4"
+  },
+  {
+    "type": "sell",
+    "amount": 958,
+    "price": 0.1561,
+    "date": "2024-06-19",
+    "address": "0x553be8cf9ab19d7a166c04ce764c12d874aa5db0"
+  },
+  {
+    "type": "sell",
+    "amount": 863,
+    "price": 0.1561,
+    "date": "2024-06-19",
+    "address": "0x9d1a1fad48bbb760beeab6b7ac42f8ae715451a0"
+  },
+  {
+    "type": "sell",
+    "amount": 702,
+    "price": 0.1561,
+    "date": "2024-06-15",
+    "address": "0xd46398f79138c5657d5859b6547531f0790976c6"
+  },
+  {
+    "type": "buy",
+    "amount": 441,
+    "price": 0.1561,
+    "date": "2024-06-15",
+    "address": "0xd7f1373d9c2e61ec76ec50a346987561e3da077b"
+  },
+  {
+    "type": "sell",
+    "amount": 554,
+    "price": 0.1561,
+    "date": "2024-06-15",
+    "address": "0x693d4a5a1faf2eecf217eac96ac08e0a3d6da10c"
+  },
+  {
+    "type": "sell",
+    "amount": 874,
+    "price": 0.1561,
+    "date": "2024-06-14",
+    "address": "0xa5a35007252e5e28c53051f465a3495d8af7a96a"
+  },
+  {
+    "type": "buy",
+    "amount": 618,
+    "price": 0.1561,
+    "date": "2024-06-13",
+    "address": "0x6060aa3e5c4c52e4a0a6698fffe57f48d474b1a2"
+  },
+  {
+    "type": "buy",
+    "amount": 4,
+    "price": 0.1561,
+    "date": "2024-06-13",
+    "address": "0xc60269bc19d46d6dde6ed571d02ea9a605c335fb"
+  },
+  {
+    "type": "sell",
+    "amount": 495,
+    "price": 0.1561,
+    "date": "2024-06-12",
+    "address": "0x930b0110628ae0388213e8d39d7c555bcb96f2e2"
+  },
+  {
+    "type": "sell",
+    "amount": 710,
+    "price": 0.1561,
+    "date": "2024-06-09",
+    "address": "0x5e7be39c0fb55d6eacac5780d237a97062ec3a8b"
+  },
+  {
+    "type": "sell",
+    "amount": 398,
+    "price": 0.1561,
+    "date": "2024-06-08",
+    "address": "0x0fe57d02f7f10ffa698fff1b79ef7e514db956f9"
+  },
+  {
+    "type": "sell",
+    "amount": 589,
+    "price": 0.1561,
+    "date": "2024-06-08",
+    "address": "0x625a5026689c4c1ab327821f8a0fa49ef66a8c3d"
+  },
+  {
+    "type": "buy",
+    "amount": 533,
+    "price": 0.1561,
+    "date": "2024-06-08",
+    "address": "0x3496f693fa73b259ee5469a2b5e88a43ae747cea"
+  },
+  {
+    "type": "buy",
+    "amount": 460,
+    "price": 0.1561,
+    "date": "2024-06-07",
+    "address": "0xd5d6f50efceb727671e9d6bf7708ccc12f434071"
+  },
+  {
+    "type": "buy",
+    "amount": 837,
+    "price": 0.1561,
+    "date": "2024-06-06",
+    "address": "0x16a7381f32934dbc0bdfcc9047a2f062eafa0418"
+  },
+  {
+    "type": "buy",
+    "amount": 280,
+    "price": 0.1561,
+    "date": "2024-06-05",
+    "address": "0xb1a1adc732d67fbe79963f88055d2d1a1e867dc2"
+  },
+  {
+    "type": "sell",
+    "amount": 493,
+    "price": 0.1561,
+    "date": "2024-06-05",
+    "address": "0x1a2cafd77b33aeaa13bf9f4a4ba050595354d76b"
+  },
+  {
+    "type": "buy",
+    "amount": 917,
+    "price": 0.1561,
+    "date": "2024-06-05",
+    "address": "0xb7be8054e22a75c7874f99537cb0e8a56205e2d4"
+  },
+  {
+    "type": "sell",
+    "amount": 532,
+    "price": 0.1561,
+    "date": "2024-06-05",
+    "address": "0x52405d6a16402966c40d1a9b8551a93fb8e2b050"
+  },
+  {
+    "type": "buy",
+    "amount": 660,
+    "price": 0.1561,
+    "date": "2024-06-03",
+    "address": "0x605f8b686e529d78467e2fcf293b1dedc65d16d6"
+  },
+  {
+    "type": "sell",
+    "amount": 167,
+    "price": 0.1561,
+    "date": "2024-06-02",
+    "address": "0xf433efdca5bbe9c18d3a447a62636841b211594c"
+  },
+  {
+    "type": "buy",
+    "amount": 363,
+    "price": 0.1561,
+    "date": "2024-06-02",
+    "address": "0xe1a472dc6e7460bfa61c4f96f484d1eea0113c69"
+  },
+  {
+    "type": "buy",
+    "amount": 880,
+    "price": 0.1561,
+    "date": "2024-06-02",
+    "address": "0x979300b62e0f7b5c284c569ca602b893929a535c"
+  },
+  {
+    "type": "sell",
+    "amount": 469,
+    "price": 0.1561,
+    "date": "2024-06-02",
+    "address": "0x27e4fc9da0a2ba242fe139c1a7a72ff9c7a91855"
+  },
+  {
+    "type": "buy",
+    "amount": 152,
+    "price": 0.1561,
+    "date": "2024-06-01",
+    "address": "0x32e10124cee60cfe63674efc9ed22a741c7a433a"
+  },
+  {
+    "type": "sell",
+    "amount": 718,
+    "price": 0.1561,
+    "date": "2024-06-01",
+    "address": "0xa003b47c8085072d81b6ae6d4415e068fac7d248"
+  },
+  {
+    "type": "sell",
+    "amount": 311,
+    "price": 0.1561,
+    "date": "2024-05-31",
+    "address": "0x6a8dc743ad9953b25c82599e4ae97884ecc207f4"
+  },
+  {
+    "type": "sell",
+    "amount": 63,
+    "price": 0.1561,
+    "date": "2024-05-31",
+    "address": "0x196a7734644b2af55004ab13e2c1b2ea1c7f5b7d"
+  },
+  {
+    "type": "buy",
+    "amount": 254,
+    "price": 0.1561,
+    "date": "2024-05-30",
+    "address": "0x888e5fc0ffb202e2c4d177aa22b1add201cbbfb0"
+  },
+  {
+    "type": "sell",
+    "amount": 879,
+    "price": 0.1561,
+    "date": "2024-05-29",
+    "address": "0x92b406dd47a35e178b91944d3d5486a9b26a7611"
+  },
+  {
+    "type": "sell",
+    "amount": 963,
+    "price": 0.1561,
+    "date": "2024-05-29",
+    "address": "0x0f80fb76c01456d42f2c69ea8f2b676e20e50d25"
+  },
+  {
+    "type": "sell",
+    "amount": 608,
+    "price": 0.1561,
+    "date": "2024-05-27",
+    "address": "0x1342b2aca7a1fffad7a5b2e1654bad409c782821"
+  },
+  {
+    "type": "buy",
+    "amount": 325,
+    "price": 0.1561,
+    "date": "2024-05-26",
+    "address": "0x3d2899f158862b2615c7fd44bf6949693f7b6ae6"
+  },
+  {
+    "type": "sell",
+    "amount": 452,
+    "price": 0.1561,
+    "date": "2024-05-26",
+    "address": "0xe8c81fb49a07ba14cb36db3cd73928bfaa3cb3f8"
+  },
+  {
+    "type": "sell",
+    "amount": 101,
+    "price": 0.1561,
+    "date": "2024-05-25",
+    "address": "0x0e35477349b7b8ff97ad40c285f621b2daca2154"
+  },
+  {
+    "type": "sell",
+    "amount": 36,
+    "price": 0.1561,
+    "date": "2024-05-25",
+    "address": "0x9587a941e0724d442ec29e4535d57bb4cba125b0"
+  },
+  {
+    "type": "buy",
+    "amount": 981,
+    "price": 0.1561,
+    "date": "2024-05-25",
+    "address": "0x741560361e19f052acf8360ecc6b8978b34533fa"
+  },
+  {
+    "type": "buy",
+    "amount": 205,
+    "price": 0.1561,
+    "date": "2024-05-23",
+    "address": "0x3fdeb64bd55a391a63f5ca6b1c699ac99ae05fe3"
+  },
+  {
+    "type": "sell",
+    "amount": 864,
+    "price": 0.1561,
+    "date": "2024-05-15",
+    "address": "0xbd14283c816c9e136e9dfb894ff65473262b0034"
+  },
+  {
+    "type": "sell",
+    "amount": 420,
+    "price": 0.1561,
+    "date": "2024-05-15",
+    "address": "0xb027be4b39c49cfb7d828cca3bd35dc0ce63c5f6"
+  },
+  {
+    "type": "buy",
+    "amount": 832,
+    "price": 0.1561,
+    "date": "2024-05-15",
+    "address": "0x4e2fc8e8d80101de72e893fe50a65e7871b54395"
+  },
+  {
+    "type": "buy",
+    "amount": 282,
+    "price": 0.1561,
+    "date": "2024-05-14",
+    "address": "0xdb6d9abafaccb62bcc0a13472c56dcf340059f01"
+  },
+  {
+    "type": "buy",
+    "amount": 230,
+    "price": 0.1561,
+    "date": "2024-05-13",
+    "address": "0x0c0ae9f095eb08d9bfda9e11e0baf74f7231ba77"
+  },
+  {
+    "type": "buy",
+    "amount": 865,
+    "price": 0.1561,
+    "date": "2024-05-13",
+    "address": "0xb98e7fee4ed62416a516e51b10734ad0c756bd94"
+  },
+  {
+    "type": "buy",
+    "amount": 796,
+    "price": 0.1561,
+    "date": "2024-05-13",
+    "address": "0xdf8b5ac9cbf921fb59461bed581f85ffa50ef4cf"
+  },
+  {
+    "type": "sell",
+    "amount": 246,
+    "price": 0.1561,
+    "date": "2024-05-12",
+    "address": "0x410e442283657ef5dfa1f4c099ae90166425a09b"
+  },
+  {
+    "type": "buy",
+    "amount": 199,
+    "price": 0.1561,
+    "date": "2024-05-12",
+    "address": "0xea3fe3f88e37c3d8452ea9410fb2b4bb851f9c0b"
+  },
+  {
+    "type": "sell",
+    "amount": 301,
+    "price": 0.1561,
+    "date": "2024-05-11",
+    "address": "0x587158b3f13235eb79592b04a0699949dc666bdd"
+  },
+  {
+    "type": "buy",
+    "amount": 905,
+    "price": 0.1561,
+    "date": "2024-05-11",
+    "address": "0xf9b56f8e36a08b1c0097573abf94a2a0c500c3df"
+  },
+  {
+    "type": "buy",
+    "amount": 380,
+    "price": 0.1561,
+    "date": "2024-05-10",
+    "address": "0xf7b8b7e9935c2e3f19f9bb3e3dd049498a8ad113"
+  },
+  {
+    "type": "buy",
+    "amount": 27,
+    "price": 0.1561,
+    "date": "2024-05-10",
+    "address": "0x3c8ead1d11dc6dc89b921de1b36f300d4968d13a"
+  },
+  {
+    "type": "buy",
+    "amount": 4,
+    "price": 0.1561,
+    "date": "2024-05-10",
+    "address": "0xd3a3dcb6f772763bf08cad9b023a7bab26dde957"
+  },
+  {
+    "type": "buy",
+    "amount": 473,
+    "price": 0.1561,
+    "date": "2024-05-10",
+    "address": "0x019a9161aef4523a3a9df46b8d899367f64df415"
+  },
+  {
+    "type": "sell",
+    "amount": 816,
+    "price": 0.1561,
+    "date": "2024-05-08",
+    "address": "0xa5e4e004144f8332f34122b9cf45f359a0528b2b"
+  },
+  {
+    "type": "sell",
+    "amount": 512,
+    "price": 0.1561,
+    "date": "2024-05-07",
+    "address": "0x5dcb986c654eff8af4896e55f6aaa202dbae6a41"
+  },
+  {
+    "type": "sell",
+    "amount": 892,
+    "price": 0.1561,
+    "date": "2024-05-07",
+    "address": "0x45e1742e43343da2a6d56e8f7b2b6618006dceef"
+  },
+  {
+    "type": "buy",
+    "amount": 150,
+    "price": 0.1561,
+    "date": "2024-05-07",
+    "address": "0x1597a135a6aa9800c07b51d9487a591b5471c308"
+  },
+  {
+    "type": "sell",
+    "amount": 864,
+    "price": 0.1561,
+    "date": "2024-05-06",
+    "address": "0x15dd520974bf095330e4f881a206bf104da13bf4"
+  },
+  {
+    "type": "sell",
+    "amount": 550,
+    "price": 0.1561,
+    "date": "2024-05-06",
+    "address": "0x5e98a1f38d326872e869b654ef334ab1671a26cf"
+  },
+  {
+    "type": "buy",
+    "amount": 820,
+    "price": 0.1561,
+    "date": "2024-05-05",
+    "address": "0x1e46ca296d18eab628771800d8059915f3b3cebe"
+  },
+  {
+    "type": "sell",
+    "amount": 193,
+    "price": 0.1561,
+    "date": "2024-05-05",
+    "address": "0xe4ef5312193d464e6e6f4712f66995c557e83aa2"
+  },
+  {
+    "type": "sell",
+    "amount": 512,
+    "price": 0.1561,
+    "date": "2024-05-04",
+    "address": "0x47ebaf6a73d673577c0b1892f98278255a94ec64"
+  },
+  {
+    "type": "sell",
+    "amount": 10,
+    "price": 0.1561,
+    "date": "2024-05-04",
+    "address": "0xc2bfdd079342a34092ae67c233f84be60f08df81"
+  },
+  {
+    "type": "buy",
+    "amount": 260,
+    "price": 0.1561,
+    "date": "2024-05-03",
+    "address": "0x786672a76d7cb2ba0f56a20acfe412c12ae2c923"
+  },
+  {
+    "type": "buy",
+    "amount": 782,
+    "price": 0.1561,
+    "date": "2024-05-03",
+    "address": "0x5e1bd1996a26f96aa7b6a49c1db1365491c10404"
+  },
+  {
+    "type": "buy",
+    "amount": 580,
+    "price": 0.1561,
+    "date": "2024-05-03",
+    "address": "0x86b2d198bc400eddb5d561513963d7db098b3f96"
+  },
+  {
+    "type": "sell",
+    "amount": 119,
+    "price": 0.1561,
+    "date": "2024-05-03",
+    "address": "0xa7c2ce80a95768344ee283e1d37716248dc68e2d"
+  },
+  {
+    "type": "buy",
+    "amount": 174,
+    "price": 0.1561,
+    "date": "2024-05-02",
+    "address": "0x64e63569fe8ab0dec2bd13c89167bb672f1d994d"
+  },
+  {
+    "type": "sell",
+    "amount": 958,
+    "price": 0.1561,
+    "date": "2024-05-01",
+    "address": "0xb0ebcfe592a275753e4d1e5b7e32cb3ec0513c25"
+  },
+  {
+    "type": "buy",
+    "amount": 867,
+    "price": 0.1561,
+    "date": "2024-05-01",
+    "address": "0xc9fbea4fb4f2ccb50a9a271f2ac666c71ecb7df7"
+  },
+  {
+    "type": "sell",
+    "amount": 292,
+    "price": 0.1561,
+    "date": "2024-04-29",
+    "address": "0xfc652a1c671f332afc16bcb4598053dee1f9926f"
+  },
+  {
+    "type": "buy",
+    "amount": 804,
+    "price": 0.1561,
+    "date": "2024-04-28",
+    "address": "0xfe4430532c42184a12f08f2e4b05f29b765b1693"
+  },
+  {
+    "type": "sell",
+    "amount": 360,
+    "price": 0.1561,
+    "date": "2024-04-28",
+    "address": "0xfd9ee6e4a6facd15da84f356312e1b89241f9d21"
+  },
+  {
+    "type": "buy",
+    "amount": 434,
+    "price": 0.1561,
+    "date": "2024-04-27",
+    "address": "0x90486b4a0240030969219e231cf4a87860be5711"
+  },
+  {
+    "type": "sell",
+    "amount": 616,
+    "price": 0.1561,
+    "date": "2024-04-27",
+    "address": "0xa3d030ad053b0a1ba9431d158ed6c1c0065bb221"
+  },
+  {
+    "type": "sell",
+    "amount": 235,
+    "price": 0.1561,
+    "date": "2024-04-27",
+    "address": "0xc596b152a57b81c9371c6ca40108f1183d7f17c6"
+  },
+  {
+    "type": "buy",
+    "amount": 41,
+    "price": 0.1561,
+    "date": "2024-04-26",
+    "address": "0x8ffe2ae9cbeeaced40767595b44daf11f5dba100"
+  },
+  {
+    "type": "sell",
+    "amount": 273,
+    "price": 0.1561,
+    "date": "2024-04-26",
+    "address": "0x5f7d3685da27d54499c7405d7a16eec7db56519a"
+  },
+  {
+    "type": "buy",
+    "amount": 252,
+    "price": 0.1561,
+    "date": "2024-04-26",
+    "address": "0x4cd1a18fb4eae3712b10846df319ca76a2d6f817"
+  },
+  {
+    "type": "buy",
+    "amount": 767,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0xd0b0a0904d5d941da7cb21227587752f39e002a3"
+  },
+  {
+    "type": "buy",
+    "amount": 203,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0x5f8ebc6157308a089ea6c76a938f88656bdf1264"
+  },
+  {
+    "type": "buy",
+    "amount": 741,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0x0dacf69ca5ac4545133e07ce24ecfa21fedce563"
+  },
+  {
+    "type": "buy",
+    "amount": 761,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0x5e2ff321298fab9f0360931c2f61234e68d7aba6"
+  },
+  {
+    "type": "buy",
+    "amount": 945,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0xb34dba83648e0b941006c7f08ee89507003f7422"
+  },
+  {
+    "type": "buy",
+    "amount": 217,
+    "price": 0.1561,
+    "date": "2024-04-24",
+    "address": "0x3e428f1b4b9c38967afc7c057de7ef72464e81d0"
+  },
+  {
+    "type": "sell",
+    "amount": 176,
+    "price": 0.1561,
+    "date": "2024-04-23",
+    "address": "0x69b09303aa0d2c6abf452b94e0667e30b898247a"
+  },
+  {
+    "type": "buy",
+    "amount": 671,
+    "price": 0.1561,
+    "date": "2024-04-23",
+    "address": "0x77cb2c7cbb550dd355304f07755a666f170bda2d"
+  },
+  {
+    "type": "sell",
+    "amount": 967,
+    "price": 0.1561,
+    "date": "2024-04-23",
+    "address": "0xf70a060a52d4f05e6f83c05c6d9f36dcb1696ddb"
+  },
+  {
+    "type": "buy",
+    "amount": 812,
+    "price": 0.1561,
+    "date": "2024-04-23",
+    "address": "0xdc4f018df6cad5d296cdc47e60fd7a14b4aeeff9"
+  },
+  {
+    "type": "sell",
+    "amount": 779,
+    "price": 0.1561,
+    "date": "2024-04-22",
+    "address": "0x8f6343aaaf3a73ea16d2ddedd3cf6c86cc28e4c2"
+  },
+  {
+    "type": "sell",
+    "amount": 358,
+    "price": 0.1561,
+    "date": "2024-04-21",
+    "address": "0x396db909d4e5f1e522d83396e3e246ae3a1577b0"
+  },
+  {
+    "type": "buy",
+    "amount": 112,
+    "price": 0.1561,
+    "date": "2024-04-21",
+    "address": "0x4245aee97c3aefd0432197596c7b564b1c60cd09"
+  },
+  {
+    "type": "sell",
+    "amount": 267,
+    "price": 0.1561,
+    "date": "2024-04-21",
+    "address": "0xdbb9f7741f235290e96d622f4dee8d519f908eb9"
+  },
+  {
+    "type": "buy",
+    "amount": 647,
+    "price": 0.1561,
+    "date": "2024-04-20",
+    "address": "0xe5055037ece1c15862dea4672208bdf70a1de542"
+  },
+  {
+    "type": "buy",
+    "amount": 430,
+    "price": 0.1561,
+    "date": "2024-04-19",
+    "address": "0xe284e687d5a59cfd6c38ccf230873ff2e73117ee"
+  },
+  {
+    "type": "sell",
+    "amount": 872,
+    "price": 0.1561,
+    "date": "2024-04-18",
+    "address": "0x2cd4a5fab070d8784466e4efa787f61c035d7caa"
+  },
+  {
+    "type": "buy",
+    "amount": 704,
+    "price": 0.1561,
+    "date": "2024-04-16",
+    "address": "0xa67e97c58c22335f1c8be36dcdc172e0d5a7c271"
+  },
+  {
+    "type": "sell",
+    "amount": 932,
+    "price": 0.1561,
+    "date": "2024-04-16",
+    "address": "0x4f622efa3ea34615beca999f521ad41eda48bfd0"
+  },
+  {
+    "type": "buy",
+    "amount": 399,
+    "price": 0.1561,
+    "date": "2024-04-14",
+    "address": "0x23de03442f2159ea71bb0f4c2bc0942bfb263a58"
+  },
+  {
+    "type": "sell",
+    "amount": 642,
+    "price": 0.1561,
+    "date": "2024-04-13",
+    "address": "0x7b94c13a579a678672e400eff01a091cad8ca50c"
+  },
+  {
+    "type": "sell",
+    "amount": 12,
+    "price": 0.1561,
+    "date": "2024-04-13",
+    "address": "0x3221db9c4888311a899faeb1a75a9e23e8ba9e19"
+  },
+  {
+    "type": "sell",
+    "amount": 432,
+    "price": 0.1561,
+    "date": "2024-04-12",
+    "address": "0xa3a945a35462ea27e22cb5a1a79808f366e021c9"
+  },
+  {
+    "type": "sell",
+    "amount": 661,
+    "price": 0.1561,
+    "date": "2024-04-12",
+    "address": "0x2ac4677ea8b4001866896b668a748a74e83d2962"
+  },
+  {
+    "type": "buy",
+    "amount": 485,
+    "price": 0.1561,
+    "date": "2024-04-12",
+    "address": "0xc26cd1aec3c6ab32a270dc765b730a2bc12298e8"
+  },
+  {
+    "type": "buy",
+    "amount": 691,
+    "price": 0.1561,
+    "date": "2024-04-11",
+    "address": "0xf4459344d9c5a101b697de596164e9120e4f06af"
+  },
+  {
+    "type": "buy",
+    "amount": 203,
+    "price": 0.1561,
+    "date": "2024-04-10",
+    "address": "0xf67ec04fe36a06e23b9461db8d8fc15134c89924"
+  },
+  {
+    "type": "sell",
+    "amount": 804,
+    "price": 0.1561,
+    "date": "2024-04-10",
+    "address": "0x49b4174715e210970be54cd90c18ee2f9efe34a4"
+  },
+  {
+    "type": "buy",
+    "amount": 29,
+    "price": 0.1561,
+    "date": "2024-04-10",
+    "address": "0x37ddc946df24c70c5c4103d8080811e7069bda2a"
+  },
+  {
+    "type": "buy",
+    "amount": 547,
+    "price": 0.1561,
+    "date": "2024-04-10",
+    "address": "0x3f639a499b96763df187fc10d19ff04955f48101"
+  },
+  {
+    "type": "buy",
+    "amount": 547,
+    "price": 0.1561,
+    "date": "2024-04-08",
+    "address": "0xfc284afca0fba0f650b9928604d461bdd18ab779"
+  },
+  {
+    "type": "sell",
+    "amount": 128,
+    "price": 0.1561,
+    "date": "2024-04-07",
+    "address": "0xc3aedf3521c39d821eac8fbd91f25d5bfcabf810"
+  },
+  {
+    "type": "sell",
+    "amount": 503,
+    "price": 0.1561,
+    "date": "2024-04-07",
+    "address": "0xa599957799f6164e24925c52404e13ac37272e41"
+  },
+  {
+    "type": "buy",
+    "amount": 619,
+    "price": 0.1561,
+    "date": "2024-04-06",
+    "address": "0x391c2bd42856021e0bf8fd9a8642b5536cbe301c"
+  },
+  {
+    "type": "sell",
+    "amount": 560,
+    "price": 0.1561,
+    "date": "2024-04-06",
+    "address": "0xc385b10b4ae86f713507f1ff40f56bee1bb45e33"
+  },
+  {
+    "type": "buy",
+    "amount": 795,
+    "price": 0.1561,
+    "date": "2024-04-05",
+    "address": "0x8d46ad3aab9206c8da29a1c9eaefd02e03e8fe49"
+  },
+  {
+    "type": "buy",
+    "amount": 51,
+    "price": 0.1561,
+    "date": "2024-04-01",
+    "address": "0x29053f972ae1401537491960f4b2e038afdda647"
+  },
+  {
+    "type": "sell",
+    "amount": 138,
+    "price": 0.1561,
+    "date": "2024-04-01",
+    "address": "0x767c49f429b31b6c1895d1c123f4aba446f2354e"
+  },
+  {
+    "type": "sell",
+    "amount": 118,
+    "price": 0.1561,
+    "date": "2024-03-31",
+    "address": "0xef24c4ce1671801116fd500cb2cc0c8a2ae7dca0"
+  },
+  {
+    "type": "sell",
+    "amount": 519,
+    "price": 0.1561,
+    "date": "2024-03-30",
+    "address": "0x9f828c2c7aed32b067a3be25d1f7df4af0952c13"
+  },
+  {
+    "type": "buy",
+    "amount": 102,
+    "price": 0.1561,
+    "date": "2024-03-29",
+    "address": "0xddda13ce67bf30107eb81af9cb7b57c4e7dc4872"
+  },
+  {
+    "type": "buy",
+    "amount": 878,
+    "price": 0.1561,
+    "date": "2024-03-27",
+    "address": "0x2c020c370dc19bd4f645c4fb314de807e509f627"
+  },
+  {
+    "type": "buy",
+    "amount": 718,
+    "price": 0.1561,
+    "date": "2024-03-27",
+    "address": "0x46e5d6b694cdd59d9d3393905b05dd4433c928ed"
+  },
+  {
+    "type": "buy",
+    "amount": 995,
+    "price": 0.1561,
+    "date": "2024-03-27",
+    "address": "0x93b738148b7806a8cb53f14ab3057cea82195061"
+  },
+  {
+    "type": "buy",
+    "amount": 75,
+    "price": 0.1561,
+    "date": "2024-03-26",
+    "address": "0x5efc583b4d3d643f1316ba1491ac8fef39162ef7"
+  },
+  {
+    "type": "sell",
+    "amount": 875,
+    "price": 0.1561,
+    "date": "2024-03-26",
+    "address": "0xd7205feba2c1cdca94ba016c76f6165657c106d1"
+  },
+  {
+    "type": "buy",
+    "amount": 564,
+    "price": 0.1561,
+    "date": "2024-03-26",
+    "address": "0x20d3d695cd65f3e03f4de2650067ce7910424343"
+  },
+  {
+    "type": "buy",
+    "amount": 317,
+    "price": 0.1561,
+    "date": "2024-03-23",
+    "address": "0x40c83fc64467c52f749e746cc65d9d3594c408d2"
+  },
+  {
+    "type": "sell",
+    "amount": 15,
+    "price": 0.1561,
+    "date": "2024-03-22",
+    "address": "0x4de7fd36c32daf72d3fd00a18f47a4d73a353433"
+  },
+  {
+    "type": "buy",
+    "amount": 79,
+    "price": 0.1561,
+    "date": "2024-03-22",
+    "address": "0x871ba2e3ffd52e6ba431f3101ba6bc6a1d193a5d"
+  },
+  {
+    "type": "buy",
+    "amount": 70,
+    "price": 0.1561,
+    "date": "2024-03-22",
+    "address": "0xc34ef51d8bdfbb9459590a65510b51f4a23cb196"
+  },
+  {
+    "type": "sell",
+    "amount": 757,
+    "price": 0.1561,
+    "date": "2024-03-22",
+    "address": "0x215a7c0ba5b8ce26fbee7135a4aaaf2012c906a9"
+  },
+  {
+    "type": "buy",
+    "amount": 451,
+    "price": 0.1561,
+    "date": "2024-03-21",
+    "address": "0x8f0a3901f78acaf2a5bcdbc18c063bb52d833bcf"
+  },
+  {
+    "type": "sell",
+    "amount": 63,
+    "price": 0.1561,
+    "date": "2024-03-20",
+    "address": "0x86f48f8eb41a05adeeb4c4af0dcb209a74bb06ad"
+  },
+  {
+    "type": "buy",
+    "amount": 555,
+    "price": 0.1561,
+    "date": "2024-03-20",
+    "address": "0x3bbe2ecb79d698bf4d2d22ad2c4542e20126998d"
+  },
+  {
+    "type": "sell",
+    "amount": 651,
+    "price": 0.1561,
+    "date": "2024-03-19",
+    "address": "0x1b6c315139bd9a522971ff59e484cee28cde4049"
+  },
+  {
+    "type": "buy",
+    "amount": 424,
+    "price": 0.1561,
+    "date": "2024-03-19",
+    "address": "0x390da9e8755772a881bd808365f9a7ec8d7bae8d"
+  },
+  {
+    "type": "sell",
+    "amount": 520,
+    "price": 0.1561,
+    "date": "2024-03-19",
+    "address": "0xdca3a76e9d167115267547e89e41f1305c795156"
+  },
+  {
+    "type": "buy",
+    "amount": 856,
+    "price": 0.1561,
+    "date": "2024-03-18",
+    "address": "0x8f181629a427cdef1005549067986ffdbf13dca3"
+  },
+  {
+    "type": "buy",
+    "amount": 769,
+    "price": 0.1561,
+    "date": "2024-03-17",
+    "address": "0x3a3ebb8829e226a4a4a3e22c9efd4f6fea8e7268"
+  },
+  {
+    "type": "sell",
+    "amount": 766,
+    "price": 0.1561,
+    "date": "2024-03-16",
+    "address": "0x60d4b59c78fa37b1075d1faec3b272d63fad5781"
+  },
+  {
+    "type": "sell",
+    "amount": 38,
+    "price": 0.1561,
+    "date": "2024-03-16",
+    "address": "0x4fa7074563d8a69c6589c504e884cc50e0b0f588"
+  },
+  {
+    "type": "sell",
+    "amount": 461,
+    "price": 0.1561,
+    "date": "2024-03-15",
+    "address": "0x320caf2eb170907daf0f41afd3ff4f9e2574c5a3"
+  },
+  {
+    "type": "buy",
+    "amount": 154,
+    "price": 0.1561,
+    "date": "2024-03-15",
+    "address": "0xcb25b90f8ca55d3e2acd142ec195657b0ed0551b"
+  },
+  {
+    "type": "sell",
+    "amount": 733,
+    "price": 0.1561,
+    "date": "2024-03-15",
+    "address": "0xecfaf532275d4d4401e425e1d6b31493b41e03a5"
+  },
+  {
+    "type": "buy",
+    "amount": 459,
+    "price": 0.1561,
+    "date": "2024-03-14",
+    "address": "0x5df4681edc4fcc54e0a64134410d94df3d3eda17"
+  },
+  {
+    "type": "sell",
+    "amount": 546,
+    "price": 0.1561,
+    "date": "2024-03-14",
+    "address": "0x0781377d6da3eb7ba8a8fee7a6e252ac69327233"
+  },
+  {
+    "type": "sell",
+    "amount": 667,
+    "price": 0.1561,
+    "date": "2024-03-14",
+    "address": "0x6c784539b0aaaf19e057925a85ea544a85555830"
+  },
+  {
+    "type": "buy",
+    "amount": 499,
+    "price": 0.1561,
+    "date": "2024-03-13",
+    "address": "0x62158fa7b83d44a65846c051f73d6270ee11ad5b"
+  },
+  {
+    "type": "sell",
+    "amount": 344,
+    "price": 0.1561,
+    "date": "2024-03-13",
+    "address": "0x2af989e741df8b65f58ea621a3084106f94b6ae8"
+  },
+  {
+    "type": "buy",
+    "amount": 297,
+    "price": 0.1561,
+    "date": "2024-03-10",
+    "address": "0xf64ee3b0f7e13db23e935433cafee2d531649d31"
+  },
+  {
+    "type": "sell",
+    "amount": 216,
+    "price": 0.1561,
+    "date": "2024-03-09",
+    "address": "0x8eb44146f4c3e573c8087d164838cd2c8f282dd0"
+  },
+  {
+    "type": "buy",
+    "amount": 224,
+    "price": 0.1561,
+    "date": "2024-03-09",
+    "address": "0xd10e7972fc80c6c1f69f12f07647877bc4834bd5"
+  },
+  {
+    "type": "sell",
+    "amount": 634,
+    "price": 0.1561,
+    "date": "2024-03-08",
+    "address": "0x5980efd3ad36674bf955b45d3246e3ff42554938"
+  },
+  {
+    "type": "buy",
+    "amount": 396,
+    "price": 0.1561,
+    "date": "2024-03-08",
+    "address": "0x149a6aa36845d4853080fdb427500e5a6baf1086"
+  },
+  {
+    "type": "sell",
+    "amount": 843,
+    "price": 0.1561,
+    "date": "2024-03-08",
+    "address": "0x0839614863012f967d9828808cde190c4e73657e"
+  },
+  {
+    "type": "sell",
+    "amount": 674,
+    "price": 0.1561,
+    "date": "2024-03-07",
+    "address": "0x93dc125ae09d026aa43604333537526703bec711"
+  },
+  {
+    "type": "buy",
+    "amount": 137,
+    "price": 0.1561,
+    "date": "2024-03-07",
+    "address": "0x19876cb432028138afb8106d41a3787cc764be55"
+  },
+  {
+    "type": "buy",
+    "amount": 719,
+    "price": 0.1561,
+    "date": "2024-03-05",
+    "address": "0xdd8b44f7b21bcc1f859fa8e0c8bee767cc0fb3a1"
+  },
+  {
+    "type": "buy",
+    "amount": 522,
+    "price": 0.1561,
+    "date": "2024-03-03",
+    "address": "0xd8c3b3930dc06085e09cfb64fb111c657c81e7df"
+  },
+  {
+    "type": "sell",
+    "amount": 438,
+    "price": 0.1561,
+    "date": "2024-03-01",
+    "address": "0x8de73540a460bccd0d0049674d7640e1c51f3244"
+  },
+  {
+    "type": "buy",
+    "amount": 931,
+    "price": 0.1561,
+    "date": "2024-03-01",
+    "address": "0xf436e60689a9ed824d3e99f4b271f391b5baf459"
+  },
+  {
+    "type": "buy",
+    "amount": 928,
+    "price": 0.1561,
+    "date": "2024-02-29",
+    "address": "0x7b0282f6ad35c7bb56d0a93f7db31dcdf3b20d59"
+  },
+  {
+    "type": "sell",
+    "amount": 830,
+    "price": 0.1561,
+    "date": "2024-02-29",
+    "address": "0x66054e2370211cc2c3d4088468c981aede2bec47"
+  },
+  {
+    "type": "buy",
+    "amount": 904,
+    "price": 0.1561,
+    "date": "2024-02-27",
+    "address": "0xec35a79125b1120db6452d204f2aef639bc68b4b"
+  },
+  {
+    "type": "sell",
+    "amount": 418,
+    "price": 0.1561,
+    "date": "2024-02-27",
+    "address": "0x9bae7aacca92002f834f131ee7a965e7f36fa92a"
+  },
+  {
+    "type": "sell",
+    "amount": 706,
+    "price": 0.1561,
+    "date": "2024-02-26",
+    "address": "0xdfbc3f142edcfe19190e94816019771479958551"
+  },
+  {
+    "type": "sell",
+    "amount": 257,
+    "price": 0.1561,
+    "date": "2024-02-26",
+    "address": "0x39dd6e8834ae3febfd0d4a72985f767e798e29c7"
+  },
+  {
+    "type": "sell",
+    "amount": 717,
+    "price": 0.1561,
+    "date": "2024-02-26",
+    "address": "0xec33b72b1624c19ef61db466b86b53b5a5e1c31c"
+  },
+  {
+    "type": "buy",
+    "amount": 234,
+    "price": 0.1561,
+    "date": "2024-02-26",
+    "address": "0x2567b33745c96c1d240710c458ce229091f143a9"
+  },
+  {
+    "type": "sell",
+    "amount": 308,
+    "price": 0.1561,
+    "date": "2024-02-26",
+    "address": "0x776aadf1288f9297836ff54d9a4bd76e164223e0"
+  },
+  {
+    "type": "buy",
+    "amount": 144,
+    "price": 0.1561,
+    "date": "2024-02-25",
+    "address": "0xa2cc317731a1ec89b512e92be03511c78f32a045"
+  },
+  {
+    "type": "sell",
+    "amount": 129,
+    "price": 0.1561,
+    "date": "2024-02-22",
+    "address": "0x5f525e6afbd2fce4de3bed3b774a2392ce19650a"
+  },
+  {
+    "type": "buy",
+    "amount": 978,
+    "price": 0.1561,
+    "date": "2024-02-20",
+    "address": "0x14f1fbc041b2bd45b3e4c12921eff677128cc4c2"
+  },
+  {
+    "type": "buy",
+    "amount": 216,
+    "price": 0.1561,
+    "date": "2024-02-20",
+    "address": "0x45177fb0718a1b60f8b4f5581c3d9aa8f698c2a7"
+  },
+  {
+    "type": "sell",
+    "amount": 598,
+    "price": 0.1561,
+    "date": "2024-02-20",
+    "address": "0x512317b5adf4a322cb7109090881f9a6e653768b"
+  },
+  {
+    "type": "buy",
+    "amount": 276,
+    "price": 0.1561,
+    "date": "2024-02-19",
+    "address": "0x94f3a1c5e0a8b56e8f879db06f6cad56095a1c89"
+  },
+  {
+    "type": "sell",
+    "amount": 732,
+    "price": 0.1561,
+    "date": "2024-02-19",
+    "address": "0x66f38dd9bc62382fc9b4cad1dff5f1b163525393"
+  },
+  {
+    "type": "sell",
+    "amount": 612,
+    "price": 0.1561,
+    "date": "2024-02-19",
+    "address": "0xd728e0663bf1dd0cc5f65bc1b6a1eb292382c580"
+  },
+  {
+    "type": "sell",
+    "amount": 411,
+    "price": 0.1561,
+    "date": "2024-02-18",
+    "address": "0xbc4d49a64a7344f1f7453eb3b69003c8861f7b1d"
+  },
+  {
+    "type": "sell",
+    "amount": 824,
+    "price": 0.1561,
+    "date": "2024-02-17",
+    "address": "0xd938d0cbd702c12200377a4c42f94d28f2156a6a"
+  },
+  {
+    "type": "buy",
+    "amount": 739,
+    "price": 0.1561,
+    "date": "2024-02-16",
+    "address": "0x9db70cbbb04780e4b58f571d9bb590ff55e2a203"
+  },
+  {
+    "type": "buy",
+    "amount": 106,
+    "price": 0.1561,
+    "date": "2024-02-16",
+    "address": "0xe2d7f08ff2befe24a6391dc44f4d3de4b38b2d66"
+  },
+  {
+    "type": "sell",
+    "amount": 654,
+    "price": 0.1561,
+    "date": "2024-02-15",
+    "address": "0x8d612feb0cbe9c13c4b655abc9e84fcdaae86965"
+  },
+  {
+    "type": "sell",
+    "amount": 311,
+    "price": 0.1561,
+    "date": "2024-02-14",
+    "address": "0xb00d653445161074d1962f3a44916c2717632381"
+  },
+  {
+    "type": "sell",
+    "amount": 874,
+    "price": 0.1561,
+    "date": "2024-02-14",
+    "address": "0x57961ddbce75952b8243e0622a7e56a37277288d"
+  },
+  {
+    "type": "sell",
+    "amount": 646,
+    "price": 0.1561,
+    "date": "2024-02-13",
+    "address": "0x7e910942dc178a568ddda933ab7bc6c2216a13a9"
+  },
+  {
+    "type": "sell",
+    "amount": 874,
+    "price": 0.1561,
+    "date": "2024-02-13",
+    "address": "0x90a8fbc7bcf304129135f94d12eb44baa7b76f05"
+  },
+  {
+    "type": "sell",
+    "amount": 448,
+    "price": 0.1561,
+    "date": "2024-02-12",
+    "address": "0xa4fd8ac339972be041a8cc274596515fcb65a74f"
+  },
+  {
+    "type": "sell",
+    "amount": 971,
+    "price": 0.1561,
+    "date": "2024-02-09",
+    "address": "0x75c66756cbcf6a10ee4dae0d7a2fc7cd573faaf5"
+  },
+  {
+    "type": "buy",
+    "amount": 219,
+    "price": 0.1561,
+    "date": "2024-02-09",
+    "address": "0xbbf790520e9cc3a5ad8df2e5a5f762059bdaa2fb"
+  },
+  {
+    "type": "sell",
+    "amount": 8,
+    "price": 0.1561,
+    "date": "2024-02-09",
+    "address": "0x70e41f471aae3908e2d3dde5b8a49b2d7ac0ec0b"
+  },
+  {
+    "type": "buy",
+    "amount": 138,
+    "price": 0.1561,
+    "date": "2024-02-09",
+    "address": "0x7f0420d194ce97870dd87c62cacfc2b64ef4df1c"
+  },
+  {
+    "type": "buy",
+    "amount": 22,
+    "price": 0.1561,
+    "date": "2024-02-08",
+    "address": "0x64b725e607c3fef9cd8c52a738faab28e84ee991"
+  },
+  {
+    "type": "buy",
+    "amount": 351,
+    "price": 0.1561,
+    "date": "2024-02-06",
+    "address": "0xbe2c27750dc0d9f08093874f14c2d1bce29ed41e"
+  },
+  {
+    "type": "sell",
+    "amount": 465,
+    "price": 0.1561,
+    "date": "2024-02-04",
+    "address": "0x35943a5e9ec1616e6b1fdd1d9ba962e8d86f2e2b"
+  },
+  {
+    "type": "sell",
+    "amount": 15,
+    "price": 0.1561,
+    "date": "2024-02-02",
+    "address": "0xbef7443da10406495663f26d59f0a9a59f54a4aa"
+  },
+  {
+    "type": "sell",
+    "amount": 767,
+    "price": 0.1561,
+    "date": "2024-02-02",
+    "address": "0xfa00b1c2d018ce9112cee917dd2004df8e89f5cd"
+  },
+  {
+    "type": "buy",
+    "amount": 514,
+    "price": 0.1561,
+    "date": "2024-02-02",
+    "address": "0xfb75be0c7c2fabdc880f8e14993b9b79f5d4df75"
+  },
+  {
+    "type": "sell",
+    "amount": 238,
+    "price": 0.1561,
+    "date": "2024-02-02",
+    "address": "0x63ebfe1513457c0e45cbbd3893ee9417925b5130"
+  },
+  {
+    "type": "buy",
+    "amount": 879,
+    "price": 0.1561,
+    "date": "2024-02-02",
+    "address": "0x5fdcfe981a567a4c8f83e05b39badf5077c50a3b"
+  },
+  {
+    "type": "sell",
+    "amount": 710,
+    "price": 0.1561,
+    "date": "2024-01-31",
+    "address": "0x956f1348a5769e13b01e474fc9c01c78d42d4883"
+  },
+  {
+    "type": "buy",
+    "amount": 876,
+    "price": 0.1561,
+    "date": "2024-01-31",
+    "address": "0xef3ed3106b890b54e58f2b795c3560266f74b457"
+  },
+  {
+    "type": "sell",
+    "amount": 732,
+    "price": 0.1561,
+    "date": "2024-01-31",
+    "address": "0x193919f1228e54a1773a568b9ebc053a5d81a6f9"
+  },
+  {
+    "type": "sell",
+    "amount": 808,
+    "price": 0.1561,
+    "date": "2024-01-31",
+    "address": "0x50f80d723e1750f26bc88e1ce5108b4ba0d04724"
+  },
+  {
+    "type": "sell",
+    "amount": 564,
+    "price": 0.1561,
+    "date": "2024-01-30",
+    "address": "0xfded19fdfe9f2f2a6b874a6d8455937a488d2f15"
+  },
+  {
+    "type": "buy",
+    "amount": 525,
+    "price": 0.1561,
+    "date": "2024-01-30",
+    "address": "0xf3e65c646955457e36f6aa6d3317a5fdf3cf420f"
+  },
+  {
+    "type": "buy",
+    "amount": 567,
+    "price": 0.1561,
+    "date": "2024-01-29",
+    "address": "0x715b9f39ef39629de124b45cc3a4cfc4a2cdad27"
+  },
+  {
+    "type": "buy",
+    "amount": 882,
+    "price": 0.1561,
+    "date": "2024-01-29",
+    "address": "0x3e383bb78a3cc2ab1365f7b9362a9f808343f28b"
+  },
+  {
+    "type": "buy",
+    "amount": 984,
+    "price": 0.1561,
+    "date": "2024-01-28",
+    "address": "0x2b335489fbd2ade6f9b139e5698f2bac3c4d6d53"
+  },
+  {
+    "type": "sell",
+    "amount": 468,
+    "price": 0.1561,
+    "date": "2024-01-28",
+    "address": "0x2fdd9b5a86cc056436925826c4b5ecd9ca35bb57"
+  },
+  {
+    "type": "buy",
+    "amount": 57,
+    "price": 0.1561,
+    "date": "2024-01-27",
+    "address": "0x84e4f99e7cc66bdb05a909e8b8d3cb90c92b6196"
+  },
+  {
+    "type": "sell",
+    "amount": 736,
+    "price": 0.1561,
+    "date": "2024-01-27",
+    "address": "0x96de4f2d5c2851fc05538f47790d41ed98351151"
+  },
+  {
+    "type": "sell",
+    "amount": 924,
+    "price": 0.1561,
+    "date": "2024-01-27",
+    "address": "0xfc3dbeeab338139ff70428775c527072042b28b4"
+  },
+  {
+    "type": "buy",
+    "amount": 431,
+    "price": 0.1561,
+    "date": "2024-01-26",
+    "address": "0xdb3ae21edd54294ca9037c7673ffe6d540b9dad5"
+  },
+  {
+    "type": "buy",
+    "amount": 402,
+    "price": 0.1561,
+    "date": "2024-01-25",
+    "address": "0x245761b15721860a836503e892a3bb04e3e6754c"
+  },
+  {
+    "type": "buy",
+    "amount": 793,
+    "price": 0.1561,
+    "date": "2024-01-25",
+    "address": "0x24142fd6e72c66705df5b1e16531f9ea0a7b56d4"
+  },
+  {
+    "type": "buy",
+    "amount": 127,
+    "price": 0.1561,
+    "date": "2024-01-25",
+    "address": "0x930d6cda09d975a72b9f4b9e348046a56de9df51"
+  },
+  {
+    "type": "sell",
+    "amount": 90,
+    "price": 0.1561,
+    "date": "2024-01-23",
+    "address": "0x7b54f73b3d7a881677226b2da26a81e45b15928b"
+  },
+  {
+    "type": "buy",
+    "amount": 150,
+    "price": 0.1561,
+    "date": "2024-01-21",
+    "address": "0x386a60ae69681b4c6d765ddda8ed4d3adfb27a44"
+  },
+  {
+    "type": "sell",
+    "amount": 146,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x4c01a8b06e9f398d15bc9866b8f04d29e5689cbc"
+  },
+  {
+    "type": "sell",
+    "amount": 126,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x376531f8df1a625d810f1bd16d94d69a5a66897a"
+  },
+  {
+    "type": "buy",
+    "amount": 257,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x3476cbf6d906db264d55f730ab48e3625eb31251"
+  },
+  {
+    "type": "buy",
+    "amount": 475,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x02d0c7b8e9fc7c734135abcf0411a5691a16f13d"
+  },
+  {
+    "type": "buy",
+    "amount": 589,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x221e9020bfb503680969cd2d2e4c8285218409d9"
+  },
+  {
+    "type": "sell",
+    "amount": 409,
+    "price": 0.1561,
+    "date": "2024-01-20",
+    "address": "0x2a77bfc8916dc94a39eeecac1b8bce47f83c34d8"
+  },
+  {
+    "type": "buy",
+    "amount": 35,
+    "price": 0.1561,
+    "date": "2024-01-19",
+    "address": "0x5b5d1a40894b80035d8eb7627f1227a3d7d54b3b"
+  },
+  {
+    "type": "buy",
+    "amount": 520,
+    "price": 0.1561,
+    "date": "2024-01-19",
+    "address": "0xea26c8a2c8375b15d8d2d7beda9eeb6fcf6b356f"
+  },
+  {
+    "type": "sell",
+    "amount": 569,
+    "price": 0.1561,
+    "date": "2024-01-19",
+    "address": "0x4cc78b09028c2c4042d808cbac3db75fd76e14d2"
+  },
+  {
+    "type": "sell",
+    "amount": 842,
+    "price": 0.1561,
+    "date": "2024-01-12",
+    "address": "0x61c7b897d0ba89b1f26e453500a60bbed7212d1f"
+  },
+  {
+    "type": "buy",
+    "amount": 163,
+    "price": 0.1561,
+    "date": "2024-01-12",
+    "address": "0xbc35acf7a75cdd927738ce3fab9278d9d64e3976"
+  },
+  {
+    "type": "buy",
+    "amount": 956,
+    "price": 0.1561,
+    "date": "2024-01-11",
+    "address": "0xca878372106ee7297fcedd4abe7f27b3e9961cbf"
+  },
+  {
+    "type": "sell",
+    "amount": 218,
+    "price": 0.1561,
+    "date": "2024-01-11",
+    "address": "0x75eb9eb1779c452a5fd40478e3d4e16335b5b21f"
+  },
+  {
+    "type": "buy",
+    "amount": 933,
+    "price": 0.1561,
+    "date": "2024-01-11",
+    "address": "0x606c5796e23edb631aad6a15607b2f21b0c9d176"
+  },
+  {
+    "type": "sell",
+    "amount": 550,
+    "price": 0.1561,
+    "date": "2024-01-10",
+    "address": "0x3ef7ba10876fc2aa61fdbd35b89a493787edd9de"
+  },
+  {
+    "type": "sell",
+    "amount": 333,
+    "price": 0.1561,
+    "date": "2024-01-10",
+    "address": "0xfe88b66cbac2731df11079ec7c20a7bef5157bb5"
+  },
+  {
+    "type": "buy",
+    "amount": 884,
+    "price": 0.1561,
+    "date": "2024-01-10",
+    "address": "0xf2deeec34bf22aeba88fb12410c8d043e880c8b1"
+  },
+  {
+    "type": "buy",
+    "amount": 955,
+    "price": 0.1561,
+    "date": "2024-01-09",
+    "address": "0x6a379e07aec7595f673741936ce6748d342ab04b"
+  },
+  {
+    "type": "buy",
+    "amount": 780,
+    "price": 0.1561,
+    "date": "2024-01-07",
+    "address": "0x452605cac0832ecb265f17edcf3146df559d3744"
+  },
+  {
+    "type": "buy",
+    "amount": 930,
+    "price": 0.1561,
+    "date": "2024-01-07",
+    "address": "0x142dac9f9c10ece8b858b19635ea62b2f5943b9d"
+  },
+  {
+    "type": "sell",
+    "amount": 505,
+    "price": 0.1561,
+    "date": "2024-01-04",
+    "address": "0x1f4af9dc89073c36969bc1d64723c0b880d90ea4"
+  },
+  {
+    "type": "sell",
+    "amount": 702,
+    "price": 0.1561,
+    "date": "2024-01-04",
+    "address": "0x3f946342c570fba83a7343580b547f81582d4b17"
+  },
+  {
+    "type": "buy",
+    "amount": 213,
+    "price": 0.1561,
+    "date": "2024-01-03",
+    "address": "0xff81c3b84863afa06b7535044501d1c7e4ff58d9"
+  },
+  {
+    "type": "sell",
+    "amount": 153,
+    "price": 0.1561,
+    "date": "2024-01-03",
+    "address": "0x1945b8abdac69003d23b7bf4a8f19fdae4d0266c"
+  },
+  {
+    "type": "sell",
+    "amount": 5,
+    "price": 0.1561,
+    "date": "2024-01-02",
+    "address": "0xedf1c9c384b5190260b24a396d7b928b174b89d7"
+  },
+  {
+    "type": "buy",
+    "amount": 832,
+    "price": 0.1561,
+    "date": "2023-12-31",
+    "address": "0x73f55559c68ee8351e560ea92986cf685b162c47"
+  },
+  {
+    "type": "sell",
+    "amount": 462,
+    "price": 0.1561,
+    "date": "2023-12-29",
+    "address": "0xff026e8a1618c60e7d8bf14a11ad1da6597d8d88"
+  },
+  {
+    "type": "buy",
+    "amount": 624,
+    "price": 0.1561,
+    "date": "2023-12-27",
+    "address": "0xd08cdecee7dd271db84e484a79d2b36cae978336"
+  },
+  {
+    "type": "sell",
+    "amount": 70,
+    "price": 0.1561,
+    "date": "2023-12-27",
+    "address": "0xffe7efb6818c6b6eefef593c58342858124d7495"
+  },
+  {
+    "type": "buy",
+    "amount": 71,
+    "price": 0.1561,
+    "date": "2023-12-26",
+    "address": "0xfaea0657f4ac6c5c94e6f2d37431621b2ec29dff"
+  },
+  {
+    "type": "sell",
+    "amount": 953,
+    "price": 0.1561,
+    "date": "2023-12-26",
+    "address": "0xae2aad94e98fa1c95a86a3fb135a733fab312bf6"
+  },
+  {
+    "type": "buy",
+    "amount": 436,
+    "price": 0.1561,
+    "date": "2023-12-25",
+    "address": "0xc698eacb54b216e668e0cff07d53e15f1e38b187"
+  },
+  {
+    "type": "buy",
+    "amount": 916,
+    "price": 0.1561,
+    "date": "2023-12-25",
+    "address": "0xfc9c311ee5d6702be7290c35cf2f82bf6dd6aa5c"
+  },
+  {
+    "type": "buy",
+    "amount": 901,
+    "price": 0.1561,
+    "date": "2023-12-24",
+    "address": "0xe6472a39afc2644a17c529c3f727db761110ed6a"
+  },
+  {
+    "type": "buy",
+    "amount": 935,
+    "price": 0.1561,
+    "date": "2023-12-23",
+    "address": "0x6b1ef7961097807336c4faf8c8cb7e6a31985a3c"
+  },
+  {
+    "type": "buy",
+    "amount": 810,
+    "price": 0.1561,
+    "date": "2023-12-23",
+    "address": "0x4a4e0b164388b46c42768d92d1cb8f4b6c0477a2"
+  },
+  {
+    "type": "sell",
+    "amount": 907,
+    "price": 0.1561,
+    "date": "2023-12-22",
+    "address": "0x803d3cbf54208d6d02709f6fb3c1fa1336ad39f9"
+  },
+  {
+    "type": "sell",
+    "amount": 52,
+    "price": 0.1561,
+    "date": "2023-12-22",
+    "address": "0xf4f047419766ca617dd500e451949daf71dea56d"
+  },
+  {
+    "type": "sell",
+    "amount": 995,
+    "price": 0.1561,
+    "date": "2023-12-21",
+    "address": "0x7a7e6063b04423902accd4b29549f1fcb37cbae9"
+  },
+  {
+    "type": "buy",
+    "amount": 644,
+    "price": 0.1561,
+    "date": "2023-12-21",
+    "address": "0xf8a147da80d647db8d6afa8a0cd5c4a185bcd7ed"
+  },
+  {
+    "type": "sell",
+    "amount": 921,
+    "price": 0.1561,
+    "date": "2023-12-20",
+    "address": "0x3d9408a44ca812300ae06303d7bf7eaa584aaab4"
+  },
+  {
+    "type": "sell",
+    "amount": 361,
+    "price": 0.1561,
+    "date": "2023-12-20",
+    "address": "0x735ad9d5e576fa116ab00088be29a0a5c556663c"
+  },
+  {
+    "type": "buy",
+    "amount": 948,
+    "price": 0.1561,
+    "date": "2023-12-20",
+    "address": "0x6a59db98903bace98661c72e5530d3cf66b277e6"
+  },
+  {
+    "type": "buy",
+    "amount": 236,
+    "price": 0.1561,
+    "date": "2023-12-19",
+    "address": "0x54a8f5b3aba895298f38945f64aebbf6ac6f3ca5"
+  },
+  {
+    "type": "buy",
+    "amount": 201,
+    "price": 0.1561,
+    "date": "2023-12-19",
+    "address": "0x4531c70eb532703d07418dd30c9cffa024787500"
+  },
+  {
+    "type": "sell",
+    "amount": 84,
+    "price": 0.1561,
+    "date": "2023-12-18",
+    "address": "0x43f36d5ae70f700337cae71174058a7a7c357bc9"
+  },
+  {
+    "type": "buy",
+    "amount": 712,
+    "price": 0.1561,
+    "date": "2023-12-18",
+    "address": "0xbfe37553e641e10d55f845d7cd445ef307e587c1"
+  },
+  {
+    "type": "buy",
+    "amount": 742,
+    "price": 0.1561,
+    "date": "2023-12-17",
+    "address": "0x6254277dc78277a6ed9786a4797bc0b57e61b5d2"
+  },
+  {
+    "type": "sell",
+    "amount": 259,
+    "price": 0.1561,
+    "date": "2023-12-17",
+    "address": "0xeb8036ce8ab7c7ff9d154474c87452228af25cba"
+  },
+  {
+    "type": "sell",
+    "amount": 473,
+    "price": 0.1561,
+    "date": "2023-12-17",
+    "address": "0x11e34e1954a5ab8196147dd1a49b75c1474c6e80"
+  },
+  {
+    "type": "sell",
+    "amount": 815,
+    "price": 0.1561,
+    "date": "2023-12-16",
+    "address": "0xf8061f9a32cb66ae7d295eb56f2e582c451a36a1"
+  },
+  {
+    "type": "sell",
+    "amount": 434,
+    "price": 0.1561,
+    "date": "2023-12-14",
+    "address": "0x413b1e4663a87c4233d68c2b699e45d6a4a5520d"
+  },
+  {
+    "type": "sell",
+    "amount": 716,
+    "price": 0.1561,
+    "date": "2023-12-09",
+    "address": "0x5fa199afb5a91ebd3f4bcecce79dc7755f48b795"
+  },
+  {
+    "type": "sell",
+    "amount": 844,
+    "price": 0.1561,
+    "date": "2023-12-09",
+    "address": "0x94086eb5946e39b023820157a80b7d34ffacc5ef"
+  },
+  {
+    "type": "sell",
+    "amount": 754,
+    "price": 0.1561,
+    "date": "2023-12-08",
+    "address": "0xd04060d2304222dfc9c3504568e7b8cb90de9329"
+  },
+  {
+    "type": "buy",
+    "amount": 892,
+    "price": 0.1561,
+    "date": "2023-12-08",
+    "address": "0x6dd3c14ecfaf769dab2d43c6923a9dce3d0d79fb"
+  },
+  {
+    "type": "sell",
+    "amount": 575,
+    "price": 0.1561,
+    "date": "2023-12-08",
+    "address": "0x050333535c1b204ce154c599dfe51898766d191d"
+  },
+  {
+    "type": "sell",
+    "amount": 805,
+    "price": 0.1561,
+    "date": "2023-12-07",
+    "address": "0x7aa89d3bfbeb2283ccc71e41b7372ba103a9346e"
+  },
+  {
+    "type": "sell",
+    "amount": 784,
+    "price": 0.1561,
+    "date": "2023-12-07",
+    "address": "0xeb11bceef232da4c6ef896cd6796c7e5bca88625"
+  },
+  {
+    "type": "buy",
+    "amount": 698,
+    "price": 0.1561,
+    "date": "2023-12-06",
+    "address": "0x226777efc4ab67ff603304a807e7204b3358ed87"
+  },
+  {
+    "type": "sell",
+    "amount": 825,
+    "price": 0.1561,
+    "date": "2023-12-05",
+    "address": "0x9152d0b291a4a91188e3695bcda17c987397fb7b"
+  },
+  {
+    "type": "sell",
+    "amount": 919,
+    "price": 0.1561,
+    "date": "2023-12-04",
+    "address": "0xa4bbe4f9d92d212ff2c9bfe0e70ea6ebc7b66923"
+  },
+  {
+    "type": "sell",
+    "amount": 489,
+    "price": 0.1561,
+    "date": "2023-12-04",
+    "address": "0xa454f4dc7f4a5f9add5cf8fcb0ae3c421d390270"
+  },
+  {
+    "type": "sell",
+    "amount": 213,
+    "price": 0.1561,
+    "date": "2023-12-04",
+    "address": "0x8970eca54166b435921f91eba2bc722d0a7b32af"
+  },
+  {
+    "type": "buy",
+    "amount": 341,
+    "price": 0.1561,
+    "date": "2023-12-04",
+    "address": "0x29d7a310dbe6999b41b105c3c1e4db5de95171c9"
+  },
+  {
+    "type": "buy",
+    "amount": 91,
+    "price": 0.1561,
+    "date": "2023-12-03",
+    "address": "0xe2428c3aae6621b3bc76f8c469708044a0de65b8"
+  },
+  {
+    "type": "buy",
+    "amount": 833,
+    "price": 0.1561,
+    "date": "2023-12-03",
+    "address": "0xbd3e6871f8a7147264a60ec11a70358407894874"
+  },
+  {
+    "type": "buy",
+    "amount": 266,
+    "price": 0.1561,
+    "date": "2023-12-02",
+    "address": "0xbbc387f88de3a173632bca37f1d880a319ebf9c6"
+  },
+  {
+    "type": "sell",
+    "amount": 28,
+    "price": 0.1561,
+    "date": "2023-11-30",
+    "address": "0x5bc5665874541a73e906884039da7097b19d6c28"
+  },
+  {
+    "type": "buy",
+    "amount": 387,
+    "price": 0.1561,
+    "date": "2023-11-29",
+    "address": "0x5b1aaf9a730bd10a4c41fa888495923665dd1a69"
+  },
+  {
+    "type": "buy",
+    "amount": 898,
+    "price": 0.1561,
+    "date": "2023-11-28",
+    "address": "0xd3cd8f98fdde2e7604fd0a6abca80f7feb38f850"
+  },
+  {
+    "type": "buy",
+    "amount": 903,
+    "price": 0.1561,
+    "date": "2023-11-28",
+    "address": "0x62062467dade68618de43464d59261744dc408eb"
+  },
+  {
+    "type": "sell",
+    "amount": 407,
+    "price": 0.1561,
+    "date": "2023-11-28",
+    "address": "0x3a0b249bf352d2a35ff03b736e298f899ba5d80f"
+  },
+  {
+    "type": "buy",
+    "amount": 984,
+    "price": 0.1561,
+    "date": "2023-11-27",
+    "address": "0x2c9726bc38d109e7df2f09e0bd14d6287947ba7d"
+  },
+  {
+    "type": "sell",
+    "amount": 364,
+    "price": 0.1561,
+    "date": "2023-11-26",
+    "address": "0x7fe009bef86d22030a306b0e9b353d882489cda2"
+  },
+  {
+    "type": "buy",
+    "amount": 389,
+    "price": 0.1561,
+    "date": "2023-11-25",
+    "address": "0x3febcc50d1f8530a56dbc7fbca911701f61abb13"
+  },
+  {
+    "type": "buy",
+    "amount": 513,
+    "price": 0.1561,
+    "date": "2023-11-24",
+    "address": "0xc325c1c53970033e209af3dbe3f7bf23794ca66e"
+  },
+  {
+    "type": "sell",
+    "amount": 418,
+    "price": 0.1561,
+    "date": "2023-11-23",
+    "address": "0xa97da1600a15d2defe5dbbff89476ce907393f20"
+  },
+  {
+    "type": "buy",
+    "amount": 494,
+    "price": 0.1561,
+    "date": "2023-11-23",
+    "address": "0xf7adcbd15adfd4cb1eff2435284ce34d04cbf7b1"
+  },
+  {
+    "type": "buy",
+    "amount": 663,
+    "price": 0.1561,
+    "date": "2023-11-23",
+    "address": "0x3f910c54381d055ce433f757a65cf8444d213ef9"
+  },
+  {
+    "type": "buy",
+    "amount": 176,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0x4fc02630b791aaa4d10b1003976f1853160826f8"
+  },
+  {
+    "type": "sell",
+    "amount": 310,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0x6a75eaca1ee0f1175e6670c05a2048a782efcaa0"
+  },
+  {
+    "type": "buy",
+    "amount": 210,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0x3db812b27346fc627f955225b4e6ac107330b00a"
+  },
+  {
+    "type": "sell",
+    "amount": 21,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0xa45cde2b4dd06ca20f563d8d98a882c3742bd172"
+  },
+  {
+    "type": "sell",
+    "amount": 777,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0xf6b0114daf62b7d2a310b18297fbbbba0d7d3294"
+  },
+  {
+    "type": "sell",
+    "amount": 661,
+    "price": 0.1561,
+    "date": "2023-11-19",
+    "address": "0xf40f7ace2d568fca757b9f887dda7767c018d1fd"
+  },
+  {
+    "type": "sell",
+    "amount": 765,
+    "price": 0.1561,
+    "date": "2023-11-18",
+    "address": "0xcc7785e4166a19c80f5674f060b88cb214bed31c"
+  },
+  {
+    "type": "buy",
+    "amount": 94,
+    "price": 0.1561,
+    "date": "2023-11-17",
+    "address": "0x2366070f5b67b9c2fa43cda1f2016764c7e729fc"
+  },
+  {
+    "type": "buy",
+    "amount": 317,
+    "price": 0.1561,
+    "date": "2023-11-16",
+    "address": "0x7f747ea82e5f1c87b2f373c9ddc8645e589e7b0e"
+  },
+  {
+    "type": "sell",
+    "amount": 56,
+    "price": 0.1561,
+    "date": "2023-11-15",
+    "address": "0x73d3e3e95dc94ba732950437c9db244a5be5532b"
+  },
+  {
+    "type": "sell",
+    "amount": 625,
+    "price": 0.1561,
+    "date": "2023-11-15",
+    "address": "0xcc466fad66ab41abbb714a8cb28a8e9df53f4735"
+  },
+  {
+    "type": "sell",
+    "amount": 807,
+    "price": 0.1561,
+    "date": "2023-11-15",
+    "address": "0x83f1c57d0df307c8ae4823ef29a10c1456be96b6"
+  },
+  {
+    "type": "sell",
+    "amount": 445,
+    "price": 0.1561,
+    "date": "2023-11-15",
+    "address": "0x36e68966916bd56f82d0049de218469006af318a"
+  },
+  {
+    "type": "buy",
+    "amount": 582,
+    "price": 0.1561,
+    "date": "2023-11-15",
+    "address": "0xc23c241b12d2dd649a15bc1dbcff9db32074a5cb"
+  },
+  {
+    "type": "buy",
+    "amount": 231,
+    "price": 0.1561,
+    "date": "2023-11-14",
+    "address": "0xe050e9d0cffb7955c1cc5ff2bb5f51d9096364fb"
+  },
+  {
+    "type": "buy",
+    "amount": 692,
+    "price": 0.1561,
+    "date": "2023-11-14",
+    "address": "0x5d3f27e33ec5dcb81bc5b8f1113fcdb4cc7ad6f2"
+  },
+  {
+    "type": "sell",
+    "amount": 808,
+    "price": 0.1561,
+    "date": "2023-11-14",
+    "address": "0xb1c86ed64438cb083885e8a7c58f86c730019555"
+  },
+  {
+    "type": "buy",
+    "amount": 65,
+    "price": 0.1561,
+    "date": "2023-11-14",
+    "address": "0x4cd26d2b3950b57e5536b6a7f1015cb437d28c7e"
+  },
+  {
+    "type": "buy",
+    "amount": 591,
+    "price": 0.1561,
+    "date": "2023-11-13",
+    "address": "0x1a3c8c589ee8d6ac6acd541f221a294f62bf7b00"
+  },
+  {
+    "type": "buy",
+    "amount": 632,
+    "price": 0.1561,
+    "date": "2023-11-12",
+    "address": "0x9e8ad4467443e8b47b99bc5de1feeebfa833cc44"
+  },
+  {
+    "type": "buy",
+    "amount": 294,
+    "price": 0.1561,
+    "date": "2023-11-11",
+    "address": "0x8e0beb5e6036f6befb231f49a3b98b656b7a5f82"
+  },
+  {
+    "type": "sell",
+    "amount": 784,
+    "price": 0.1561,
+    "date": "2023-11-11",
+    "address": "0xee6d25f6049633535cc9fdb38f70e11cac14727e"
+  },
+  {
+    "type": "sell",
+    "amount": 892,
+    "price": 0.1561,
+    "date": "2023-11-11",
+    "address": "0xb101939b24ee67e58baa697eb58a58645ed2e036"
+  },
+  {
+    "type": "buy",
+    "amount": 149,
+    "price": 0.1561,
+    "date": "2023-11-10",
+    "address": "0x9a2b8fb71a93c8f39910907873ed2ad5976b55bc"
+  },
+  {
+    "type": "buy",
+    "amount": 415,
+    "price": 0.1561,
+    "date": "2023-11-09",
+    "address": "0x97988b9eaa93094929ea096998e2ae0ffcfb300d"
+  },
+  {
+    "type": "buy",
+    "amount": 817,
+    "price": 0.1561,
+    "date": "2023-11-09",
+    "address": "0x9bbeca669d994e69a8044fc65aefca43c4931b02"
+  },
+  {
+    "type": "buy",
+    "amount": 405,
+    "price": 0.1561,
+    "date": "2023-11-08",
+    "address": "0xe58bf26b2b8c9f250f856ca89197a5cd9157e860"
+  },
+  {
+    "type": "sell",
+    "amount": 597,
+    "price": 0.1561,
+    "date": "2023-11-08",
+    "address": "0x0cab3340c42637b15e69be887b0138a8480b7822"
+  },
+  {
+    "type": "buy",
+    "amount": 305,
+    "price": 0.1561,
+    "date": "2023-11-08",
+    "address": "0x4df1c735573f3eceafb0dd950e9e80c7b41a5b5d"
+  },
+  {
+    "type": "sell",
+    "amount": 818,
+    "price": 0.1561,
+    "date": "2023-11-08",
+    "address": "0xcfd189f8df8f3a342ac3a53427e89d601c80efa9"
+  },
+  {
+    "type": "buy",
+    "amount": 218,
+    "price": 0.1561,
+    "date": "2023-11-07",
+    "address": "0x958b84ad4d24317718fbea296d7c827ab8750a1b"
+  },
+  {
+    "type": "sell",
+    "amount": 399,
+    "price": 0.1561,
+    "date": "2023-11-06",
+    "address": "0xbafb72d0ed290f53fa5cee7faa99166781137088"
+  },
+  {
+    "type": "buy",
+    "amount": 589,
+    "price": 0.1561,
+    "date": "2023-11-06",
+    "address": "0x9b88597397361136f9491fc1e7e5a27b8b9ca9ec"
+  },
+  {
+    "type": "buy",
+    "amount": 890,
+    "price": 0.1561,
+    "date": "2023-11-05",
+    "address": "0x1b2aeda93d69ff39b37c6a5cfecf6a24bbd1b661"
+  },
+  {
+    "type": "sell",
+    "amount": 31,
+    "price": 0.1561,
+    "date": "2023-11-05",
+    "address": "0x174f18784313f2baa609705e5e72b233fa2e9747"
+  },
+  {
+    "type": "sell",
+    "amount": 443,
+    "price": 0.1561,
+    "date": "2023-11-05",
+    "address": "0x431f7f83d7d19f65c6be92f721e6324bd7279186"
+  },
+  {
+    "type": "buy",
+    "amount": 508,
+    "price": 0.1561,
+    "date": "2023-11-04",
+    "address": "0x631ff35b2dfc5f36484e4c242affdc9f55781865"
+  },
+  {
+    "type": "buy",
+    "amount": 271,
+    "price": 0.1561,
+    "date": "2023-11-04",
+    "address": "0xc42604a5748b1ce3a6e487d8f75cf902a61230e3"
+  },
+  {
+    "type": "sell",
+    "amount": 39,
+    "price": 0.1561,
+    "date": "2023-11-02",
+    "address": "0x36fd3a284a997545832e38a25f3ee7d4bff93f00"
+  },
+  {
+    "type": "sell",
+    "amount": 506,
+    "price": 0.1561,
+    "date": "2023-11-01",
+    "address": "0x0c1314d9d875bdf65df4e4f36e2c81ba2cb8d867"
+  },
+  {
+    "type": "buy",
+    "amount": 902,
+    "price": 0.1561,
+    "date": "2023-10-31",
+    "address": "0x447913123b90f32e156d197818e0ed687393af86"
+  },
+  {
+    "type": "sell",
+    "amount": 691,
+    "price": 0.1561,
+    "date": "2023-10-31",
+    "address": "0x9804983a11bbbb33823feff224c732844cc23681"
+  },
+  {
+    "type": "buy",
+    "amount": 369,
+    "price": 0.1561,
+    "date": "2023-10-29",
+    "address": "0x628574b960c437674257de3f6e57b42147b2f532"
+  },
+  {
+    "type": "sell",
+    "amount": 801,
+    "price": 0.1561,
+    "date": "2023-10-29",
+    "address": "0x6be87d5520c88adf8f1212cd0bbcd5f588b9aa2c"
+  },
+  {
+    "type": "buy",
+    "amount": 79,
+    "price": 0.1561,
+    "date": "2023-10-27",
+    "address": "0xe5cde79825d68972768077a934f453c5a653bbb9"
+  },
+  {
+    "type": "sell",
+    "amount": 938,
+    "price": 0.1561,
+    "date": "2023-10-27",
+    "address": "0x3f88bdec0e45659855a4f9a19ebe4859bf4add88"
+  },
+  {
+    "type": "sell",
+    "amount": 894,
+    "price": 0.1561,
+    "date": "2023-10-25",
+    "address": "0xc3a5cceab17a05f647141eee0f40f2e4a3e544c0"
+  },
+  {
+    "type": "buy",
+    "amount": 307,
+    "price": 0.1561,
+    "date": "2023-10-25",
+    "address": "0x856526dfea656119a8a277b4d3e2210f1abe445e"
+  },
+  {
+    "type": "sell",
+    "amount": 516,
+    "price": 0.1561,
+    "date": "2023-10-25",
+    "address": "0xab416b22ba5a4852fe55109a2f9b290200dcfcfb"
+  },
+  {
+    "type": "buy",
+    "amount": 368,
+    "price": 0.1561,
+    "date": "2023-10-25",
+    "address": "0x05c356d96c83c945b34737328a0bc89ef683086d"
+  },
+  {
+    "type": "buy",
+    "amount": 339,
+    "price": 0.1561,
+    "date": "2023-10-25",
+    "address": "0xc36a0901c5e80a78a805f05361b9ec12bda6ec77"
+  },
+  {
+    "type": "sell",
+    "amount": 376,
+    "price": 0.1561,
+    "date": "2023-10-24",
+    "address": "0x7acaffa6b1897ea8416df2417752ac014ca7f91d"
+  },
+  {
+    "type": "buy",
+    "amount": 336,
+    "price": 0.1561,
+    "date": "2023-10-22",
+    "address": "0x98ccbceb86c71ee83e7ad41c03144bae36ae9bfa"
+  },
+  {
+    "type": "sell",
+    "amount": 828,
+    "price": 0.1561,
+    "date": "2023-10-22",
+    "address": "0xe0b45fab76f212a4b159c95fcc7b4a3f997b2c9f"
+  },
+  {
+    "type": "buy",
+    "amount": 937,
+    "price": 0.1561,
+    "date": "2023-10-22",
+    "address": "0xbd3430dc91865d9e6cf27f644d10ae2e4ee7e208"
+  },
+  {
+    "type": "sell",
+    "amount": 665,
+    "price": 0.1561,
+    "date": "2023-10-21",
+    "address": "0x71210bbcfd4e97b9f3db08ac64b9b7745118c9ae"
+  },
+  {
+    "type": "sell",
+    "amount": 746,
+    "price": 0.1561,
+    "date": "2023-10-21",
+    "address": "0x689699e93f5075c2bc1618fd3ad00e5ac7bc174c"
+  },
+  {
+    "type": "buy",
+    "amount": 58,
+    "price": 0.1561,
+    "date": "2023-10-21",
+    "address": "0x73d31b5a49e0c6f89e172e397dc552520d2c1b5f"
+  },
+  {
+    "type": "buy",
+    "amount": 463,
+    "price": 0.1561,
+    "date": "2023-10-21",
+    "address": "0x8698a44aaffcca97c785b79b00885ca1ee1ab819"
+  },
+  {
+    "type": "sell",
+    "amount": 435,
+    "price": 0.1561,
+    "date": "2023-10-20",
+    "address": "0x0de5e30b8f2c15eae7b2edd4c8621e362e3afd47"
+  },
+  {
+    "type": "sell",
+    "amount": 204,
+    "price": 0.1561,
+    "date": "2023-10-18",
+    "address": "0xfd0a02af2ea8bb07813c3ef1f2546eb8383df1ad"
+  },
+  {
+    "type": "sell",
+    "amount": 535,
+    "price": 0.1561,
+    "date": "2023-10-18",
+    "address": "0xe7c0ec8c0b159f902933fb7831c78757b729ba1b"
+  },
+  {
+    "type": "buy",
+    "amount": 138,
+    "price": 0.1561,
+    "date": "2023-10-18",
+    "address": "0xedd1cae1fe7cfcfce3400be3a2d0bc938c99dad3"
+  },
+  {
+    "type": "buy",
+    "amount": 546,
+    "price": 0.1561,
+    "date": "2023-10-17",
+    "address": "0x7f25a1a7d5ea2f711745ea67ef81c923cb11718c"
+  },
+  {
+    "type": "sell",
+    "amount": 198,
+    "price": 0.1561,
+    "date": "2023-10-16",
+    "address": "0x23ced118690a4fd5cf3b8c53da40fbdae5519e75"
+  },
+  {
+    "type": "sell",
+    "amount": 92,
+    "price": 0.1561,
+    "date": "2023-10-16",
+    "address": "0x8b2ef5fa8b865d86aaf619d5f5fde31b50823b57"
+  },
+  {
+    "type": "sell",
+    "amount": 895,
+    "price": 0.1561,
+    "date": "2023-10-15",
+    "address": "0xeb7bedba3f03558b1aa9238a5f2a0d1c6bc79a47"
+  },
+  {
+    "type": "buy",
+    "amount": 765,
+    "price": 0.1561,
+    "date": "2023-10-14",
+    "address": "0x148828ae37667b41a5711f01864e2e1fa1f0f5d0"
+  },
+  {
+    "type": "buy",
+    "amount": 100,
+    "price": 0.1561,
+    "date": "2023-10-12",
+    "address": "0xf09978d8bdc5b3c113912486bc9a7d891bc85525"
+  },
+  {
+    "type": "buy",
+    "amount": 123,
+    "price": 0.1561,
+    "date": "2023-10-12",
+    "address": "0xdb6fe40fb40e000dde87e4f94de5fdb0215fe6ff"
+  },
+  {
+    "type": "sell",
+    "amount": 250,
+    "price": 0.1561,
+    "date": "2023-10-12",
+    "address": "0xe0ff01e8c9689206f82f22a8856e253b602a516d"
+  },
+  {
+    "type": "buy",
+    "amount": 261,
+    "price": 0.1561,
+    "date": "2023-10-10",
+    "address": "0x46e52f235e58c1561bd8b193fc417e77995e8e7e"
+  },
+  {
+    "type": "sell",
+    "amount": 184,
+    "price": 0.1561,
+    "date": "2023-10-09",
+    "address": "0x19bf48bd09d7cce184c5286ffbe296db7b276659"
+  },
+  {
+    "type": "sell",
+    "amount": 889,
+    "price": 0.1561,
+    "date": "2023-10-07",
+    "address": "0xe79ab26c687c4acb2e35e629fd55867c91419ccd"
+  },
+  {
+    "type": "sell",
+    "amount": 707,
+    "price": 0.1561,
+    "date": "2023-10-07",
+    "address": "0xa12af1117c28ca168cb7efa0cc121a30a95c4629"
+  },
+  {
+    "type": "sell",
+    "amount": 547,
+    "price": 0.1561,
+    "date": "2023-10-06",
+    "address": "0xca5e31031aae89df42ce5564379d3f634dfcf4b3"
+  },
+  {
+    "type": "sell",
+    "amount": 601,
+    "price": 0.1561,
+    "date": "2023-10-05",
+    "address": "0x27a3276071063821f421609407f4a6c5d7b91308"
+  },
+  {
+    "type": "sell",
+    "amount": 274,
+    "price": 0.1561,
+    "date": "2023-10-05",
+    "address": "0x6b120404b8b48d5276bad7df8c06224885a2cfdb"
+  },
+  {
+    "type": "sell",
+    "amount": 989,
+    "price": 0.1561,
+    "date": "2023-10-05",
+    "address": "0x40c0d600b7334672562481aebd3a25b424ae7389"
+  },
+  {
+    "type": "sell",
+    "amount": 936,
+    "price": 0.1561,
+    "date": "2023-10-05",
+    "address": "0x3a3855a4a8be89fb47af19a6cd0560452f0a7479"
+  },
+  {
+    "type": "sell",
+    "amount": 909,
+    "price": 0.1561,
+    "date": "2023-10-03",
+    "address": "0x76f35b7da56897387967b76a53e283499ef853c6"
+  },
+  {
+    "type": "sell",
+    "amount": 429,
+    "price": 0.1561,
+    "date": "2023-10-02",
+    "address": "0xa66a11caf97b95018905cacb847be47fd8b99048"
+  },
+  {
+    "type": "buy",
+    "amount": 958,
+    "price": 0.1561,
+    "date": "2023-10-02",
+    "address": "0x0b1426de3670967ea76a8376b72636d5e5f67b6c"
+  },
+  {
+    "type": "buy",
+    "amount": 676,
+    "price": 0.1561,
+    "date": "2023-10-02",
+    "address": "0xc12dbc946a65ace1046661e38d2b9d26cfb6cd4f"
+  },
+  {
+    "type": "buy",
+    "amount": 559,
+    "price": 0.1561,
+    "date": "2023-10-01",
+    "address": "0x502466c5d106997e0ab852a78ffad410e6296526"
+  },
+  {
+    "type": "buy",
+    "amount": 665,
+    "price": 0.1561,
+    "date": "2023-09-29",
+    "address": "0x3702609c9405b16abcfe76562380e54e4ce4964c"
+  },
+  {
+    "type": "buy",
+    "amount": 630,
+    "price": 0.1561,
+    "date": "2023-09-25",
+    "address": "0xc713d60a77ae7a8ed1dcf1b3f380125f47ced248"
+  },
+  {
+    "type": "buy",
+    "amount": 608,
+    "price": 0.1561,
+    "date": "2023-09-23",
+    "address": "0x41ea238e865d0c74d2851e013872735e348249ab"
+  },
+  {
+    "type": "sell",
+    "amount": 492,
+    "price": 0.1561,
+    "date": "2023-09-22",
+    "address": "0x366cf8d5a96868d4258643f46048b13feaacb416"
+  },
+  {
+    "type": "buy",
+    "amount": 558,
+    "price": 0.1561,
+    "date": "2023-09-22",
+    "address": "0x15ecb48df8bb4dbaea9bf8bedbdaf39ca91afb6a"
+  },
+  {
+    "type": "buy",
+    "amount": 434,
+    "price": 0.1561,
+    "date": "2023-09-21",
+    "address": "0x5821634e6c57247f9b6b7580225cbc7de03b3d53"
+  },
+  {
+    "type": "sell",
+    "amount": 974,
+    "price": 0.1561,
+    "date": "2023-09-17",
+    "address": "0xb789798c587e98ad9b27296c04a4dfc78b676a3a"
+  },
+  {
+    "type": "buy",
+    "amount": 159,
+    "price": 0.1561,
+    "date": "2023-09-16",
+    "address": "0xd1ee109e5a341701fd6e20001269665b6497ad1f"
+  },
+  {
+    "type": "buy",
+    "amount": 120,
+    "price": 0.1561,
+    "date": "2023-09-16",
+    "address": "0x342867dd7627761025a93654ea1d7baabe2e48c0"
+  },
+  {
+    "type": "buy",
+    "amount": 769,
+    "price": 0.1561,
+    "date": "2023-09-15",
+    "address": "0x359447ea292011928b046132089c055149824510"
+  },
+  {
+    "type": "sell",
+    "amount": 376,
+    "price": 0.1561,
+    "date": "2023-09-13",
+    "address": "0xb97d18ebabc23ffbbc337972fbee9d283620a660"
+  },
+  {
+    "type": "buy",
+    "amount": 850,
+    "price": 0.1561,
+    "date": "2023-09-13",
+    "address": "0x63380744b8b8bc46a5e040075add50f80b0d378f"
+  },
+  {
+    "type": "sell",
+    "amount": 798,
+    "price": 0.1561,
+    "date": "2023-09-11",
+    "address": "0x5998a74214bbb20d37a9b7575929cb5f1342e78c"
+  },
+  {
+    "type": "buy",
+    "amount": 515,
+    "price": 0.1561,
+    "date": "2023-09-11",
+    "address": "0x27ee75cf4ec92990ad9b625928737cbb86448385"
+  },
+  {
+    "type": "buy",
+    "amount": 738,
+    "price": 0.1561,
+    "date": "2023-09-09",
+    "address": "0xe537e7912b298905893f61986c9e298d06a3e656"
+  },
+  {
+    "type": "buy",
+    "amount": 564,
+    "price": 0.1561,
+    "date": "2023-09-09",
+    "address": "0xf0960d99c33504a5bcb22f6421175849bc80ca53"
+  },
+  {
+    "type": "buy",
+    "amount": 731,
+    "price": 0.1561,
+    "date": "2023-09-09",
+    "address": "0x324d600eff9c1f19f5a19d0df77eb298f9618c73"
+  },
+  {
+    "type": "buy",
+    "amount": 797,
+    "price": 0.1561,
+    "date": "2023-09-08",
+    "address": "0xa738a2d0c8ed077726dee27d7b3baee3262cf210"
+  },
+  {
+    "type": "buy",
+    "amount": 521,
+    "price": 0.1561,
+    "date": "2023-09-08",
+    "address": "0x9893fadc5777c200e8f0f1904b863762ed66de68"
+  },
+  {
+    "type": "buy",
+    "amount": 554,
+    "price": 0.1561,
+    "date": "2023-09-08",
+    "address": "0xfd5b09517af315824385c1d202bcfdf5f0f7af9e"
+  },
+  {
+    "type": "buy",
+    "amount": 941,
+    "price": 0.1561,
+    "date": "2023-09-06",
+    "address": "0xaf47cfca98d246aae39d691ba11b6a196136fe2f"
+  },
+  {
+    "type": "buy",
+    "amount": 794,
+    "price": 0.1561,
+    "date": "2023-09-03",
+    "address": "0xd9f4e07fb1ed2f6ee401740b2d71a05f49d9cb20"
+  },
+  {
+    "type": "sell",
+    "amount": 546,
+    "price": 0.1561,
+    "date": "2023-09-03",
+    "address": "0x951e7dee106df6bf084ef3717bed0a4aae94e6aa"
+  },
+  {
+    "type": "buy",
+    "amount": 269,
+    "price": 0.1561,
+    "date": "2023-09-03",
+    "address": "0xa474d9ae367c2ed2f4134dafefc27d5a563ece07"
+  },
+  {
+    "type": "buy",
+    "amount": 310,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x4f94a20359ef1507fde7c8f7487de6eea3787904"
+  },
+  {
+    "type": "buy",
+    "amount": 516,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x6bbe31b3e17755cb6caa727a6866a5ecc67f898a"
+  },
+  {
+    "type": "buy",
+    "amount": 369,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x17662b31e6fe52486a29d2beec6cf2336ef1a815"
+  },
+  {
+    "type": "sell",
+    "amount": 474,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x017cd85c1f68cd37789cf8f3c697dc86fe0d1cba"
+  },
+  {
+    "type": "sell",
+    "amount": 317,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x57d4d263c28d71efa1547c04bc1afadd4e5efd67"
+  },
+  {
+    "type": "sell",
+    "amount": 915,
+    "price": 0.1561,
+    "date": "2023-09-02",
+    "address": "0x8a1784e1c5cee74768cd4a170839a49a3d42997b"
+  },
+  {
+    "type": "sell",
+    "amount": 371,
+    "price": 0.1561,
+    "date": "2023-09-01",
+    "address": "0x0794149cfef2c90d00525eda99d790a42ae59eb0"
+  },
+  {
+    "type": "buy",
+    "amount": 273,
+    "price": 0.1561,
+    "date": "2023-08-30",
+    "address": "0xfe09f37b545613fc34c711a34e84ec5f013e630b"
+  },
+  {
+    "type": "buy",
+    "amount": 13,
+    "price": 0.1561,
+    "date": "2023-08-30",
+    "address": "0xdbd0bab830499a3216f2ab8e7ee4a31b8647a45e"
+  },
+  {
+    "type": "buy",
+    "amount": 162,
+    "price": 0.1561,
+    "date": "2023-08-30",
+    "address": "0x93884ec1c716cb3c9e198c1c694ff3e4e1e828e2"
+  },
+  {
+    "type": "sell",
+    "amount": 906,
+    "price": 0.1561,
+    "date": "2023-08-30",
+    "address": "0xaea07c9e7432cc9b9e232ad0b4736128212ffed1"
+  },
+  {
+    "type": "sell",
+    "amount": 370,
+    "price": 0.1561,
+    "date": "2023-08-28",
+    "address": "0xeb18814a912f59b775a16ae0781b6a44cdc4a1a9"
+  },
+  {
+    "type": "sell",
+    "amount": 695,
+    "price": 0.1561,
+    "date": "2023-08-27",
+    "address": "0x8e1f5c9522b0d8e4e60071c2909a96143e57db65"
+  },
+  {
+    "type": "sell",
+    "amount": 556,
+    "price": 0.1561,
+    "date": "2023-08-27",
+    "address": "0x940c06aa2deead6f6cfd51a0e7b860a1cd611b5f"
+  },
+  {
+    "type": "sell",
+    "amount": 724,
+    "price": 0.1561,
+    "date": "2023-08-27",
+    "address": "0xb8166d81c89ae959ba6406c2b4503406db91fc99"
+  },
+  {
+    "type": "sell",
+    "amount": 394,
+    "price": 0.1561,
+    "date": "2023-08-26",
+    "address": "0x6e7ae64c2b1f25214a84d0f3d4d603626db61d1e"
+  },
+  {
+    "type": "sell",
+    "amount": 5,
+    "price": 0.1561,
+    "date": "2023-08-26",
+    "address": "0x3f566927f6ef6fc5e6e4057d781c6bf349af8383"
+  },
+  {
+    "type": "buy",
+    "amount": 296,
+    "price": 0.1561,
+    "date": "2023-08-25",
+    "address": "0xf4176f8752a6cfaed9f74675b70c757cb5bcfbd8"
+  },
+  {
+    "type": "buy",
+    "amount": 838,
+    "price": 0.1561,
+    "date": "2023-08-25",
+    "address": "0x4f76522d4ab65f73e74c7fecedf96cfbd092a6bc"
+  },
+  {
+    "type": "sell",
+    "amount": 672,
+    "price": 0.1561,
+    "date": "2023-08-24",
+    "address": "0x00fad30cfd41e1b9a932a2abd484780a456015d9"
+  },
+  {
+    "type": "sell",
+    "amount": 720,
+    "price": 0.1561,
+    "date": "2023-08-24",
+    "address": "0xc59e80a215dea65797fa4c66bb31cd926051774d"
+  },
+  {
+    "type": "sell",
+    "amount": 371,
+    "price": 0.1561,
+    "date": "2023-08-24",
+    "address": "0xc06baf24f5116c019de7642cfbba28b30fbf4ae9"
+  },
+  {
+    "type": "buy",
+    "amount": 419,
+    "price": 0.1561,
+    "date": "2023-08-23",
+    "address": "0xc0425f71885d353fa56237a438f2902c34942679"
+  },
+  {
+    "type": "sell",
+    "amount": 268,
+    "price": 0.1561,
+    "date": "2023-08-23",
+    "address": "0xe79cf4f1a2caee56358b8fc0422199b7f64b8866"
+  },
+  {
+    "type": "buy",
+    "amount": 193,
+    "price": 0.1561,
+    "date": "2023-08-23",
+    "address": "0x4a9b4f56b3ab8a547ec40a9f9eeb789e89adcc0c"
+  },
+  {
+    "type": "sell",
+    "amount": 127,
+    "price": 0.1561,
+    "date": "2023-08-23",
+    "address": "0xde8453f8dd894fb4309b615e908be163a7c16891"
+  },
+  {
+    "type": "buy",
+    "amount": 263,
+    "price": 0.1561,
+    "date": "2023-08-22",
+    "address": "0x4eefc931e510ddf01d17247c7fc9a48239e346b2"
+  },
+  {
+    "type": "buy",
+    "amount": 465,
+    "price": 0.1561,
+    "date": "2023-08-21",
+    "address": "0x4380969c205fd411fa555d30f949d4627a0bb21a"
+  },
+  {
+    "type": "buy",
+    "amount": 890,
+    "price": 0.1561,
+    "date": "2023-08-21",
+    "address": "0xe0cef390097f012b3ab92f8e4f737c47ef92f319"
+  },
+  {
+    "type": "sell",
+    "amount": 992,
+    "price": 0.1561,
+    "date": "2023-08-19",
+    "address": "0xa9239af5279690c7f8c2c2424f73b0786e5fb298"
+  },
+  {
+    "type": "buy",
+    "amount": 130,
+    "price": 0.1561,
+    "date": "2023-08-19",
+    "address": "0x9c8be589dc279865d63472f35a4d82051e5c7d91"
+  },
+  {
+    "type": "sell",
+    "amount": 299,
+    "price": 0.1561,
+    "date": "2023-08-18",
+    "address": "0x10195cd48377cfc6faf9c360244b26686b6c075f"
+  },
+  {
+    "type": "buy",
+    "amount": 657,
+    "price": 0.1561,
+    "date": "2023-08-17",
+    "address": "0x3a43e111cabd653902d982f59bfe1ba4085c0a03"
+  },
+  {
+    "type": "buy",
+    "amount": 780,
+    "price": 0.1561,
+    "date": "2023-08-17",
+    "address": "0x5e9ee2ddddb366f2f71181a39fa16fa81293e983"
+  },
+  {
+    "type": "buy",
+    "amount": 429,
+    "price": 0.1561,
+    "date": "2023-08-16",
+    "address": "0x52a4288292ab5b517696d2905f4d7ff8aeab93cb"
+  },
+  {
+    "type": "sell",
+    "amount": 371,
+    "price": 0.1561,
+    "date": "2023-08-16",
+    "address": "0xbfdfa6624aacb17376474a7a14ec74400111ee4c"
+  },
+  {
+    "type": "buy",
+    "amount": 209,
+    "price": 0.1561,
+    "date": "2023-08-16",
+    "address": "0x7ebe60dfc9e50ba4e2dabbbdac10a698dc12d4a4"
+  },
+  {
+    "type": "sell",
+    "amount": 574,
+    "price": 0.1561,
+    "date": "2023-08-15",
+    "address": "0xee601ed5e8d355a3e6922f486b245771669202d5"
+  },
+  {
+    "type": "sell",
+    "amount": 223,
+    "price": 0.1561,
+    "date": "2023-08-14",
+    "address": "0xcec1815af271dd467783f9c10c24ab5886b17de9"
+  },
+  {
+    "type": "sell",
+    "amount": 211,
+    "price": 0.1561,
+    "date": "2023-08-13",
+    "address": "0x625293748783bc8b159ee317ab33be8e20e707b2"
+  },
+  {
+    "type": "sell",
+    "amount": 330,
+    "price": 0.1561,
+    "date": "2023-08-13",
+    "address": "0xb347682025b4a7acf73892baef691564514e2d40"
+  },
+  {
+    "type": "sell",
+    "amount": 315,
+    "price": 0.1561,
+    "date": "2023-08-12",
+    "address": "0xeb2e9c57762c02b2d4536ff09624b46f4690104c"
+  },
+  {
+    "type": "buy",
+    "amount": 71,
+    "price": 0.1561,
+    "date": "2023-08-11",
+    "address": "0xcbe73d00ab4e1ac86af7c82b927bfb50f378fc6a"
+  },
+  {
+    "type": "buy",
+    "amount": 861,
+    "price": 0.1561,
+    "date": "2023-08-10",
+    "address": "0x2a7a3501e84da100a6ba47c0632f3d3d19b86c35"
+  },
+  {
+    "type": "sell",
+    "amount": 601,
+    "price": 0.1561,
+    "date": "2023-08-10",
+    "address": "0x57bc80ce006546174c1af51f494ede9c78a5ab2a"
+  },
+  {
+    "type": "buy",
+    "amount": 133,
+    "price": 0.1561,
+    "date": "2023-08-10",
+    "address": "0xa6048b793d5202a3bf7a83446f7bee4b3f0da4d7"
+  },
+  {
+    "type": "sell",
+    "amount": 999,
+    "price": 0.1561,
+    "date": "2023-08-10",
+    "address": "0xe872ad9459dcaac59756004355b64b03313085c6"
+  },
+  {
+    "type": "buy",
+    "amount": 464,
+    "price": 0.1561,
+    "date": "2023-08-09",
+    "address": "0x89ed7249cdb10d4259d9190c5a50f4f7a00b9c21"
+  },
+  {
+    "type": "buy",
+    "amount": 957,
+    "price": 0.1561,
+    "date": "2023-08-07",
+    "address": "0x9debf3f0ec0e4a6c82c1b1495266b82b01edd7cb"
+  },
+  {
+    "type": "sell",
+    "amount": 717,
+    "price": 0.1561,
+    "date": "2023-08-06",
+    "address": "0x29cc17d9cc1ff1458ae45929c5875cfba17e1300"
+  },
+  {
+    "type": "sell",
+    "amount": 313,
+    "price": 0.1561,
+    "date": "2023-08-04",
+    "address": "0x3ae99c3b582234917e6b621e36fbf22e6eef057e"
+  },
+  {
+    "type": "sell",
+    "amount": 795,
+    "price": 0.1561,
+    "date": "2023-08-03",
+    "address": "0x66903a665fe76e49f7aa45c42426013afa2ceb7c"
+  },
+  {
+    "type": "buy",
+    "amount": 312,
+    "price": 0.1561,
+    "date": "2023-07-31",
+    "address": "0xfa2c3d1eb306bf43c0c3332246426c154cdb598b"
+  },
+  {
+    "type": "buy",
+    "amount": 142,
+    "price": 0.1561,
+    "date": "2023-07-31",
+    "address": "0xdd716687e6d85bde6aac898f844a8e2028baba7d"
+  },
+  {
+    "type": "buy",
+    "amount": 180,
+    "price": 0.1561,
+    "date": "2023-07-30",
+    "address": "0xeddfdcef057207217c1b73d2dfee30248b8a8e69"
+  },
+  {
+    "type": "sell",
+    "amount": 781,
+    "price": 0.1561,
+    "date": "2023-07-29",
+    "address": "0xe4f4e7b627b73d703683e142b3541f64f7810e25"
+  },
+  {
+    "type": "buy",
+    "amount": 555,
+    "price": 0.1561,
+    "date": "2023-07-29",
+    "address": "0x57004b10e54f4233b8c1d768d72301a8122062c4"
+  },
+  {
+    "type": "sell",
+    "amount": 482,
+    "price": 0.1561,
+    "date": "2023-07-28",
+    "address": "0xdf13f4c3b1250d193ed7e255ac137b45edd5ed42"
+  },
+  {
+    "type": "buy",
+    "amount": 807,
+    "price": 0.1561,
+    "date": "2023-07-27",
+    "address": "0x64ab81df054ca8db056858cf7a786342bfd0fc99"
+  },
+  {
+    "type": "sell",
+    "amount": 185,
+    "price": 0.1561,
+    "date": "2023-07-27",
+    "address": "0xbb70523ef5d9aff3739f821052fd20c1692d1270"
+  },
+  {
+    "type": "buy",
+    "amount": 307,
+    "price": 0.1561,
+    "date": "2023-07-26",
+    "address": "0x7dacfd17c1f3247701e6f497ae8a6d1403d24350"
+  },
+  {
+    "type": "buy",
+    "amount": 280,
+    "price": 0.1561,
+    "date": "2023-07-26",
+    "address": "0xda62697a0b24ae2edbacd024682483dec460d42e"
+  },
+  {
+    "type": "buy",
+    "amount": 999,
+    "price": 0.1561,
+    "date": "2023-07-26",
+    "address": "0x328593187bc72d414f3f981bc4246d156999eeb6"
+  },
+  {
+    "type": "buy",
+    "amount": 275,
+    "price": 0.1561,
+    "date": "2023-07-25",
+    "address": "0xe7df7f644ee7de565014f1e18d414cd8da5f359d"
+  },
+  {
+    "type": "sell",
+    "amount": 148,
+    "price": 0.1561,
+    "date": "2023-07-25",
+    "address": "0xe9a3c45f383187b62329f0a2d4f349da4ebdf5f8"
+  },
+  {
+    "type": "buy",
+    "amount": 553,
+    "price": 0.1561,
+    "date": "2023-07-24",
+    "address": "0x8d7f77e314fd1579742cdfa2ec804db8dfdff306"
+  },
+  {
+    "type": "buy",
+    "amount": 894,
+    "price": 0.1561,
+    "date": "2023-07-24",
+    "address": "0x33d520639072db16ef8eea11775b1f5abd3f9fc1"
+  },
+  {
+    "type": "sell",
+    "amount": 208,
+    "price": 0.1561,
+    "date": "2023-07-24",
+    "address": "0x1858ac9fcdf41305a1b197a009aae69db1de15e3"
+  },
+  {
+    "type": "buy",
+    "amount": 559,
+    "price": 0.1561,
+    "date": "2023-07-23",
+    "address": "0xca52b0f5eccadda0a84e50ca50e04e1e14f59fa6"
+  },
+  {
+    "type": "sell",
+    "amount": 668,
+    "price": 0.1561,
+    "date": "2023-07-22",
+    "address": "0x0e8c8fa0085f83502456457df10a93d2c5073b56"
+  },
+  {
+    "type": "buy",
+    "amount": 708,
+    "price": 0.1561,
+    "date": "2023-07-20",
+    "address": "0xd4f194ecc21337c7db56c077c3d372162f92f707"
+  },
+  {
+    "type": "sell",
+    "amount": 500,
+    "price": 0.1561,
+    "date": "2023-07-19",
+    "address": "0xcb86006f1dda603b800ced763ada9ca9d0676444"
+  },
+  {
+    "type": "sell",
+    "amount": 811,
+    "price": 0.1561,
+    "date": "2023-07-19",
+    "address": "0xb38f9cd0e0316b166d69f9aa2bfa969e5e9ca33a"
+  },
+  {
+    "type": "sell",
+    "amount": 846,
+    "price": 0.1561,
+    "date": "2023-07-19",
+    "address": "0x34220aa87ef7faf2ace0b6a3ff8037ab5905e663"
+  },
+  {
+    "type": "sell",
+    "amount": 302,
+    "price": 0.1561,
+    "date": "2023-07-18",
+    "address": "0x9f39ff5b10fab565aafae097b7907c3f757e4961"
+  },
+  {
+    "type": "sell",
+    "amount": 660,
+    "price": 0.1561,
+    "date": "2023-07-18",
+    "address": "0x4a369549dc811357d7a1ae05a70277b1712413be"
+  },
+  {
+    "type": "buy",
+    "amount": 680,
+    "price": 0.1561,
+    "date": "2023-07-17",
+    "address": "0x2f0158761256103b5830f8f6902b97bd6b91700c"
+  },
+  {
+    "type": "buy",
+    "amount": 165,
+    "price": 0.1561,
+    "date": "2023-07-16",
+    "address": "0xd145cd06992884a6965e72ab7729b5a5bb1729bd"
+  },
+  {
+    "type": "buy",
+    "amount": 470,
+    "price": 0.1561,
+    "date": "2023-07-16",
+    "address": "0xfd1612391dce7698ba3e5b8cac1329d89c1a6d29"
+  },
+  {
+    "type": "buy",
+    "amount": 443,
+    "price": 0.1561,
+    "date": "2023-07-15",
+    "address": "0xeb57baa4cf801ac7fe1c7626c9035515adb96c5e"
+  },
+  {
+    "type": "buy",
+    "amount": 987,
+    "price": 0.1561,
+    "date": "2023-07-13",
+    "address": "0x8aaadc4dda2f3aad0ee99fe0cecaf9c2c5d206c5"
+  },
+  {
+    "type": "sell",
+    "amount": 928,
+    "price": 0.1561,
+    "date": "2023-07-12",
+    "address": "0x922f62a68e6f559a80a8fd2515655d1b699d950b"
+  },
+  {
+    "type": "buy",
+    "amount": 365,
+    "price": 0.1561,
+    "date": "2023-07-11",
+    "address": "0x3a0795606cf7dd897d75e4739455e9b1ca16dca8"
+  },
+  {
+    "type": "buy",
+    "amount": 70,
+    "price": 0.1561,
+    "date": "2023-07-11",
+    "address": "0x1c40f4b88fc098b2750b198186f5c48396447087"
+  },
+  {
+    "type": "buy",
+    "amount": 218,
+    "price": 0.1561,
+    "date": "2023-07-10",
+    "address": "0xebbe3681b07a8e5de31088da3120e17f84badd6b"
+  },
+  {
+    "type": "buy",
+    "amount": 236,
+    "price": 0.1561,
+    "date": "2023-07-09",
+    "address": "0x037ec209696205a5b3a1772d0ffcdc852cafde66"
+  },
+  {
+    "type": "sell",
+    "amount": 690,
+    "price": 0.1561,
+    "date": "2023-07-09",
+    "address": "0xbbb9e1bfb563b6423df2be985ecea8244c3d4212"
+  },
+  {
+    "type": "buy",
+    "amount": 140,
+    "price": 0.1561,
+    "date": "2023-07-09",
+    "address": "0x5f80bc0c162e292e1c2174f5627283e6ed845ebb"
+  },
+  {
+    "type": "sell",
+    "amount": 913,
+    "price": 0.1561,
+    "date": "2023-07-08",
+    "address": "0x0142372087b3b4c71134c870c2083268d840e67c"
+  },
+  {
+    "type": "buy",
+    "amount": 710,
+    "price": 0.1561,
+    "date": "2023-07-07",
+    "address": "0xcb924748318f4336f60210cf6a7b454c98ce9583"
+  },
+  {
+    "type": "sell",
+    "amount": 678,
+    "price": 0.1561,
+    "date": "2023-07-07",
+    "address": "0x67a34acd42fb30c0ed0a0a17bd88c51e29c44796"
+  },
+  {
+    "type": "buy",
+    "amount": 632,
+    "price": 0.1561,
+    "date": "2023-07-07",
+    "address": "0x32b523f2aafad80550597a7b5a658104859c36a5"
+  },
+  {
+    "type": "sell",
+    "amount": 408,
+    "price": 0.1561,
+    "date": "2023-07-06",
+    "address": "0x803c3b8eec40fc14978c9912136bb3b4e725a4d3"
+  },
+  {
+    "type": "buy",
+    "amount": 621,
+    "price": 0.1561,
+    "date": "2023-07-05",
+    "address": "0x3c50273eed61d1491c909295bbdf08afc25a8f4c"
+  },
+  {
+    "type": "sell",
+    "amount": 963,
+    "price": 0.1561,
+    "date": "2023-07-05",
+    "address": "0x25aa7d1246e2fdbf30afb68479ff9f2a89a87e7d"
+  },
+  {
+    "type": "sell",
+    "amount": 367,
+    "price": 0.1561,
+    "date": "2023-07-04",
+    "address": "0xec84e69ad33bfd42af9c769fae23ebe01c05ee2c"
+  },
+  {
+    "type": "sell",
+    "amount": 364,
+    "price": 0.1561,
+    "date": "2023-07-04",
+    "address": "0xeabcf1f5697e2521d0b787ea6dc401ef2cc19e37"
+  },
+  {
+    "type": "sell",
+    "amount": 225,
+    "price": 0.1561,
+    "date": "2023-07-03",
+    "address": "0x400efa5a111bc25b9169e96cd9825419ae85cf2d"
+  },
+  {
+    "type": "buy",
+    "amount": 710,
+    "price": 0.1561,
+    "date": "2023-07-03",
+    "address": "0xcbd3adf809175043e2602c7984d0aa14663e785a"
+  },
+  {
+    "type": "sell",
+    "amount": 952,
+    "price": 0.1561,
+    "date": "2023-07-02",
+    "address": "0xe93cdfdae9842bf3d92d86f7c5f200956d1bf34e"
+  },
+  {
+    "type": "sell",
+    "amount": 524,
+    "price": 0.1561,
+    "date": "2023-07-01",
+    "address": "0xaf919d921d3c7dd83cf60d1b1d89b2bd513e640d"
+  },
+  {
+    "type": "buy",
+    "amount": 393,
+    "price": 0.1561,
+    "date": "2023-07-01",
+    "address": "0xd552fe78c6d0fce34107ab38e9cbe9765768bb2a"
+  },
+  {
+    "type": "sell",
+    "amount": 595,
+    "price": 0.1561,
+    "date": "2023-07-01",
+    "address": "0x1968fabb836b8680d9b9a22636e736ad625fd405"
+  },
+  {
+    "type": "buy",
+    "amount": 750,
+    "price": 0.1561,
+    "date": "2023-07-01",
+    "address": "0x682201877ae052e4628311abcef143ee3a3d1e4d"
+  },
+  {
+    "type": "sell",
+    "amount": 848,
+    "price": 0.1561,
+    "date": "2023-06-30",
+    "address": "0x4cb8298764d38877bc0c95c305d33e220abc76d4"
+  },
+  {
+    "type": "sell",
+    "amount": 707,
+    "price": 0.1561,
+    "date": "2023-06-28",
+    "address": "0x179160c05afb2188fb4a418cb07517fa6ef4ca3f"
+  },
+  {
+    "type": "sell",
+    "amount": 136,
+    "price": 0.1561,
+    "date": "2023-06-27",
+    "address": "0xbb691cadeece1659936182ea8ee0e355f05dd969"
+  },
+  {
+    "type": "sell",
+    "amount": 704,
+    "price": 0.1561,
+    "date": "2023-06-26",
+    "address": "0x47ad85cbb8ab836c3b5ff12b43be7cc4b86eaacf"
+  },
+  {
+    "type": "sell",
+    "amount": 579,
+    "price": 0.1561,
+    "date": "2023-06-24",
+    "address": "0x5b200fabc60bb927946650b8697b23a807b97489"
+  },
+  {
+    "type": "sell",
+    "amount": 279,
+    "price": 0.1561,
+    "date": "2023-06-24",
+    "address": "0x461e094f83d7efe9715ed582bb09241e8fb0ac54"
+  },
+  {
+    "type": "sell",
+    "amount": 385,
+    "price": 0.1561,
+    "date": "2023-06-23",
+    "address": "0x537b235bd37f735ebcd21df83244dd57a1271910"
+  },
+  {
+    "type": "sell",
+    "amount": 749,
+    "price": 0.1561,
+    "date": "2023-06-23",
+    "address": "0x91d252457e2d66fab0ee00f5e795b3aec7c99c93"
+  },
+  {
+    "type": "sell",
+    "amount": 807,
+    "price": 0.1561,
+    "date": "2023-06-22",
+    "address": "0xb58f196c0a1d542a4245ef4f3634d965b3f14fac"
+  },
+  {
+    "type": "buy",
+    "amount": 162,
+    "price": 0.1561,
+    "date": "2023-06-21",
+    "address": "0xa4fbbbe1c123a9228cb20c9117ca50e3561eae6b"
+  },
+  {
+    "type": "sell",
+    "amount": 262,
+    "price": 0.1561,
+    "date": "2023-06-21",
+    "address": "0x12441bc36af685ea2d425a18aa2b797aa13ae907"
+  },
+  {
+    "type": "sell",
+    "amount": 432,
+    "price": 0.1561,
+    "date": "2023-06-20",
+    "address": "0x086a3205d440242df0db9340043c8793a7b6be69"
+  },
+  {
+    "type": "buy",
+    "amount": 345,
+    "price": 0.1561,
+    "date": "2023-06-20",
+    "address": "0x40d275427fc37f952508782ac41deb15be8fb0f9"
+  },
+  {
+    "type": "buy",
+    "amount": 840,
+    "price": 0.1561,
+    "date": "2023-06-19",
+    "address": "0x5a67b966624bcea6cd26e6ce145ec23226773fac"
+  },
+  {
+    "type": "sell",
+    "amount": 876,
+    "price": 0.1561,
+    "date": "2023-06-19",
+    "address": "0x9d640f3763abdce0e85cd728ecc0842ffba45a69"
+  },
+  {
+    "type": "sell",
+    "amount": 321,
+    "price": 0.1561,
+    "date": "2023-06-18",
+    "address": "0x065e4ce8aa1abed21a7e0199244d8aafc135c370"
+  },
+  {
+    "type": "sell",
+    "amount": 845,
+    "price": 0.1561,
+    "date": "2023-06-18",
+    "address": "0xc9453d5b8685f7b1a33b477ba943015fd8d3991e"
+  },
+  {
+    "type": "buy",
+    "amount": 941,
+    "price": 0.1561,
+    "date": "2023-06-16",
+    "address": "0xf6c3452bfe4adb32f75ce32880685720d7e0ca93"
+  },
+  {
+    "type": "buy",
+    "amount": 619,
+    "price": 0.1561,
+    "date": "2023-06-13",
+    "address": "0xbd886d2eecebbbf56fba4dc8129ea125328a7d49"
+  },
+  {
+    "type": "buy",
+    "amount": 201,
+    "price": 0.1561,
+    "date": "2023-06-13",
+    "address": "0x561e64ca9a37f27bab51f6245457c4cb3f9825f9"
+  },
+  {
+    "type": "buy",
+    "amount": 378,
+    "price": 0.1561,
+    "date": "2023-06-12",
+    "address": "0x149edef0702dca4eb9fdf3812bcc343b87f54321"
+  },
+  {
+    "type": "buy",
+    "amount": 740,
+    "price": 0.1561,
+    "date": "2023-06-12",
+    "address": "0x18784697c56e52ac46dcc28ac2ddb2ec4d743c9f"
+  },
+  {
+    "type": "buy",
+    "amount": 612,
+    "price": 0.1561,
+    "date": "2023-06-11",
+    "address": "0xff46adaa0bdef6af5560772a80279e1a760bee21"
+  },
+  {
+    "type": "sell",
+    "amount": 909,
+    "price": 0.1561,
+    "date": "2023-06-11",
+    "address": "0x283955641ec77a23c787aa24db1096df5ce57eb5"
+  },
+  {
+    "type": "buy",
+    "amount": 698,
+    "price": 0.1561,
+    "date": "2023-06-10",
+    "address": "0x3cb7c16b9b7d446a2a54cc9ef6d23e1aeab459e5"
+  },
+  {
+    "type": "sell",
+    "amount": 690,
+    "price": 0.1561,
+    "date": "2023-06-09",
+    "address": "0xad8bbcde79c7a400b881a8a0c60fa3de47083e72"
+  },
+  {
+    "type": "buy",
+    "amount": 889,
+    "price": 0.1561,
+    "date": "2023-06-09",
+    "address": "0xd974d033dd146b0073ad5b7bf634bdc0f59597a0"
+  },
+  {
+    "type": "buy",
+    "amount": 139,
+    "price": 0.1561,
+    "date": "2023-06-09",
+    "address": "0x037272fe3a7551bfd6d5bdcba707590bba0ea51e"
+  },
+  {
+    "type": "buy",
+    "amount": 906,
+    "price": 0.1561,
+    "date": "2023-06-09",
+    "address": "0xa16498427c00ddb4e041ee4f7851dcaf4f7c603a"
+  },
+  {
+    "type": "buy",
+    "amount": 230,
+    "price": 0.1561,
+    "date": "2023-06-07",
+    "address": "0x50f73ed155c1cdb47eedb12833be36dd1c1dbddd"
+  },
+  {
+    "type": "sell",
+    "amount": 390,
+    "price": 0.1561,
+    "date": "2023-06-06",
+    "address": "0x3eb45385a703ff2f55743da074c15f5eab13c5a5"
+  },
+  {
+    "type": "buy",
+    "amount": 641,
+    "price": 0.1561,
+    "date": "2023-06-06",
+    "address": "0x491352b1b314cff3b366522866c2d8070e4190a4"
+  },
+  {
+    "type": "sell",
+    "amount": 732,
+    "price": 0.1561,
+    "date": "2023-06-06",
+    "address": "0x4808879211fb55bd029a93788465843496decd0f"
+  },
+  {
+    "type": "sell",
+    "amount": 768,
+    "price": 0.1561,
+    "date": "2023-06-04",
+    "address": "0x290ef31989bd8faf38e98fb6d3f77245fb89d0cd"
+  },
+  {
+    "type": "buy",
+    "amount": 886,
+    "price": 0.1561,
+    "date": "2023-06-04",
+    "address": "0x37938f1bb17ebd3390ece36dd1502a1a93ce0fa2"
+  },
+  {
+    "type": "sell",
+    "amount": 115,
+    "price": 0.1561,
+    "date": "2023-06-03",
+    "address": "0xdc716bb565fd94f11979efb58b8fd1a23cb1f61d"
+  },
+  {
+    "type": "sell",
+    "amount": 208,
+    "price": 0.1561,
+    "date": "2023-06-03",
+    "address": "0xbf5cf6d4c43e6aa960a41e16d9cac47fd21c58b1"
+  },
+  {
+    "type": "sell",
+    "amount": 635,
+    "price": 0.1561,
+    "date": "2023-05-31",
+    "address": "0x1ca86c6a564006f731e6485c6a10cb8c768689b6"
+  },
+  {
+    "type": "sell",
+    "amount": 600,
+    "price": 0.1561,
+    "date": "2023-05-31",
+    "address": "0x323562dee8a04a78469c6fb8434ff25b16adb88a"
+  },
+  {
+    "type": "buy",
+    "amount": 697,
+    "price": 0.1561,
+    "date": "2023-05-31",
+    "address": "0x67c587f8714c4dfa64f906d7e62324322cc62be2"
+  },
+  {
+    "type": "buy",
+    "amount": 762,
+    "price": 0.1561,
+    "date": "2023-05-29",
+    "address": "0x8ca2f7296e8e3fcc7230647c4792ed48688ba308"
+  },
+  {
+    "type": "sell",
+    "amount": 539,
+    "price": 0.1561,
+    "date": "2023-05-29",
+    "address": "0x7bccfa6b8ee3681acaf8cee110a793e94f9f9f62"
+  },
+  {
+    "type": "sell",
+    "amount": 63,
+    "price": 0.1561,
+    "date": "2023-05-28",
+    "address": "0xae1efab0e971488a4b898402598c640224e9ade5"
+  },
+  {
+    "type": "sell",
+    "amount": 487,
+    "price": 0.1561,
+    "date": "2023-05-28",
+    "address": "0x7f736c4328157c88a3f02bd84fe7789f7bc93b95"
+  },
+  {
+    "type": "sell",
+    "amount": 286,
+    "price": 0.1561,
+    "date": "2023-05-27",
+    "address": "0xe74a2d217086c88e5f423b09b7108faa8af4c037"
+  },
+  {
+    "type": "sell",
+    "amount": 455,
+    "price": 0.1561,
+    "date": "2023-05-26",
+    "address": "0x4f5cebf33d4124787e806cbab8eef60822ec8928"
+  },
+  {
+    "type": "buy",
+    "amount": 242,
+    "price": 0.1561,
+    "date": "2023-05-26",
+    "address": "0x9b9488a0c150b7d5d489ba5a8648cf1b71d1ea1f"
+  },
+  {
+    "type": "sell",
+    "amount": 882,
+    "price": 0.1561,
+    "date": "2023-05-25",
+    "address": "0x65a1a518a75d0856df49744489b1e3eb0e20aac1"
+  },
+  {
+    "type": "sell",
+    "amount": 201,
+    "price": 0.1561,
+    "date": "2023-05-25",
+    "address": "0xf7fa069cb16927dfaf3281634d3934f5e7cd836c"
+  },
+  {
+    "type": "buy",
+    "amount": 935,
+    "price": 0.1561,
+    "date": "2023-05-25",
+    "address": "0xde23bc11db8665080e254ce859942d1b7fbea616"
+  },
+  {
+    "type": "buy",
+    "amount": 198,
+    "price": 0.1561,
+    "date": "2023-05-24",
+    "address": "0x0dec164750a37688f98724efd8de38a9be7bc88a"
+  },
+  {
+    "type": "buy",
+    "amount": 841,
+    "price": 0.1561,
+    "date": "2023-05-22",
+    "address": "0xd2001876e9d9cd9b85b9eee2bfb1024a44b28177"
+  },
+  {
+    "type": "buy",
+    "amount": 347,
+    "price": 0.1561,
+    "date": "2023-05-22",
+    "address": "0x71885adc75be56ad9f6f5981f6a8d96ed4bed70e"
+  },
+  {
+    "type": "buy",
+    "amount": 281,
+    "price": 0.1561,
+    "date": "2023-05-22",
+    "address": "0xd59cb81d43711f86f51fd98e3bdbe13e9b01557d"
+  },
+  {
+    "type": "sell",
+    "amount": 938,
+    "price": 0.1561,
+    "date": "2023-05-20",
+    "address": "0x1f5f3630754619f1772d44ebedbe1c465626eda7"
+  },
+  {
+    "type": "buy",
+    "amount": 170,
+    "price": 0.1561,
+    "date": "2023-05-20",
+    "address": "0x79fa283e88e4d4a9233bb18d315a0c466dc61fbe"
+  },
+  {
+    "type": "sell",
+    "amount": 255,
+    "price": 0.1561,
+    "date": "2023-05-19",
+    "address": "0xc77376e4c34a78e3ed91ad326ed52fff0f9d21d7"
+  },
+  {
+    "type": "sell",
+    "amount": 475,
+    "price": 0.1561,
+    "date": "2023-05-19",
+    "address": "0x3d29bdb99f70eda6de581c09045afe066577d11f"
+  },
+  {
+    "type": "sell",
+    "amount": 240,
+    "price": 0.1561,
+    "date": "2023-05-18",
+    "address": "0x9e9a80eab039ee0134649b050728a75ad191a75f"
+  },
+  {
+    "type": "buy",
+    "amount": 213,
+    "price": 0.1561,
+    "date": "2023-05-18",
+    "address": "0xb12cdc74240cf70104d32a564d43b18e9cb4cac1"
+  },
+  {
+    "type": "buy",
+    "amount": 884,
+    "price": 0.1561,
+    "date": "2023-05-17",
+    "address": "0x05d0aad2d90f1584971d3a91a37acdc805a99025"
+  },
+  {
+    "type": "buy",
+    "amount": 775,
+    "price": 0.1561,
+    "date": "2023-05-17",
+    "address": "0x74ee3d6a5e6d5ce65aa8d61c440cc57339b9fa50"
+  },
+  {
+    "type": "buy",
+    "amount": 473,
+    "price": 0.1561,
+    "date": "2023-05-14",
+    "address": "0x91c46d2f1372b120e84b18a565da89407bd21d97"
+  },
+  {
+    "type": "buy",
+    "amount": 324,
+    "price": 0.1561,
+    "date": "2023-05-13",
+    "address": "0x763aefb762599572103e27f19959c7e953e1daa5"
+  },
+  {
+    "type": "buy",
+    "amount": 444,
+    "price": 0.1561,
+    "date": "2023-05-13",
+    "address": "0x42118db8946d01f9181acb44b19eab811e7a2377"
+  },
+  {
+    "type": "buy",
+    "amount": 122,
+    "price": 0.1561,
+    "date": "2023-05-12",
+    "address": "0x56b5ea382ce56f4e93e3af7d97469b5d56aaf8b0"
+  },
+  {
+    "type": "buy",
+    "amount": 312,
+    "price": 0.1561,
+    "date": "2023-05-12",
+    "address": "0x868a4840279c352b6b5a60e4330e9552bae685ab"
+  },
+  {
+    "type": "sell",
+    "amount": 627,
+    "price": 0.1561,
+    "date": "2023-05-09",
+    "address": "0x6a5e17b936f1947368dfd45bd1642443e53e91ad"
+  },
+  {
+    "type": "buy",
+    "amount": 293,
+    "price": 0.1561,
+    "date": "2023-05-09",
+    "address": "0xc7e57617d7bc6a06c7ca2a836fa6de2435e2c5ab"
+  },
+  {
+    "type": "sell",
+    "amount": 965,
+    "price": 0.1561,
+    "date": "2023-05-08",
+    "address": "0x141b6017ab0fac486b79e97b65ff15b61e9a5038"
+  },
+  {
+    "type": "buy",
+    "amount": 548,
+    "price": 0.1561,
+    "date": "2023-05-05",
+    "address": "0xf5f2c81cf34ee55374d08865c09639c0232d6ea4"
+  },
+  {
+    "type": "buy",
+    "amount": 901,
+    "price": 0.1561,
+    "date": "2023-05-04",
+    "address": "0xbcf1190cb228caef5ae26487a3a8f44df2c1082f"
+  },
+  {
+    "type": "buy",
+    "amount": 565,
+    "price": 0.1561,
+    "date": "2023-05-02",
+    "address": "0x223c4716cd251ba815debf9483bc0f0c0f3f5be3"
+  },
+  {
+    "type": "sell",
+    "amount": 53,
+    "price": 0.1561,
+    "date": "2023-05-02",
+    "address": "0x577a97ee894ab980007c20fbaa069eba36c87209"
+  },
+  {
+    "type": "buy",
+    "amount": 345,
+    "price": 0.1561,
+    "date": "2023-05-01",
+    "address": "0xa89d4abe63d14459894141bd4117031d3443037b"
+  },
+  {
+    "type": "sell",
+    "amount": 626,
+    "price": 0.1561,
+    "date": "2023-04-30",
+    "address": "0x3e9dfb8c25dc74bc5b160ec352b6070d73fd46c1"
+  },
+  {
+    "type": "sell",
+    "amount": 430,
+    "price": 0.1561,
+    "date": "2023-04-30",
+    "address": "0xf2c086bded374341778d2339f8f60090e88e5346"
+  },
+  {
+    "type": "buy",
+    "amount": 35,
+    "price": 0.1561,
+    "date": "2023-04-30",
+    "address": "0x048021c20ad7af2f43639c62bcff16b55a207bbf"
+  },
+  {
+    "type": "sell",
+    "amount": 999,
+    "price": 0.1561,
+    "date": "2023-04-28",
+    "address": "0x863421a467a8315800561bbb03f95771337c4fc5"
+  },
+  {
+    "type": "buy",
+    "amount": 389,
+    "price": 0.1561,
+    "date": "2023-04-28",
+    "address": "0x83d00cf2cda52076190a18cee8769757d8a013d4"
+  },
+  {
+    "type": "buy",
+    "amount": 208,
+    "price": 0.1561,
+    "date": "2023-04-28",
+    "address": "0xae8809f1f90cec817a13d9426707fb451db5aef5"
+  },
+  {
+    "type": "buy",
+    "amount": 606,
+    "price": 0.1561,
+    "date": "2023-04-27",
+    "address": "0x60a2a88d0fc0f927f81b2b0c37d08f924761ced9"
+  },
+  {
+    "type": "buy",
+    "amount": 781,
+    "price": 0.1561,
+    "date": "2023-04-26",
+    "address": "0x343fe65d317312af4eff044e2f9ef1b7c3867b47"
+  },
+  {
+    "type": "sell",
+    "amount": 852,
+    "price": 0.1561,
+    "date": "2023-04-26",
+    "address": "0x28fba29a217b06495dcd58d89a72aebb399b9941"
+  },
+  {
+    "type": "sell",
+    "amount": 63,
+    "price": 0.1561,
+    "date": "2023-04-25",
+    "address": "0x4d319a770df5d003b041b42765ae43e35363a4e4"
+  },
+  {
+    "type": "buy",
+    "amount": 969,
+    "price": 0.1561,
+    "date": "2023-04-24",
+    "address": "0xec857173a5d4d3815f563a54a965b3bb6f7f3f37"
+  },
+  {
+    "type": "buy",
+    "amount": 464,
+    "price": 0.1561,
+    "date": "2023-04-22",
+    "address": "0xb0cf064595bfd03223d417c85b388d908677ef12"
+  },
+  {
+    "type": "sell",
+    "amount": 866,
+    "price": 0.1561,
+    "date": "2023-04-19",
+    "address": "0x03feb1c78084644d7f37035cd8ca719f3d61a02d"
+  },
+  {
+    "type": "buy",
+    "amount": 981,
+    "price": 0.1561,
+    "date": "2023-04-18",
+    "address": "0x2129ed2b3daaab393ed8b6d02f4a0ba92003e35a"
+  },
+  {
+    "type": "sell",
+    "amount": 371,
+    "price": 0.1561,
+    "date": "2023-04-18",
+    "address": "0xc68efbcbef8f6f3257d16f50aee08d82fc46d305"
+  },
+  {
+    "type": "sell",
+    "amount": 654,
+    "price": 0.1561,
+    "date": "2023-04-17",
+    "address": "0xa0e5c09a753eb474aaf93378c664e7d6c83d4b9c"
+  },
+  {
+    "type": "buy",
+    "amount": 970,
+    "price": 0.1561,
+    "date": "2023-04-16",
+    "address": "0xab59b69d03614d523ef1681b7393b8ffd8be0837"
+  },
+  {
+    "type": "sell",
+    "amount": 276,
+    "price": 0.1561,
+    "date": "2023-04-15",
+    "address": "0x47e8005afddfb7b5ab989e4a6114d7aeb71b2935"
+  },
+  {
+    "type": "buy",
+    "amount": 946,
+    "price": 0.1561,
+    "date": "2023-04-15",
+    "address": "0xf0757a5ae2f2e23492f54ca4a43d6b9d28aebd03"
+  },
+  {
+    "type": "buy",
+    "amount": 887,
+    "price": 0.1561,
+    "date": "2023-04-15",
+    "address": "0x1059717f868c57de09aab73d8cbd02ba86babd4d"
+  },
+  {
+    "type": "buy",
+    "amount": 409,
+    "price": 0.1561,
+    "date": "2023-04-15",
+    "address": "0xd3fa552fd83072293fa21a8098cb1e6c85f75a2d"
+  },
+  {
+    "type": "sell",
+    "amount": 387,
+    "price": 0.1561,
+    "date": "2023-04-14",
+    "address": "0x41b456318ef06d0ef6a703360f142d9c40ee106a"
+  },
+  {
+    "type": "buy",
+    "amount": 94,
+    "price": 0.1561,
+    "date": "2023-04-12",
+    "address": "0xd54fba96661c89fcbc3650a213a37cbdc0c89b47"
+  },
+  {
+    "type": "buy",
+    "amount": 605,
+    "price": 0.1561,
+    "date": "2023-04-09",
+    "address": "0xc935fd35f381d0fe56d19b88a0efc456e019a511"
+  },
+  {
+    "type": "buy",
+    "amount": 274,
+    "price": 0.1561,
+    "date": "2023-04-08",
+    "address": "0xc0f0f469120841e0708dbb00c50216bb22c61d30"
+  },
+  {
+    "type": "sell",
+    "amount": 359,
+    "price": 0.1561,
+    "date": "2023-04-08",
+    "address": "0xa755441fcb7b225112e3e8ed17bb4019f1a11d78"
+  },
+  {
+    "type": "buy",
+    "amount": 564,
+    "price": 0.1561,
+    "date": "2023-04-06",
+    "address": "0x6b8273e420e5fb370cfe9c0a6d4316977ff1bbd1"
+  },
+  {
+    "type": "sell",
+    "amount": 952,
+    "price": 0.1561,
+    "date": "2023-04-05",
+    "address": "0x2a712d3ef9cfe0abca377800e83b7a1474257f65"
+  },
+  {
+    "type": "buy",
+    "amount": 293,
+    "price": 0.1561,
+    "date": "2023-04-03",
+    "address": "0x6f51a0b7d91f3e979ef4e2d7a03d60c60e0018e2"
+  },
+  {
+    "type": "buy",
+    "amount": 881,
+    "price": 0.1561,
+    "date": "2023-04-03",
+    "address": "0xeefae4460cbe1a1417960ca5df8cd3fad9eb7fff"
+  },
+  {
+    "type": "buy",
+    "amount": 142,
+    "price": 0.1561,
+    "date": "2023-03-30",
+    "address": "0x823165314a87421b54cb26c6fd834a494ad6eb55"
+  },
+  {
+    "type": "sell",
+    "amount": 106,
+    "price": 0.1561,
+    "date": "2023-03-30",
+    "address": "0x7c27fedb0b6072606f91c40eaae8bcd6ca1cbf3b"
+  },
+  {
+    "type": "sell",
+    "amount": 881,
+    "price": 0.1561,
+    "date": "2023-03-30",
+    "address": "0xd21ebac40bdf1ffd5bcabccf134d237d8d266493"
+  },
+  {
+    "type": "buy",
+    "amount": 324,
+    "price": 0.1561,
+    "date": "2023-03-28",
+    "address": "0x41d7b9a793e46c52f1eaeb9fab83ffb35ec23328"
+  },
+  {
+    "type": "buy",
+    "amount": 982,
+    "price": 0.1561,
+    "date": "2023-03-28",
+    "address": "0xbad8ef3ea418b37fbf8ea5e25ad99c484fc34ba3"
+  },
+  {
+    "type": "buy",
+    "amount": 952,
+    "price": 0.1561,
+    "date": "2023-03-27",
+    "address": "0xf13570e515c029065e3fc2a52a9c7ed6dd33e74a"
+  },
+  {
+    "type": "sell",
+    "amount": 188,
+    "price": 0.1561,
+    "date": "2023-03-26",
+    "address": "0xa9c8411c7800e2c996c331566f056dcd60cb0350"
+  },
+  {
+    "type": "sell",
+    "amount": 700,
+    "price": 0.1561,
+    "date": "2023-03-25",
+    "address": "0xe79da3fc9362ee44419982b80fa75db6cec45932"
+  },
+  {
+    "type": "buy",
+    "amount": 46,
+    "price": 0.1561,
+    "date": "2023-03-24",
+    "address": "0x40afcfe26ac35228eae2de1a15e468d0152cee5f"
+  },
+  {
+    "type": "sell",
+    "amount": 421,
+    "price": 0.1561,
+    "date": "2023-03-24",
+    "address": "0xaa8c360369c067e065daa7da8b695a7204720cb7"
+  },
+  {
+    "type": "buy",
+    "amount": 978,
+    "price": 0.1561,
+    "date": "2023-03-24",
+    "address": "0x625839aa831ee0a190e2cd7986f6b34385540d12"
+  },
+  {
+    "type": "sell",
+    "amount": 195,
+    "price": 0.1561,
+    "date": "2023-03-23",
+    "address": "0x0afc9b4af49e59a608f3ae76ce034e262cfe8c1c"
+  },
+  {
+    "type": "sell",
+    "amount": 323,
+    "price": 0.1561,
+    "date": "2023-03-21",
+    "address": "0x170bf2445bd618ec96d87452296e03b0aafd8e9b"
+  },
+  {
+    "type": "buy",
+    "amount": 371,
+    "price": 0.1561,
+    "date": "2023-03-21",
+    "address": "0x1a95e2ff679050e1c5046fb74f3ca174e5164982"
+  },
+  {
+    "type": "sell",
+    "amount": 410,
+    "price": 0.1561,
+    "date": "2023-03-20",
+    "address": "0x60d967f6ad2e760652346aca29e2a3b7ec12d8e0"
+  },
+  {
+    "type": "buy",
+    "amount": 839,
+    "price": 0.1561,
+    "date": "2023-03-19",
+    "address": "0x2073f7260f4f8a5d8000502fcb389440e8c31193"
+  },
+  {
+    "type": "buy",
+    "amount": 526,
+    "price": 0.1561,
+    "date": "2023-03-19",
+    "address": "0xdcc0f261eb8568b8c768cf58fe36dfa05ded6f30"
+  },
+  {
+    "type": "sell",
+    "amount": 949,
+    "price": 0.1561,
+    "date": "2023-03-19",
+    "address": "0x24d2d02fedf2b05c29cad715a39b49bdb8878878"
+  },
+  {
+    "type": "sell",
+    "amount": 168,
+    "price": 0.1561,
+    "date": "2023-03-16",
+    "address": "0x3be6bc2df4d7551d1989c7e70a6ac8de0c165a3b"
+  },
+  {
+    "type": "buy",
+    "amount": 1000,
+    "price": 0.1561,
+    "date": "2023-03-16",
+    "address": "0xafe33777509b280066409987a995af4e02f840e0"
+  },
+  {
+    "type": "buy",
+    "amount": 740,
+    "price": 0.1561,
+    "date": "2023-03-16",
+    "address": "0x2ef866c7df52cfa401a91800ff3aefff8dec3fbc"
+  },
+  {
+    "type": "sell",
+    "amount": 117,
+    "price": 0.1561,
+    "date": "2023-03-15",
+    "address": "0x5573f51d0e5ffeb7623e51f053b73b1783929cdc"
+  },
+  {
+    "type": "buy",
+    "amount": 383,
+    "price": 0.1561,
+    "date": "2023-03-15",
+    "address": "0xbd79e3ff659241253efdb34fe0e943fe93152a01"
+  },
+  {
+    "type": "buy",
+    "amount": 949,
+    "price": 0.1561,
+    "date": "2023-03-15",
+    "address": "0xc45e44130574e025cf5b90b75b2f5e94e657b53f"
+  },
+  {
+    "type": "sell",
+    "amount": 256,
+    "price": 0.1561,
+    "date": "2023-03-15",
+    "address": "0xe0bad9a3fd4fa9ae6860786b1968bb09068fd59f"
+  },
+  {
+    "type": "buy",
+    "amount": 300,
+    "price": 0.1561,
+    "date": "2023-03-14",
+    "address": "0xd268a55e26910d3f6d89ae254214b1ccc52878a5"
+  },
+  {
+    "type": "sell",
+    "amount": 156,
+    "price": 0.1561,
+    "date": "2023-03-14",
+    "address": "0x9b16293fd634dd8306392f3cc3f73915c83d33fb"
+  },
+  {
+    "type": "buy",
+    "amount": 876,
+    "price": 0.1561,
+    "date": "2023-03-13",
+    "address": "0x0a4115590ce3098486a345a14030ab424b60068a"
+  },
+  {
+    "type": "sell",
+    "amount": 671,
+    "price": 0.1561,
+    "date": "2023-03-13",
+    "address": "0x469cebd38493debf904c0b03e4ab5dada041476d"
+  },
+  {
+    "type": "sell",
+    "amount": 949,
+    "price": 0.1561,
+    "date": "2023-03-13",
+    "address": "0xd355070f47d53b1dab2cf510f8144bae18dc820c"
+  },
+  {
+    "type": "buy",
+    "amount": 222,
+    "price": 0.1561,
+    "date": "2023-03-13",
+    "address": "0x4ee3ccf8b1629546a43d08368c340f2a9917e7ad"
+  },
+  {
+    "type": "sell",
+    "amount": 941,
+    "price": 0.1561,
+    "date": "2023-03-13",
+    "address": "0x46e2432fc636a0cc6b2df74b45617b8c91ad9174"
+  },
+  {
+    "type": "sell",
+    "amount": 82,
+    "price": 0.1561,
+    "date": "2023-03-12",
+    "address": "0x1d9bbe74fb08a403b6ab26a720274b1d10937b8b"
+  },
+  {
+    "type": "buy",
+    "amount": 574,
+    "price": 0.1561,
+    "date": "2023-03-12",
+    "address": "0xd98a7fdc40a918243eef827bbaafd5447d6de59e"
+  },
+  {
+    "type": "buy",
+    "amount": 34,
+    "price": 0.1561,
+    "date": "2023-03-12",
+    "address": "0xd5f0cd33172985177b20c7ca78bcd846d8205500"
+  },
+  {
+    "type": "sell",
+    "amount": 38,
+    "price": 0.1561,
+    "date": "2023-03-11",
+    "address": "0x856fb29fcb9ea756776cb2b0445b27bdf15ac285"
+  },
+  {
+    "type": "buy",
+    "amount": 735,
+    "price": 0.1561,
+    "date": "2023-03-11",
+    "address": "0xf07e20365405d75b3da9298bd4cf68d650ac77cb"
+  },
+  {
+    "type": "sell",
+    "amount": 318,
+    "price": 0.1561,
+    "date": "2023-03-10",
+    "address": "0x5e43176d56790d5b3ea92753f72a112f93e1a529"
+  },
+  {
+    "type": "buy",
+    "amount": 920,
+    "price": 0.1561,
+    "date": "2023-03-10",
+    "address": "0x19e03f12b6bf68ea95a967c5eaa7b9177849d317"
+  },
+  {
+    "type": "buy",
+    "amount": 486,
+    "price": 0.1561,
+    "date": "2023-03-09",
+    "address": "0xefc5397c105ccb34028c4d70aea31a22d50bed54"
+  },
+  {
+    "type": "sell",
+    "amount": 311,
+    "price": 0.1561,
+    "date": "2023-03-09",
+    "address": "0x1918540e020df8255db12ee9f5c5071d8776231b"
+  },
+  {
+    "type": "buy",
+    "amount": 498,
+    "price": 0.1561,
+    "date": "2023-03-08",
+    "address": "0x31e93fd77092ea1a3fa73e5f2c70aa6bc755484a"
+  },
+  {
+    "type": "buy",
+    "amount": 565,
+    "price": 0.1561,
+    "date": "2023-03-08",
+    "address": "0x057b36bedbf6b0044a2dd71e0cb47af37ef9475f"
+  },
+  {
+    "type": "buy",
+    "amount": 521,
+    "price": 0.1561,
+    "date": "2023-03-08",
+    "address": "0x2c02c02a82283df116ddab8e95726d2f07184cea"
+  },
+  {
+    "type": "buy",
+    "amount": 944,
+    "price": 0.1561,
+    "date": "2023-03-08",
+    "address": "0x5de83f4679329f511ca9bffb89d567d3dcb6506e"
+  },
+  {
+    "type": "buy",
+    "amount": 831,
+    "price": 0.1561,
+    "date": "2023-03-07",
+    "address": "0x3713a7422476283ec8095f5cc10dd34fd6dc6017"
+  },
+  {
+    "type": "buy",
+    "amount": 826,
+    "price": 0.1561,
+    "date": "2023-03-07",
+    "address": "0xb8be9db238c22655e1ba8097ce424f4b52a114b7"
+  },
+  {
+    "type": "sell",
+    "amount": 742,
+    "price": 0.1561,
+    "date": "2023-03-07",
+    "address": "0x83c3887bec6ba4bc75daec76393dba0924f02b84"
+  },
+  {
+    "type": "buy",
+    "amount": 182,
+    "price": 0.1561,
+    "date": "2023-03-07",
+    "address": "0x7ba8acf7ee321beab357c3f1fae43be167521cc9"
+  },
+  {
+    "type": "sell",
+    "amount": 591,
+    "price": 0.1561,
+    "date": "2023-03-06",
+    "address": "0x05108f4c7eadccca4c276c0ee734f1a0aea3daa5"
+  },
+  {
+    "type": "buy",
+    "amount": 465,
+    "price": 0.1561,
+    "date": "2023-03-06",
+    "address": "0xe0b6d2d64f747c10b94a4253b091e16eef605267"
+  },
+  {
+    "type": "sell",
+    "amount": 826,
+    "price": 0.1561,
+    "date": "2023-03-03",
+    "address": "0xf9d26b8896c7bfa7cff6ec4f40b65ef10e839b88"
+  },
+  {
+    "type": "sell",
+    "amount": 197,
+    "price": 0.1561,
+    "date": "2023-03-02",
+    "address": "0x992a56c350bf800f8d8c6d9c0fc20698764531e7"
+  },
+  {
+    "type": "buy",
+    "amount": 912,
+    "price": 0.1561,
+    "date": "2023-02-28",
+    "address": "0x13e65317a647dc17c73d990d671f4265a4ca3532"
+  },
+  {
+    "type": "sell",
+    "amount": 194,
+    "price": 0.1561,
+    "date": "2023-02-28",
+    "address": "0x1564e51b71e5ce122929f41e5dc51dddd7731f6c"
+  },
+  {
+    "type": "sell",
+    "amount": 635,
+    "price": 0.1561,
+    "date": "2023-02-27",
+    "address": "0xa3154e857bd15da24589bf0586e26fff16741662"
+  },
+  {
+    "type": "sell",
+    "amount": 378,
+    "price": 0.1561,
+    "date": "2023-02-26",
+    "address": "0xfd9d875290cae07f6016ae0aff8f45935e05de42"
+  },
+  {
+    "type": "buy",
+    "amount": 752,
+    "price": 0.1561,
+    "date": "2023-02-25",
+    "address": "0xe1d9730a9482616717cb24ebe628301631eb47a3"
+  },
+  {
+    "type": "buy",
+    "amount": 483,
+    "price": 0.1561,
+    "date": "2023-02-25",
+    "address": "0xd0b1b0827e4cb2f88db6ba495e84af151f9c3acf"
+  },
+  {
+    "type": "buy",
+    "amount": 503,
+    "price": 0.1561,
+    "date": "2023-02-24",
+    "address": "0x52c5f8806b0c53cb6a1e2aa4f4c01f46abc82ccb"
+  },
+  {
+    "type": "buy",
+    "amount": 115,
+    "price": 0.1561,
+    "date": "2023-02-24",
+    "address": "0xa3df786cd29699a75ec016a80b75abde8fe85342"
+  },
+  {
+    "type": "buy",
+    "amount": 344,
+    "price": 0.1561,
+    "date": "2023-02-23",
+    "address": "0x6332fcb9d7b3492b7d60d335dc46fcfd6b0c6478"
+  },
+  {
+    "type": "buy",
+    "amount": 965,
+    "price": 0.1561,
+    "date": "2023-02-22",
+    "address": "0x890f23cfca2cbfaf7c2c7ec4118c9b642e3e7073"
+  },
+  {
+    "type": "sell",
+    "amount": 599,
+    "price": 0.1561,
+    "date": "2023-02-21",
+    "address": "0xdad5913d309197b7698971701f2a9391d549bf69"
+  },
+  {
+    "type": "buy",
+    "amount": 740,
+    "price": 0.1561,
+    "date": "2023-02-21",
+    "address": "0x902ca3ed19c43cc9f7ce6fb9b69c9c4cc42c83cd"
+  },
+  {
+    "type": "buy",
+    "amount": 653,
+    "price": 0.1561,
+    "date": "2023-02-20",
+    "address": "0x610918a7079085eeda4559110b6dc38b36dfb1e3"
+  },
+  {
+    "type": "sell",
+    "amount": 821,
+    "price": 0.1561,
+    "date": "2023-02-18",
+    "address": "0x807df1fa161a517c31b126600fca2e3504a04f2e"
+  },
+  {
+    "type": "sell",
+    "amount": 167,
+    "price": 0.1561,
+    "date": "2023-02-15",
+    "address": "0x146b4222ad90dd73021f1783ac266c5e7965789c"
+  },
+  {
+    "type": "sell",
+    "amount": 231,
+    "price": 0.1561,
+    "date": "2023-02-14",
+    "address": "0x3f72b3b00b8944380eeb9f42113d00ea0887d3de"
+  },
+  {
+    "type": "sell",
+    "amount": 36,
+    "price": 0.1561,
+    "date": "2023-02-14",
+    "address": "0x4954e1290489616e7dab263c0b75745ce180014d"
+  },
+  {
+    "type": "buy",
+    "amount": 33,
+    "price": 0.1561,
+    "date": "2023-02-13",
+    "address": "0x5f7a4218a35a5cf0e6b2be2be99c442904d4bd53"
+  },
+  {
+    "type": "buy",
+    "amount": 540,
+    "price": 0.1561,
+    "date": "2023-02-13",
+    "address": "0x93cf8eb916f15d5b0ad05a8be34766acf932ac25"
+  },
+  {
+    "type": "buy",
+    "amount": 590,
+    "price": 0.1561,
+    "date": "2023-02-12",
+    "address": "0xb9eec9783c2c938575c0d9716715deebbb8b2205"
+  },
+  {
+    "type": "buy",
+    "amount": 336,
+    "price": 0.1561,
+    "date": "2023-02-12",
+    "address": "0x60ebcdf06e2dbfbe6c26ea93e76c3d39d7353d24"
+  },
+  {
+    "type": "buy",
+    "amount": 555,
+    "price": 0.1561,
+    "date": "2023-02-10",
+    "address": "0xc389508a49fd693053aa134df661d022c8c6c642"
+  },
+  {
+    "type": "buy",
+    "amount": 266,
+    "price": 0.1561,
+    "date": "2023-02-09",
+    "address": "0x170e06bdae9828a38a09d92092e8e9fffd5d9db6"
+  },
+  {
+    "type": "sell",
+    "amount": 941,
+    "price": 0.1561,
+    "date": "2023-02-09",
+    "address": "0x19997e3db29174bfd78c852391c3e7f4a662c8d7"
+  },
+  {
+    "type": "buy",
+    "amount": 546,
+    "price": 0.1561,
+    "date": "2023-02-08",
+    "address": "0x86946191ceb3c8946ad55bbdeca240d3ad26eaf4"
+  },
+  {
+    "type": "sell",
+    "amount": 37,
+    "price": 0.1561,
+    "date": "2023-02-07",
+    "address": "0xdaa4c5d812ee1cbc9112bcf7710ecc6fa231e558"
+  },
+  {
+    "type": "buy",
+    "amount": 720,
+    "price": 0.1561,
+    "date": "2023-02-07",
+    "address": "0xa8b61e2257662e70fa851b54678089ff83e4f503"
+  },
+  {
+    "type": "buy",
+    "amount": 312,
+    "price": 0.1561,
+    "date": "2023-02-07",
+    "address": "0x5859926b3740cc47eca8bfb393ddf34aaa0ef6d1"
+  },
+  {
+    "type": "sell",
+    "amount": 303,
+    "price": 0.1561,
+    "date": "2023-02-06",
+    "address": "0x1a87a2ee69e09d39f037e1e219d559d2a93ea0c9"
+  },
+  {
+    "type": "sell",
+    "amount": 988,
+    "price": 0.1561,
+    "date": "2023-02-05",
+    "address": "0xb2b18119cdbdaeea612c92b4b84d6b29cbb00087"
+  },
+  {
+    "type": "sell",
+    "amount": 347,
+    "price": 0.1561,
+    "date": "2023-02-04",
+    "address": "0x1872d177b77af6fc5c35e6715a18a3e76b7eecc1"
+  },
+  {
+    "type": "buy",
+    "amount": 453,
+    "price": 0.1561,
+    "date": "2023-02-04",
+    "address": "0x004896c54c0e3434b752a6b9ca664ea1e6c65f4e"
+  },
+  {
+    "type": "buy",
+    "amount": 56,
+    "price": 0.1561,
+    "date": "2023-02-04",
+    "address": "0xca77c5441ba1fe9776805bbe49e20934fa5d97b5"
+  },
+  {
+    "type": "buy",
+    "amount": 591,
+    "price": 0.1561,
+    "date": "2023-02-03",
+    "address": "0xb1f02cce0b1c20b2aad0f1d00ed1cf6d8ab7b276"
+  },
+  {
+    "type": "buy",
+    "amount": 19,
+    "price": 0.1561,
+    "date": "2023-02-02",
+    "address": "0x84cd76b665d3d99fc71a82a1e3782b54a13c2f44"
+  },
+  {
+    "type": "sell",
+    "amount": 432,
+    "price": 0.1561,
+    "date": "2023-02-02",
+    "address": "0x679578a1dabc91fe0ff13fb33d3cef7d570b0cdb"
+  },
+  {
+    "type": "buy",
+    "amount": 900,
+    "price": 0.1561,
+    "date": "2023-02-01",
+    "address": "0xf6ad8d3b1ebf538135ac7b2a8d13dffc041c9d6f"
+  },
+  {
+    "type": "sell",
+    "amount": 381,
+    "price": 0.1561,
+    "date": "2023-02-01",
+    "address": "0x29eabbc43a5d48253caedf87cd2772bc3d84cbb7"
+  },
+  {
+    "type": "sell",
+    "amount": 742,
+    "price": 0.1561,
+    "date": "2023-01-31",
+    "address": "0x1c2975b864b69478d20380179f1bd94935a7898c"
+  },
+  {
+    "type": "sell",
+    "amount": 589,
+    "price": 0.1561,
+    "date": "2023-01-30",
+    "address": "0x87a45f37d7d3904be6e662118c03ba85dade4364"
+  },
+  {
+    "type": "buy",
+    "amount": 534,
+    "price": 0.1561,
+    "date": "2023-01-29",
+    "address": "0x4c6057fc6a1dcbb8260e4409ed83efad815f1980"
+  },
+  {
+    "type": "buy",
+    "amount": 618,
+    "price": 0.1561,
+    "date": "2023-01-29",
+    "address": "0x66992e6e0fbc92d93bed77acef315bb262f437b3"
+  },
+  {
+    "type": "buy",
+    "amount": 1000,
+    "price": 0.1561,
+    "date": "2023-01-29",
+    "address": "0x7b2d821f80623fd77c6f338bd9f6b39ace665516"
+  },
+  {
+    "type": "buy",
+    "amount": 987,
+    "price": 0.1561,
+    "date": "2023-01-28",
+    "address": "0x359a7eae035da99837d998ab7b965f3c1a10ea26"
+  },
+  {
+    "type": "sell",
+    "amount": 364,
+    "price": 0.1561,
+    "date": "2023-01-28",
+    "address": "0x68a270d66ee8cc11f933e84f5bc468e516733219"
+  },
+  {
+    "type": "buy",
+    "amount": 774,
+    "price": 0.1561,
+    "date": "2023-01-27",
+    "address": "0xd356bf6c9d9647bdcb5fae1bd2cdc43dd649990e"
+  },
+  {
+    "type": "sell",
+    "amount": 720,
+    "price": 0.1561,
+    "date": "2023-01-27",
+    "address": "0xce7d3e3c7daca71e9ce2240f55bae89e3ad0addb"
+  },
+  {
+    "type": "sell",
+    "amount": 146,
+    "price": 0.1561,
+    "date": "2023-01-27",
+    "address": "0x8d76818ef1b40413cb0a74ce322faa309bba3ac3"
+  },
+  {
+    "type": "buy",
+    "amount": 327,
+    "price": 0.1561,
+    "date": "2023-01-26",
+    "address": "0xc56291187ce3998e10d9aeb9117b501e1304fba1"
+  },
+  {
+    "type": "sell",
+    "amount": 508,
+    "price": 0.1561,
+    "date": "2023-01-26",
+    "address": "0xb87e61ca90d9d6c9e014f5e658904820647e22c7"
+  },
+  {
+    "type": "buy",
+    "amount": 479,
+    "price": 0.1561,
+    "date": "2023-01-25",
+    "address": "0xe06de85b01e76cd678e88881a4d37d53ab0e2255"
+  },
+  {
+    "type": "buy",
+    "amount": 588,
+    "price": 0.1561,
+    "date": "2023-01-25",
+    "address": "0xc57940fd010020f090dca888082e6ca86a57c352"
+  },
+  {
+    "type": "sell",
+    "amount": 928,
+    "price": 0.1561,
+    "date": "2023-01-25",
+    "address": "0x6027ab61b330bb0ff840bc8f7b0437473ae5f37a"
+  },
+  {
+    "type": "sell",
+    "amount": 53,
+    "price": 0.1561,
+    "date": "2023-01-24",
+    "address": "0x2ed7c213dc9c98b82c2a92361a7d7926076b5647"
+  },
+  {
+    "type": "buy",
+    "amount": 163,
+    "price": 0.1561,
+    "date": "2023-01-24",
+    "address": "0x6b43d822c5c6132aae05146131e43e9a526e0795"
+  },
+  {
+    "type": "sell",
+    "amount": 296,
+    "price": 0.1561,
+    "date": "2023-01-24",
+    "address": "0x1ec1f3b30db7600a6d69bac705c9e3372ed4c34d"
+  },
+  {
+    "type": "sell",
+    "amount": 286,
+    "price": 0.1561,
+    "date": "2023-01-23",
+    "address": "0x860c283eff5181b86db8d3640c305f1048b9f026"
+  },
+  {
+    "type": "sell",
+    "amount": 201,
+    "price": 0.1561,
+    "date": "2023-01-23",
+    "address": "0xf6ee6709cc94a3484abbdff56762cfdc185b96cb"
+  },
+  {
+    "type": "buy",
+    "amount": 222,
+    "price": 0.1561,
+    "date": "2023-01-23",
+    "address": "0x9385f50e9397cacd1cce4a393eeee6e30a0773d9"
+  },
+  {
+    "type": "sell",
+    "amount": 303,
+    "price": 0.1561,
+    "date": "2023-01-22",
+    "address": "0x5132310b549eb0e02e34a8ade57192da946f0211"
+  },
+  {
+    "type": "sell",
+    "amount": 711,
+    "price": 0.1561,
+    "date": "2023-01-22",
+    "address": "0xfa775b277dfdbd64b5c1dbc1b9faaa715487d99a"
+  },
+  {
+    "type": "buy",
+    "amount": 236,
+    "price": 0.1561,
+    "date": "2023-01-21",
+    "address": "0x8ebf6281cf7ebce234825dfba2c3acdece3131ab"
+  },
+  {
+    "type": "buy",
+    "amount": 685,
+    "price": 0.1561,
+    "date": "2023-01-21",
+    "address": "0xc90828a8835f0c63201bdc1d0404fe68ea3dec68"
+  },
+  {
+    "type": "sell",
+    "amount": 812,
+    "price": 0.1561,
+    "date": "2023-01-21",
+    "address": "0x34535f310de6379f24579cc0dcec2b2656d3c15b"
+  },
+  {
+    "type": "buy",
+    "amount": 247,
+    "price": 0.1561,
+    "date": "2023-01-20",
+    "address": "0x2c818f36df168d5853d39e09c5cca4a480dd23a6"
+  },
+  {
+    "type": "sell",
+    "amount": 873,
+    "price": 0.1561,
+    "date": "2023-01-19",
+    "address": "0x56dbf90fb12a71935d6d5b6d0417dcd2cb051312"
+  },
+  {
+    "type": "sell",
+    "amount": 717,
+    "price": 0.1561,
+    "date": "2023-01-19",
+    "address": "0x0be738d13e18c5ede3763e0ac8f24eafe99081e8"
+  },
+  {
+    "type": "buy",
+    "amount": 213,
+    "price": 0.1561,
+    "date": "2023-01-18",
+    "address": "0x518eff4aca17d924dc7ff2ff9874f49f97895294"
+  },
+  {
+    "type": "sell",
+    "amount": 536,
+    "price": 0.1561,
+    "date": "2023-01-18",
+    "address": "0xd7a43c13afd09ae1fb186dcd90f3a41066ec5c91"
+  },
+  {
+    "type": "sell",
+    "amount": 898,
+    "price": 0.1561,
+    "date": "2023-01-16",
+    "address": "0x9903452bb4dfed6e68b23598df35d2cac8bb275e"
+  },
+  {
+    "type": "buy",
+    "amount": 335,
+    "price": 0.1561,
+    "date": "2023-01-16",
+    "address": "0x4cf07de080433ccde4b103d3ab904bba34d94a52"
+  },
+  {
+    "type": "sell",
+    "amount": 476,
+    "price": 0.1561,
+    "date": "2023-01-14",
+    "address": "0xe0f5b87304a3dca442db785081ba4f23bf21a3b8"
+  },
+  {
+    "type": "buy",
+    "amount": 523,
+    "price": 0.1561,
+    "date": "2023-01-14",
+    "address": "0xc3c09404c9fbbd91635f34b3fb3ac0a46b89b3d9"
+  },
+  {
+    "type": "sell",
+    "amount": 895,
+    "price": 0.1561,
+    "date": "2023-01-13",
+    "address": "0x30ba6ce7959b44546c9f00f61612fc68ef18881d"
+  },
+  {
+    "type": "buy",
+    "amount": 555,
+    "price": 0.1561,
+    "date": "2023-01-13",
+    "address": "0xb6ada62a6834e142572dce9075f7ae0eb4a1ddf7"
+  },
+  {
+    "type": "sell",
+    "amount": 879,
+    "price": 0.1561,
+    "date": "2023-01-12",
+    "address": "0x12b8dcb2b12003e9f6ef0999108621c1f35296f3"
+  },
+  {
+    "type": "buy",
+    "amount": 408,
+    "price": 0.1561,
+    "date": "2023-01-12",
+    "address": "0xbc2cac0d23646d18b91dff536c4972199314fbda"
+  },
+  {
+    "type": "sell",
+    "amount": 838,
+    "price": 0.1561,
+    "date": "2023-01-11",
+    "address": "0x6af7a810bc2e8ddfa024b206b8bc5c01a18a0aa8"
+  },
+  {
+    "type": "buy",
+    "amount": 895,
+    "price": 0.1561,
+    "date": "2023-01-11",
+    "address": "0x601f8b24486fdec9ec3f414c5a05d38848690aa2"
+  },
+  {
+    "type": "sell",
+    "amount": 94,
+    "price": 0.1561,
+    "date": "2023-01-11",
+    "address": "0xb80c779d4cb00a4f60ff9a525c9e60fd8685748f"
+  },
+  {
+    "type": "buy",
+    "amount": 593,
+    "price": 0.1561,
+    "date": "2023-01-10",
+    "address": "0x80f323de3ec687aae8ff2acfa9b579dfe757da14"
+  },
+  {
+    "type": "sell",
+    "amount": 388,
+    "price": 0.1561,
+    "date": "2023-01-09",
+    "address": "0x9fa24a77f8cba116feb5bfe7e861e21da39fb893"
+  },
+  {
+    "type": "buy",
+    "amount": 584,
+    "price": 0.1561,
+    "date": "2023-01-09",
+    "address": "0xa245148b77d983b034d9937f5f3a6816e4c1415e"
+  },
+  {
+    "type": "sell",
+    "amount": 360,
+    "price": 0.1561,
+    "date": "2023-01-09",
+    "address": "0x24741b2f280fde46469a9e3799fc1054af42483c"
+  },
+  {
+    "type": "sell",
+    "amount": 611,
+    "price": 0.1561,
+    "date": "2023-01-07",
+    "address": "0x6f3dc112b96f41a485a466d08f5a38858b7c2f87"
+  },
+  {
+    "type": "buy",
+    "amount": 955,
+    "price": 0.1561,
+    "date": "2023-01-07",
+    "address": "0x56c5d1fde163738979dbf614d16f18a31a677492"
+  },
+  {
+    "type": "sell",
+    "amount": 805,
+    "price": 0.1561,
+    "date": "2023-01-06",
+    "address": "0x860e1ece21dbe068c7e8cdd575b6e1ba5edf5ce8"
+  },
+  {
+    "type": "sell",
+    "amount": 526,
+    "price": 0.1561,
+    "date": "2023-01-05",
+    "address": "0xf2e5c658c0007783b3c414e5c256bbe3847c81fa"
+  },
+  {
+    "type": "sell",
+    "amount": 500,
+    "price": 0.1561,
+    "date": "2023-01-04",
+    "address": "0xbfba90e276c23f11c9dbf4bb94d5d2263758896e"
+  },
+  {
+    "type": "buy",
+    "amount": 62,
+    "price": 0.1561,
+    "date": "2023-01-02",
+    "address": "0x9bde2d10027098d1a3961aca4df3ecaa512f7250"
+  },
+  {
+    "type": "sell",
+    "amount": 640,
+    "price": 0.1561,
+    "date": "2023-01-02",
+    "address": "0xdee93b1e06af60475f230f1f2296e4a8bcb15791"
+  },
+  {
+    "type": "buy",
+    "amount": 317,
+    "price": 0.1561,
+    "date": "2023-01-02",
+    "address": "0xf3d6364684b73fa6e616993644469b1f978569ee"
+  },
+  {
+    "type": "sell",
+    "amount": 995,
+    "price": 0.1561,
+    "date": "2023-01-01",
+    "address": "0x8d2e7c38e6de3cff1ad90b136d2302e33f42351d"
+  },
+  {
+    "type": "buy",
+    "amount": 6,
+    "price": 0.1561,
+    "date": "2023-01-01",
+    "address": "0x5bdaaea4f806cc0d53aeb074573bd61bfbbaa12d"
+  }
+]

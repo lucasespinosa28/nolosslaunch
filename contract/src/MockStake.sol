@@ -33,7 +33,7 @@ contract MockStake {
     }
 
     function cooldownAssets(uint256 amount) external {
-        require(Usde.balanceOf(msg.sender) >= amount, "Insufficient balance");
+        require(sUSDe.balanceOf(msg.sender) >= amount, "Insufficient balance");
         cooldownTimestamps[msg.sender] = block.timestamp;
         // In a real implementation, you might want to transfer shares to a cooldown state
     }
@@ -50,8 +50,9 @@ contract MockStake {
         sUSDe.transferFrom(msg.sender, address(this), amount);
 
         // Calculate extra USDe to mint
-        uint256 hoursHeld = (block.timestamp - cooldownTimestamps[msg.sender]) / 1 hours;
-        uint256 extraAmount = amount * hoursHeld / 100; // 1% extra per hour
+        uint256 hoursHeld = (block.timestamp - cooldownTimestamps[msg.sender]) /
+            1 hours;
+        uint256 extraAmount = (amount * hoursHeld) / 100; // 1% extra per hour
 
         // Mint extra USDe
         Usde.mint(to, extraAmount);

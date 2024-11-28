@@ -13,6 +13,7 @@ contract Launchpad is ERC20, Ownable {
     bool private hasUnstaked;
     uint256 public immutable maxSupply;
     uint256 public immutable rate;
+    bytes32  public imageUr;
 
     event Deposited(
         address indexed user,
@@ -34,7 +35,8 @@ contract Launchpad is ERC20, Ownable {
         uint256 _countdownDays,
         uint256 _maxSupply,
         uint256 _rate,
-        address initialOwner
+        address initialOwner,
+        bytes32 _imageUr
     ) ERC20(name, symbol) Ownable(initialOwner) {
         Usde = _Usde;
         stake = MockStake(_stake);
@@ -42,6 +44,7 @@ contract Launchpad is ERC20, Ownable {
         countdownEnd = block.timestamp + (_countdownDays * 1 days);
         maxSupply = _maxSupply;
         rate = _rate;
+        imageUr  =_imageUr;
     }
 
     modifier countdownEnded() {

@@ -6,6 +6,7 @@ import Menu from "@/components/Menu";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { extractRouterConfig } from "uploadthing/server";
 import { ourFileRouter } from "./api/uploadthing/core";
+import { Web3Provider } from "@/components/Web3Provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,10 +34,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
-        <header className="flex items-center justify-between p-4 bg-gray-900">
-          <Link href="/" className="text-lg font-bold">NoLossToken </Link>
-          <Menu />
-        </header>
+        <Web3Provider>
+          <header className="flex items-center justify-between p-4 bg-gray-900">
+            <Link href="/" className="text-lg font-bold">NoLossToken </Link>
+            <Menu />
+          </header>
+        </Web3Provider>
+
         <main className="flex-grow">
           <NextSSRPlugin
             /**
@@ -47,7 +51,9 @@ export default function RootLayout({
              */
             routerConfig={extractRouterConfig(ourFileRouter)}
           />
-          {children}
+          <Web3Provider>
+            {children}
+          </Web3Provider>
         </main>
         <footer className="bg-gray-900 text-center py-4">
           <p className="text-sm">© 2024 NoLossToken . All rights reserved.</p>

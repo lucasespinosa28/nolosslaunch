@@ -1,0 +1,17 @@
+{
+    "version": "1",
+    "name": "staked-usde-minter-factory-graph",
+    "abis": {
+        "stakedusdeminterfactory": {
+            "path": "./StakedUSDeMinterFactory.json"
+        }
+    },
+    "instances": [
+        {
+            "abi": "stakedusdeminterfactory",
+            "address": "0xf805ce4F96e0EdD6f0b6cd4be22B34b92373d696",
+            "startBlock": 7164001,
+            "chain": "sepolia"
+        }
+    ]
+}

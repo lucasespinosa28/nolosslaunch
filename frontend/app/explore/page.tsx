@@ -12,7 +12,7 @@ import {
   ColumnFiltersState,
   getFilteredRowModel,
 } from '@tanstack/react-table';
-import tokens from "../../data/tokens.json";
+import tokens from "@/mock/tokens.json";
 import Link from 'next/link';
 
 type Token = {
@@ -26,17 +26,18 @@ type Token = {
   address: string;
 };
 
+
 const data: Token[] = tokens.map(token => ({
-  image: token.image,
-  name: token.name,
-  symbol: token.symbol,
-  price: token.price,
+  image:"/images/"+token.imageUrl,
+  name: token.tokenName,
+  symbol: token.tokenSymbol,
+  price: token.rate,
   maxSupply: token.maxSupply,
   totalSupply: token.totalSupply,
-  marketCap: token.totalSupply * token.price,
-  address: token.address,
-
+  marketCap: token.totalSupply * token.rate,
+  address: token.contractAddress,
 }));
+
 
 const columnHelper = createColumnHelper<Token>();
 
@@ -104,7 +105,7 @@ export default function Explore() {
     },
     initialState: {
       pagination: {
-        pageSize: 5,
+        pageSize: 10,
       },
     },
   });
@@ -179,14 +180,14 @@ export default function Explore() {
         </div>
         <div>
           <button
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-l hover:bg-blue-600 disabled:opacity-50"
+            className="px-4 py-2 text-sm font-medium text-white bg-indigo-500 rounded-l hover:bg-indigo-600 disabled:opacity-50"
             onClick={() => table.previousPage()}
             disabled={!table.getCanPreviousPage()}
           >
             Previous
           </button>
           <button
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-r hover:bg-blue-600 disabled:opacity-50"
+            className="px-4 py-2 text-sm font-medium text-white bg-indigo-500 rounded-r hover:bg-indigo-600 disabled:opacity-50"
             onClick={() => table.nextPage()}
             disabled={!table.getCanNextPage()}
           >

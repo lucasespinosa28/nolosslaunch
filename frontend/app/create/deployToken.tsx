@@ -7,7 +7,6 @@ import abi from "./../contract/LaunchpadFactory.json";
 import { parseEther } from 'viem';
 import { generatePrivateKey } from 'viem/accounts';
 import TransactionAlert from '@/components/TransactionAlert';
-// import TokenProfile from '@/app/create/TokenProfile';
 import { UploadButton } from '@/utils/uploadthing';
 import Image from 'next/image';
 

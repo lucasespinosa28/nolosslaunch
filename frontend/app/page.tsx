@@ -1,38 +1,13 @@
 "use client"
-import Card from "@/components/Card";
-import tokens from "../data/tokens.json"
 import Link from 'next/link';
-import { useState } from "react";
+import Card from '@/components/Card';
+import tokens from '@/mock/tokens.json';
+import { useState } from 'react';
 
 export default function Home() {
-  const [currentPage, setCurrentPage] = useState(1);
-  const tokensPerPage = 3;
-  const maxPages = 3;
-
-  // Create a new array called trending, sorted by price * totalSupply
-  const trending = [...tokens].sort((a, b) => {
-    const marketCapA = a.price * a.totalSupply;
-    const marketCapB = b.price * b.totalSupply;
-    return marketCapB - marketCapA; // Sort in descending order
-  });
-
-  const reversedTokens = [...tokens].reverse().slice(0, tokensPerPage * maxPages);
-  const indexOfLastToken = currentPage * tokensPerPage;
-  const indexOfFirstToken = indexOfLastToken - tokensPerPage;
-  const currentTokens = reversedTokens.slice(indexOfFirstToken, indexOfLastToken);
-
-  const totalPages = Math.min(maxPages, Math.ceil(reversedTokens.length / tokensPerPage));
-
-  const topTrending = trending.slice(0, 8);
-
-  const nextPage = () => {
-    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
-  };
-
-  const prevPage = () => {
-    setCurrentPage((prev) => Math.max(prev - 1, 1));
-  };
-
+  const [newlyCreated] = useState(tokens.slice(0, 4));
+  //totalSupply / maxSupply
+  const [trending] = useState(tokens.slice(0, 7).sort((a, b) => b.totalSupply / b.maxSupply - a.totalSupply / a.maxSupply));
   return (
     <main>
       <section className="text-center py-8 bg-gray-800">
@@ -45,53 +20,47 @@ export default function Home() {
         </div>
       </section>
       <section className="py-8">
-        <h3 className="text-2xl font-bold text-center mb-6">Latest Tokens</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
-          {currentTokens.map((token, index) => (
+        <h3 className="text-2xl font-bold text-center mb-6">Newly created</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4">
+          {newlyCreated.reverse().map((token) => (
             <Card
-              key={index}
-              imageSrc={token.image || "/images/placeholder.png"}
-              title={token.name}
-              description={`${token.price.toFixed(2)} ETH | ${(token.totalSupply / token.maxSupply * 100).toFixed(1)}% Filled`}
-              tokenId={token.address.toString()}
+              key={token.contractAddress}
+              address={token.contractAddress}
+              name={token.tokenName}
+              symbol={token.tokenSymbol}
+              image={"/images/"+token.imageUrl}
+              price={token.rate}
+              totalSupply={token.totalSupply}
+              maxSupply={token.maxSupply}
             />
           ))}
-        </div>
-        <div className="flex justify-between items-center mt-6 px-4">
-          <button
-            onClick={prevPage}
-            disabled={currentPage === 1}
-            className="bg-indigo-400 text-black px-4 py-2 rounded hover:bg-indigo-300 disabled:opacity-50"
-          >
-            Previous
-          </button>
-          <span>Page {currentPage} of {totalPages}</span>
-          <button
-            onClick={nextPage}
-            disabled={currentPage === totalPages}
-            className="bg-indigo-400 text-black px-4 py-2 rounded hover:bg-indigo-300 disabled:opacity-50"
-          >
-            Next
-          </button>
-        </div>
-        <div className="text-center mt-6">
-          <Link href="/explore" className="inline-block border border-indigo-400 text-indigo-400 px-4 py-2 rounded hover:bg-indigo-400 hover:text-black transition-colors">
-            Explore More Latest Tokens
-          </Link>
         </div>
       </section>
       <section className="py-8">
         <h3 className="text-2xl font-bold text-center mb-6">Trending</h3>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 px-4">
-          {topTrending.map((token, index) => (
+          {trending.map((token) => (
             <Card
-              key={index}
-              imageSrc={token.image || "/images/placeholder.png"}
-              title={token.name}
-              description={`${token.price.toFixed(2)} ETH | ${(token.totalSupply / token.maxSupply * 100).toFixed(1)}% Filled`}
-              tokenId={token.address.toString()}
+              key={token.contractAddress}
+              address={token.contractAddress}
+              name={token.tokenName}
+              symbol={token.tokenSymbol}
+              image={"/images/"+token.imageUrl}
+              price={token.rate}
+              totalSupply={token.totalSupply}
+              maxSupply={token.maxSupply}
             />
           ))}
+          <Link href="/explore" className="block">
+            <div className="border border-indigo-700 rounded-lg overflow-hidden hover:border-indigo-400 transition-colors aspect-square flex items-center justify-center">
+              <div className="text-center">
+                <h4 className="text-lg font-semibold mb-2">Explore More</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-auto text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </main>

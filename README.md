@@ -1,14 +1,16 @@
 # NoLossToken
 
 NoLossToken is a decentralized platform for launching new tokens with a unique "no loss" feature. This project combines smart contracts for token minting and refunding with a React-based frontend for user interaction.
+![localhost_3000_create (1)](https://github.com/user-attachments/assets/c2d5567b-85ab-4e64-b87d-3e436973bddb)
 
 ## Project Overview
 
 NoLossToken is token launch mechanism that benefits both creators and users. Here's how it works:
 
 1. **Token Creation**: Creators can launch new tokens through the platform.
-
+![localhost_3000_create](https://github.com/user-attachments/assets/d6cf3ade-99ae-4957-a2a5-b164a6484151)
 2. **Token Purchase**: Users buy these newly created tokens using USDe (a stablecoin).
+![localhost_3000_token_0x355445837f79edff1db40a7004c65014c7f31da5 (2)](https://github.com/user-attachments/assets/4df9238d-b782-4299-9cc2-0145bc9912df)
 
 3. **USDe Deposit**: The USDe used for purchases is deposited into a smart contract.
 
@@ -17,6 +19,7 @@ NoLossToken is token launch mechanism that benefits both creators and users. Her
 5. **Creator Rewards**: After a specified period, creators can claim their rewards, which come from the generated yield.
 
 6. **User Refunds**: Users have the option to refund their purchased tokens, receiving their original USDe back.
+![localhost_3000_token_0x355445837f79edff1db40a7004c65014c7f31da5 (8)](https://github.com/user-attachments/assets/c75e7b3f-3ce3-468c-8d5c-6df49feca01c)
 
 This mechanism creates a "no loss" situation for users, as they can always reclaim their initial investment, while creators benefit from the yield generated during the lock-up period.
 

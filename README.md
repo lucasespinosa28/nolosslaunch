@@ -23,6 +23,12 @@ NoLossToken is token launch mechanism that benefits both creators and users. Her
 
 This mechanism creates a "no loss" situation for users, as they can always reclaim their initial investment, while creators benefit from the yield generated during the lock-up period.
 
+7. **Goldsky Integration**: We utilize Goldsky, a GraphQL platform, to store and query contract events related to token creations. This allows for efficient tracking and analysis of token launch activities on our platform.
+
+8. **Ethena USDe**: Our platform leverages Ethena's USDe stablecoin for yield generation. USDe provides a stable and reliable foundation for our no-loss mechanism, ensuring that users' deposits maintain their value while generating yield.
+
+These technological integrations enhance our platform's functionality, providing robust data management and a stable yield-generating asset for our no-loss token launches.
+
 ## Overview
 
 RefundableToken is an ERC20-compliant token contract with additional features for staking, refunding, and managing rewards. It interacts with a USDe token and a USDe StakedUSDeV2 contract to provide a unique tokenomics model with a time-based countdown mechanism. The contract creator (owner) receives the yield generated from USDe deposits and staking rewards, while users can reclaim their initial deposit after a specified period.

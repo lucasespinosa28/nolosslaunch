@@ -1,72 +1,75 @@
 "use client"
-import Container from '@/components/Container'
-import TokenInfoCard from '@/components/tokenInfoCard'
-import TokenInfo from '@/contract/token/tokenInfo'
-import { useGetLaunchpadsByOwner } from '@/hooks/contract/read/useGetLaunchpadsByOwner'
+import Container from '@/components/ui/Container'
+import TokenInfo from '@/components/ui/contract/tokenInfo';
+import TokenInfoCard from '@/components/ui/tokenInfoCard';
+import { useTokenOwner } from '@/hooks/graphql/useTokenOwner';
+import { useTokens } from '@/hooks/graphql/useTokens';
 import { useAccount } from 'wagmi'
+import { TokenSepolia } from '../page';
+import { useState } from 'react';
+import TokenGrid from '@/components/ui/home/TokenGrid';
+import Pagination from '@/components/ui/home/Pagination';
+
+const TOKENS_PER_PAGE = 4;
 
 export default function Profile() {
   const { address } = useAccount()
-  const { launchpads, isError, isLoading } = useGetLaunchpadsByOwner(address)
+  const { data: tokensSepolia, isLoading, error: TokenError } = useTokens(1000, 0);
+  const { data: newtokensSepolia, isLoading: newTokensLoading, error: newTokenError } = useTokenOwner(address ?? '0x0000000000000000000000000000000000000000', 1000, 0);//+
 
-  if (isLoading) {
-    return (
-      <Container className="p-4 md:p-8">
-        <h1 className="text-3xl font-bold mb-6">Your Profile</h1>
-        {/* <Skeleton className="h-48 w-full mb-4" />
-        <Skeleton className="h-48 w-full" /> */}
-      </Container>
-    )
-  }
+  const [currentPage, setCurrentPage] = useState(1);
 
-  if (isError) {
+  const indexOfLastToken = currentPage * TOKENS_PER_PAGE;
+  const indexOfFirstToken = indexOfLastToken - TOKENS_PER_PAGE;
+  const currentTokens = newtokensSepolia ? newtokensSepolia.slice(indexOfFirstToken, indexOfLastToken) : [];
+  if (!address) {
     return (
-      <Container className="p-4 md:p-8">
-        <h1 className="text-3xl font-bold mb-6">Your Profile</h1>
-        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-          <strong className="font-bold">Error!</strong>
-          <span className="block sm:inline"> There was an error fetching your launchpads. Please try again later.</span>
+      <Container>
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
+          <p className="font-bold">Warning</p>
+          <p>Please connect your wallet to view your profile and tokens.</p>
         </div>
       </Container>
-    )
+    );
   }
-
-  if (!launchpads || launchpads.length === 0) {
-    return (
-      <Container className="p-4 md:p-8">
-        <h1 className="text-3xl font-bold mb-6">Your Profile</h1>
-        <div className="bg-blue-100 border border-blue-400 text-blue-700 px-4 py-3 rounded relative" role="alert">
-          <span className="block sm:inline">You haven't created any launchpads yet. Start by creating your first token!</span>
-        </div>
-      </Container>
-    )
-  }
-
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
   return (
-    <Container className="p-4 md:p-8">
-      <h1 className="text-3xl font-bold mb-6">Your Profile</h1>
+    <Container>  
+      {address && <h1 className="text-2xl font-bold mb-4">Profile: {address}</h1>}
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Your Created Tokens</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {launchpads.map((launchpad) => (
-            <TokenInfoCard key={launchpad} contractAddress={launchpad} />
-          ))}
+      {isLoading && <p>Loading tokens...</p>}
+      {TokenError && <p>Error loading tokens: {TokenError.message}</p>}
+      <TokenGrid
+        title="Tokens that your created."
+        tokens={currentTokens}
+        isLoading={isLoading}
+        error={TokenError}
+      />
+      {newtokensSepolia && newtokensSepolia.length > TOKENS_PER_PAGE && (
+        <Pagination
+          currentPage={currentPage}
+          totalPages={Math.ceil(newtokensSepolia.length / TOKENS_PER_PAGE)}
+          paginate={paginate}
+        />
+      )}
+      {tokensSepolia && tokensSepolia.length > 0 ? (
+        <div className="space-y-4">
+          <h2 className="text-xl font-semibold mb-2">Your Tokens:</h2>
+          <div className="flex flex-wrap -mx-2">
+            {tokensSepolia.map((token, index) => (
+              <div key={token.id || index} className="w-full sm:w-1/2 px-2 mb-4">
+                <TokenInfo 
+                  contractAddress={token.tokenAddress}
+                  userAddress={address}
+                  icon={<span>🪙</span>}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
-      <section>
-        <h3 className="text-2xl font-semibold mb-4">Your Token Balances</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {launchpads.map((launchpad) => (
-            <TokenInfo
-              key={launchpad}
-              contractAddress={launchpad}
-              userAddress={address}
-              icon={<span className="text-2xl">🪙</span>}
-            />
-          ))}
-        </div>
-      </section>
+      ) : (
+        <p>No tokens found.</p>
+      )}
     </Container>
   )
 }

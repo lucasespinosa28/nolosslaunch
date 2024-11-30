@@ -1,6 +1,6 @@
 import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 import { parseEther } from 'viem';
-import StakedUSDeMinter from '../../../contract/StakedUSDeMinter.json'; // Make sure this path is correct
+import StakedUSDeMinter from '../../../components/ui/contract/StakedUSDeMinter.json'
 
 export function useWithdrawal() {
   const { writeContract, data: hash, isPending, isError, error } = useWriteContract();

@@ -1,6 +1,6 @@
 import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
-import { USDE_ADDRESS } from '../../../contract/addresses';
-import USDEABI from '../../../contract/USDe.json';
+import { USDE_ADDRESS } from '../../../components/ui/contract/addresses';
+import USDe from '../../../components/ui/contract/USDe.json'
 import { parseEther } from 'viem';
 
 export function useApprove() {
@@ -11,7 +11,7 @@ export function useApprove() {
     const value = parseEther(amount)
     writeContract({
       address: USDE_ADDRESS,
-      abi: USDEABI,
+      abi: USDe,
       functionName: 'approve',
       args: [spender,value],
     });

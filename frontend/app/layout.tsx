@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
-import Menu from "@/components/Menu";
+import Menu from "@/components/ui/Menu";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { extractRouterConfig } from "uploadthing/server";
 import { ourFileRouter } from "./api/uploadthing/core";
-import { Web3Provider } from "@/components/Web3Provider";
+import { Web3Provider } from "@/components/ui/contract/Web3Provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -1,10 +1,10 @@
 import { useReadContract } from 'wagmi'
-import StakedUSDeMinterAbi from "../../../contract/StakedUSDeMinter.json";
+import StakedUSDeMinter from '../../../components/ui/contract/StakedUSDeMinter.json'
 
 export function useRewardsUnstaked(contractAddress: `0x${string}`) {
   const { data, isError, isLoading } = useReadContract({
     address: contractAddress,
-    abi: StakedUSDeMinterAbi,
+    abi: StakedUSDeMinter,
     functionName: 'rewardsUnstaked',
   })
 

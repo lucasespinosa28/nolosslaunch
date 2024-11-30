@@ -1,6 +1,6 @@
 import { useReadContracts } from 'wagmi';
 import { useState, useEffect } from 'react';
-import StakedUSDeMinterAbi from "../../../contract/StakedUSDeMinter.json";
+import StakedUSDeMinter from "../../../components/ui/contract/StakedUSDeMinter.json";
 
 interface UseStakedUSDeMinterInfoProps {
   contractAddress: `0x${string}`;
@@ -19,41 +19,41 @@ interface StakedUSDeMinterInfo {
 export const useStakedUSDeMinterInfo = ({ contractAddress }: UseStakedUSDeMinterInfoProps) => {
   const [tokenInfo, setTokenInfo] = useState<StakedUSDeMinterInfo | null>(null);
 
-  const { data, isError, isLoading } = useReadContracts({
+  const { data, isError, isLoading,error } = useReadContracts({
     contracts: [
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'name',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'symbol',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'countdownEnd',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'imageUrl',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'maxSupply',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'totalSupply',
       },
       {
         address: contractAddress,
-        abi: StakedUSDeMinterAbi,
+        abi: StakedUSDeMinter,
         functionName: 'rate',
       },
     ],
@@ -71,5 +71,5 @@ export const useStakedUSDeMinterInfo = ({ contractAddress }: UseStakedUSDeMinter
       });
     }
   }, [data]);
-  return { tokenInfo, isError, isLoading };
+  return { tokenInfo, isError, isLoading,error };
 };

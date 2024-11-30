@@ -1,10 +1,10 @@
 "use client"
 import { useAccount } from "wagmi";
-import SUSDEIcon from "../../contract/token/sude";
-import TokenInfo from "../../contract/token/tokenInfo";
-import USDEIcon from "../../contract/token/usde";
-import { USDE_ADDRESS, StakedUSDeV2_ADDRESS } from "../../contract/addresses";
-import Container from "@/components/Container";
+import SUSDEIcon from "../../components/ui/contract/sude";
+import TokenInfo from "../../components/ui/contract/tokenInfo";
+import USDEIcon from "../../components/ui/contract/usde";
+import { USDE_ADDRESS, StakedUSDeV2_ADDRESS } from "../../components/ui/contract/addresses";
+import Container from "@/components/ui/Container";
 //0xAF6300eF2d0c14B949488f9AB460E4e3fA56B9Eb
 export default function Faucet() {
   const account = useAccount()

@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NoLossLaunch Frontend
+
+## Overview
+
+NoLossLaunch is a decentralized platform for launching new tokens. This frontend application provides an intuitive interface for users to create and manage token launches, as well as interact with existing tokens.
+
+## Technologies Used
+
+- Next.js 15.0.3
+- React 19.0.0-rc
+- TypeScript
+- Tailwind CSS
+- React Hook Form
+- Wagmi (for Ethereum interactions)
+- Tanstack React Query
+- Uploadthing (for image uploads)
+
+## Key Features
+
+1. **Token Creation**: Users can create new tokens by filling out a form with token details.
+2. **Image Upload**: Integrated image upload functionality for token logos.
+3. **Wallet Connection**: Utilizes ConnectKit for seamless wallet connections.
+4. **Transaction Handling**: Manages Ethereum transactions and provides feedback on their status.
+5. **Responsive Design**: Mobile-friendly interface using Tailwind CSS.
+
+## Project Structure
+
+- `app/`: Contains the main pages and API routes.
+  - `create/`: Token creation page.
+  - `token/[id]/`: Individual token page.
+  - `api/`: API routes, including uploadthing configuration.
+- `components/`: Reusable React components.
+  - `ui/`: UI components like buttons, cards, etc.
+  - `contract/`: Components for interacting with smart contracts.
+- `hooks/`: Custom React hooks, including contract interaction hooks.
+- `utils/`: Utility functions.
+- `types/`: TypeScript type definitions.
+
+## Key Components
+
+### Token Creation (`app/create/page.tsx`)
+
+- Allows users to input token details and upload a token image.
+- Utilizes React Hook Form for form handling.
+- Integrates with the blockchain to create new tokens.
+
+### Token Details (`app/token/[id]/page.tsx`)
+
+- Displays detailed information about a specific token.
+- Shows token supply, deposits, and allows for token interactions.
+
+### Web3 Integration
+
+- Uses Wagmi for Ethereum interactions.
+- Custom hooks in `hooks/contract/` for reading from and writing to smart contracts.
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install

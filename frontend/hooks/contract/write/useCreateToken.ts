@@ -1,7 +1,7 @@
 import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi'
 import { parseEther } from 'viem'
-import abi from '../../../contract/StakedUSDeMinterFactory.json'
-import { FACTORY_ADDRESS_SEPOLIA } from '../../../contract/addresses'
+import StakedUSDeMinterFactory from '../../../components/ui/contract/StakedUSDeMinterFactory.json'
+import { FACTORY_ADDRESS_SEPOLIA } from '../../../components/ui/contract/addresses'
 
 export function useCreateToken() {
   const { writeContract, data: hash, isPending, isError, error } = useWriteContract()
@@ -16,7 +16,7 @@ export function useCreateToken() {
   ) => {
     writeContract({
       address: FACTORY_ADDRESS_SEPOLIA,
-      abi: abi,
+      abi: StakedUSDeMinterFactory,
       functionName: 'createToken',
       args: [
         tokenName,

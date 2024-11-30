@@ -1,12 +1,11 @@
 import { useReadContract } from 'wagmi'
-import StakedUSDeV2ABI from '../../../contract/StakedUSDeV2.json'
-import { StakedUSDeV2_ADDRESS } from '../../../contract/addresses'
-import { parseEther, formatEther } from 'viem'
+import StakedUSDeV2 from '../../../components/ui/contract/StakedUSDeV2.json'
+import { StakedUSDeV2_ADDRESS } from '../../../components/ui/contract/addresses'
 
 export function useConvertToAssets(shares: string) {
   const { data, isError, isLoading } = useReadContract({
     address: StakedUSDeV2_ADDRESS,
-    abi: StakedUSDeV2ABI,
+    abi: StakedUSDeV2,
     functionName: 'convertToAssets',
     args: [shares],
   })

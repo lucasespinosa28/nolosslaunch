@@ -1,12 +1,12 @@
 "use client"
 import { useState } from 'react';
-import Container from '@/components/Container';
+import Container from '@/components/ui/Container';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import Button from '@/components/Button';
+import Button from '@/components/ui/Button';
 import { useAccount, useWaitForTransactionReceipt } from 'wagmi';
-import TokenImage from '@/components/TokenImage';
-import ImageUploader from '@/components/ImageUploader';
-import FormField from '@/components/FormField';
+import TokenImage from '@/components/ui/create/TokenImage';
+import ImageUploader from '@/components/ui/create/ImageUploader';
+import FormField from '@/components/ui/create/FormField';
 import { fillRandomData } from '@/utils/fillRandomData';
 import { FormValues } from '@/types/FormTypes';
 import { useCreateToken } from '@/hooks/contract/write/useCreateToken';
@@ -16,7 +16,7 @@ export default function Create() {
   const [uploadStatus, setUploadStatus] = useState<{ message: string, isError: boolean }>();
   const { register, handleSubmit, formState: { errors }, watch, setValue } = useForm<FormValues>();
   const account = useAccount();
-  const { createLaunchpad, hash } = useCreateToken();
+  const { createToken, hash } = useCreateToken();
   const {
     isLoading,
     isSuccess,
@@ -43,7 +43,7 @@ export default function Create() {
     }
 
     try {
-      await createLaunchpad(
+      await createToken(
         data.tokenName,
         data.tokenSymbol,
         tokenImageUrl,
@@ -55,6 +55,17 @@ export default function Create() {
       console.error('Error creating launchpad:', err);
     }
   };
+  const { address } = useAccount();
+  if (!address) {
+    return (
+      <Container>
+        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
+          <p className="font-bold">Warning</p>
+          <p>Please connect your wallet.</p>
+        </div>
+      </Container>
+    );
+  }
   return (
     <Container>
     <section className="flex flex-col items-center space-y-8 w-full max-w-[768px] mx-auto bg-gradient-to-b from-gray-800 to-gray-900 p-10 rounded-2xl shadow-2xl">

@@ -1,4 +1,4 @@
-import ABI from '../../../contract/StakedUSDeMinter.json';
+import StakedUSDeMinter from '../../../components/ui/contract/StakedUSDeMinter.json'
 import { useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 
 export function useUnstakeAllRewards(contractAddress: `0x${string}`) {
@@ -7,7 +7,7 @@ export function useUnstakeAllRewards(contractAddress: `0x${string}`) {
     const unstakeAllRewards = () => {
         writeContract({
             address: contractAddress,
-            abi: ABI,
+            abi: StakedUSDeMinter,
             functionName: 'unstakeReward',
         });
     };

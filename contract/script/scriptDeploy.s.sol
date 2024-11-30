@@ -12,18 +12,20 @@ contract DeployScript is Script {
     function run() public {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
-        address admin = address(this);
+        address admin = 0x583D98c6FA793B9eFF80674F9Dca1BBc7cc6F9F2;
         USDe usde = new USDe(admin);
         console.log("%s usde address", address(usde));
         StakedUSDeV2 stakedUSDeV2 = new StakedUSDeV2(
             usde,
-            msg.sender,
-            msg.sender
+            admin,
+            admin
         );
+        stakedUSDeV2.setCooldownDuration(1 minutes);
+        vm.stopPrank();
         console.log("%s StakedUSDeV2 address", address(stakedUSDeV2));
         StakedUSDeMinterFactory factory = new StakedUSDeMinterFactory(
             address(usde),
-            stakedUSDeV2
+            address(stakedUSDeV2)
         );
         console.log("%s factory address", address(factory));
         vm.stopBroadcast();

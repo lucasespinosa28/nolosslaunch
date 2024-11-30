@@ -43,7 +43,7 @@ contract StakedUSDeMinterTest is Test {
             "",
             owner,
             address(usdeToken),
-            stakedUsdeV2,
+            address(stakedUsdeV2),
             1,
             2,
             2 ether * 1e10

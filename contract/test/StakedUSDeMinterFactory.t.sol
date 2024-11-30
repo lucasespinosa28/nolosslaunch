@@ -57,12 +57,12 @@ contract StakedUSDeMinterFactoryTest is Test {
             owner,
             owner
         );
-        factory = new StakedUSDeMinterFactory(address(usdeToken), stakedUsdeV2);
+        factory = new StakedUSDeMinterFactory(address(usdeToken), address(stakedUsdeV2));
     }
 
     function testCreateLaunchpad() public {
         vm.prank(owner);
-        address launchpadAddress = factory.createLaunchpad(
+        address launchpadAddress = factory.createToken(
             TOKEN_NAME,
             TOKEN_SYMBOL,
             IMAGE_URL,
@@ -100,36 +100,6 @@ contract StakedUSDeMinterFactoryTest is Test {
         assertEq(launchpad.rate(), RATE, "Rate mismatch");
     }
 
-    function testGetLaunchpadsByOwner() public {
-        vm.startPrank(owner);
-
-        address launchpad1 = factory.createLaunchpad(
-            TOKEN_NAME,
-            TOKEN_SYMBOL,
-            IMAGE_URL,
-            COUNTDOWN_DAYS,
-            RATE,
-            2 ether * 1e10,
-            SALT
-        );
-        address launchpad2 = factory.createLaunchpad(
-            TOKEN_NAME,
-            TOKEN_SYMBOL,
-            IMAGE_URL,
-            COUNTDOWN_DAYS,
-            RATE,
-            2 ether * 1e10,
-            bytes32(uint256(2))
-        );
-
-        address[] memory launchpads = factory.getLaunchpadsByOwner(owner);
-
-        assertEq(launchpads.length, 2, "Should have created 2 launchpads");
-        assertEq(launchpads[0], launchpad1, "First launchpad mismatch");
-        assertEq(launchpads[1], launchpad2, "Second launchpad mismatch");
-
-        vm.stopPrank();
-    }
 
     function testLaunchpadCreatedEvent() public {
         bytes memory bytecode = type(StakedUSDeMinter).creationCode;
@@ -159,13 +129,13 @@ contract StakedUSDeMinterFactoryTest is Test {
             (COUNTDOWN_DAYS * 1 days);
 
         vm.expectEmit(true, false, false, true);
-        emit StakedUSDeMinterFactory.LaunchpadCreated(
+        emit StakedUSDeMinterFactory.TokenCreated(
             expectedAddress,
-            expectedRefundDate
+            owner
         );
 
         vm.prank(owner);
-        address actualAddress = factory.createLaunchpad(
+        address actualAddress = factory.createToken(
             TOKEN_NAME,
             TOKEN_SYMBOL,
             IMAGE_URL,
@@ -185,7 +155,7 @@ contract StakedUSDeMinterFactoryTest is Test {
     function testCreateLaunchpadWithDifferentSalts() public {
         vm.startPrank(owner);
 
-        address launchpad1 = factory.createLaunchpad(
+        address launchpad1 = factory.createToken(
             TOKEN_NAME,
             TOKEN_SYMBOL,
             IMAGE_URL,
@@ -194,7 +164,7 @@ contract StakedUSDeMinterFactoryTest is Test {
             2 ether * 1e10,
             SALT
         );
-        address launchpad2 = factory.createLaunchpad(
+        address launchpad2 = factory.createToken(
             TOKEN_NAME,
             TOKEN_SYMBOL,
             IMAGE_URL,

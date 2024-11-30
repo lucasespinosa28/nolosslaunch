@@ -23,13 +23,13 @@ contract StakedUSDeMinter is ERC20, Ownable {
         string memory _imageUrl,
         address initialOwner,
         address _usdeTokenAddress,
-        StakedUSDeV2 _stakedUsdeV2,
+        address _stakedUsdeV2,
         uint256 _countdownDays,
         uint16 _rate,
         uint256 _maxSupply
     ) ERC20(name, symbol) Ownable(initialOwner) {
         usdeToken = IERC20(_usdeTokenAddress);
-        stakedUsdeV2 = _stakedUsdeV2;
+        stakedUsdeV2 = StakedUSDeV2(_stakedUsdeV2);
         countdownEnd = block.timestamp + (_countdownDays * 1 days);
         rate = _rate;
         imageUrl = _imageUrl;
@@ -46,7 +46,7 @@ contract StakedUSDeMinter is ERC20, Ownable {
         _;
     }
 
-    function depositToStakedUSDeV2(uint256 amount) external countdownNotEnded {
+    function depositToStakedUSDeV2(uint256 amount) external  countdownNotEnded{
         require(
             totalSupply() + (amount * rate) <= maxSupply,
             "Max supply reached"
@@ -64,20 +64,20 @@ contract StakedUSDeMinter is ERC20, Ownable {
         _mint(msg.sender, amount * rate);
     }
 
-    function unstakeAllRewars() public onlyOwner countdownEnded {
+    function unstakeAllRewars() public countdownEnded {
         uint256 shares = stakedUsdeV2.balanceOf(address(this));
         stakedUsdeV2.cooldownShares(shares);
     }
 
-    function unstakeReward() public onlyOwner countdownEnded {
+    function unstakeReward() public  countdownEnded{
         stakedUsdeV2.unstake(address(this));
         uint256 initialBalance = usdeToken.balanceOf(address(this));
         // uint256 rewars = initialBalance - totalSupply();
-        usdeToken.transfer(owner(), initialBalance - (totalSupply() / 2));
+        usdeToken.transfer(owner(), initialBalance - (totalSupply() / rate));
         rewardsUnstaked = true;
     }
 
-    function withdrawal(uint256 amount) external {
+    function withdrawal(uint256 amount) external countdownEnded{
         require(rewardsUnstaked, "Rewards must be unstaked before withdrawal");
         require(balanceOf(msg.sender) >= amount, "Insufficient stUSDe balance");
         // Burn the stUSDe tokens

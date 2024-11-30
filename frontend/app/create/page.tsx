@@ -1,131 +1,143 @@
 "use client"
-import { UploadButton } from '@/utils/uploadthing';
-import { faker } from '@faker-js/faker';
 import { useState } from 'react';
-import { parseEther } from 'viem';
-import { generatePrivateKey } from 'viem/accounts';
-import { useAccount, useWaitForTransactionReceipt, useWriteContract } from 'wagmi';
-import abi from "./../contract/LaunchpadFactory.json";
-import { LAUNCHPADFACTORY_ADDRESS, STAKE_ADDRESS, SUSDE_ADDRESS, USDE_ADDRESS } from '../contract/addresses';
-import DeployToken from './deployToken';
-interface TokenFormData {
-  tokenName: string;
-  tokenSymbol: string;
-  rate: number;
-  refundDate: number;
-  maxSupply: string;
-  initialOnwer: `0x${string}`;
-}
-
-interface TokenInfoData {
-  description: string;
-  website: string;
-  telegram: string;
-  discord: string;
-  twitter: string;
-  image: string;
-}
+import Container from '@/components/Container';
+import { useForm, SubmitHandler } from 'react-hook-form';
+import Button from '@/components/Button';
+import { useAccount, useWaitForTransactionReceipt } from 'wagmi';
+import TokenImage from '@/components/TokenImage';
+import ImageUploader from '@/components/ImageUploader';
+import FormField from '@/components/FormField';
+import { fillRandomData } from '@/utils/fillRandomData';
+import { FormValues } from '@/types/FormTypes';
+import { useCreateToken } from '@/hooks/contract/write/useCreateToken';
 
 export default function Create() {
-  const account = useAccount()
-  const [tokenFormData, setTokenFormData] = useState<TokenFormData>({
-    tokenName: '',
-    tokenSymbol: '',
-    rate: 0,
-    refundDate: 0,
-    maxSupply: '',
-    initialOnwer: account.address || "0x0"
+  const [tokenImageUrl, setTokenImageUrl] = useState<string | undefined>(undefined);
+  const [uploadStatus, setUploadStatus] = useState<{ message: string, isError: boolean }>();
+  const { register, handleSubmit, formState: { errors }, watch, setValue } = useForm<FormValues>();
+  const account = useAccount();
+  const { createLaunchpad, hash } = useCreateToken();
+  const {
+    isLoading,
+    isSuccess,
+    isError,
+    error
+  } = useWaitForTransactionReceipt({
+    hash: hash as `0x${string}` | undefined,
   });
 
-  const [tokenInfoData, setTokenInfoData] = useState<TokenInfoData>({
-    description: '',
-    website: '',
-    telegram: '',
-    discord: '',
-    twitter: '',
-    image: ''
-  });
 
-  const handleTokenInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { id, value } = e.target;
-    setTokenFormData(prevData => ({
-      ...prevData,
-      [id]: value
-    }));
+  const handleImageUpload = (url: string) => {
+    setTokenImageUrl(url);
+    setUploadStatus({ message: "Upload Completed", isError: false });
   };
 
-  const handleInfoInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target;
-    setTokenInfoData(prevData => ({
-      ...prevData,
-      [id]: value
-    }));
+  const handleUploadError = (error: Error) => {
+    setUploadStatus({ message: `ERROR! ${error.message}`, isError: true });
   };
 
-  const handleTokenSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Token Form submitted:', tokenFormData);
-    handleCreateLaunchpad();
-  };
-
-  const handleInfoSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Info Form submitted:', tokenInfoData);
-  };
-  const fillRandomData = () => {
-    const name = faker.word.words(3)
-    function generateSymbol() {
-      return (name[0][0] + name[1][0] + name[1][0]).toUpperCase();
+  const onSubmit: SubmitHandler<FormValues> = async (data) => {
+    if (!tokenImageUrl) {
+      alert('Please upload a token image');
+      return;
     }
-    const randomTokenData: TokenFormData = {
-      tokenName: name,
-      tokenSymbol: generateSymbol(),
-      rate: faker.number.int({ min: 1, max: 50 }),
-      refundDate: faker.number.int({ min: 1, max: 365 }),
-      maxSupply: faker.number.int({ min: 1000000, max: 1000000000 }).toString(),
-      initialOnwer: account.address || "0x0"
-    };
-    const randomInfoData: TokenInfoData = {
-      description: faker.lorem.paragraph(),
-      website: faker.internet.url(),
-      telegram: faker.internet.userName(),
-      discord: faker.internet.userName(),
-      twitter: faker.internet.userName(),
-      image: ''
-    };
-    setTokenFormData(randomTokenData);
-    setTokenInfoData(randomInfoData);
+
+    try {
+      await createLaunchpad(
+        data.tokenName,
+        data.tokenSymbol,
+        tokenImageUrl,
+        data.countdownDays,
+        data.rate,
+        data.maxSupply.toString()
+      );
+    } catch (err) {
+      console.error('Error creating launchpad:', err);
+    }
   };
-
-  const { data: hash, writeContract } = useWriteContract()
-
-  const { isLoading: isConfirming, isSuccess: isConfirmed } =
-    useWaitForTransactionReceipt({
-      hash,
-    })
-  const handleCreateLaunchpad = async () => {
-    writeContract({
-      address: LAUNCHPADFACTORY_ADDRESS,
-      abi: abi,
-      functionName: 'createLaunchpad',
-      args: [
-        tokenFormData.tokenName,
-        tokenFormData.tokenSymbol,
-        USDE_ADDRESS,
-        SUSDE_ADDRESS,
-        STAKE_ADDRESS,
-        BigInt(tokenFormData.refundDate),
-        parseEther(tokenFormData.maxSupply),
-        parseEther(tokenFormData.rate.toString()),
-        account.address,
-        generatePrivateKey()
-      ]
-    })
-  }
-
   return (
-    <main className="p-8 flex justify-center">
-      <DeployToken />
-    </main>
+    <Container>
+    <section className="flex flex-col items-center space-y-8 w-full max-w-[768px] mx-auto bg-gradient-to-b from-gray-800 to-gray-900 p-10 rounded-2xl shadow-2xl">
+      <h2 className="text-4xl font-bold mb-2 text-white">Create New Token</h2>
+      <p className="text-indigo-300 text-center mb-8 max-w-md">
+        Launch your token on our platform. Fill in the details below to set up your token's properties and initial distribution parameters.
+      </p>
+      <form onSubmit={handleSubmit(onSubmit)} className="w-full space-y-8">
+        <div className="mb-8">
+          <TokenImage imageUrl={tokenImageUrl} />
+          <ImageUploader onImageUpload={handleImageUpload} onUploadError={handleUploadError} />
+          {uploadStatus && (
+            <p className={`mt-2 text-sm ${uploadStatus.isError ? 'text-red-400' : 'text-green-400'}`}>
+              {uploadStatus.message}
+            </p>
+          )}
+        </div>
+        <FormField
+          label="Token Name"
+          name="tokenName"
+          type="text"
+          register={register}
+          error={errors.tokenName}
+          description="The full name of your token (e.g., 'Ethereum')."
+        />
+        <FormField
+          label="Token Symbol"
+          name="tokenSymbol"
+          type="text"
+          register={register}
+          error={errors.tokenSymbol}
+          description="A short abbreviation for your token (e.g., 'ETH')."
+        />
+        <FormField
+          label="Countdown Days"
+          name="countdownDays"
+          type="number"
+          register={register}
+          error={errors.countdownDays}
+          description="The number of days until the token launch is complete."
+        />
+        <FormField
+          label="Rate"
+          name="rate"
+          type="number"
+          register={register}
+          error={errors.rate}
+          description={`The initial exchange rate between USDe and your token. USDe 1 = ${watch('rate') ? (1 / watch('rate')).toFixed(8) : '[Rate]'} ${watch('tokenSymbol') || '[Symbol]'}`}
+        />
+        <FormField
+          label="Max Supply"
+          name="maxSupply"
+          type="number"
+          register={register}
+          error={errors.maxSupply}
+          description="The maximum number of tokens that can ever be created."
+        />
+        <div className="flex flex-col space-y-4 mt-8">
+          <Button
+            type="submit"
+            disabled={!tokenImageUrl}
+            className="w-full py-4 px-6 rounded-lg shadow-lg text-lg font-bold text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+          >
+            Create Token
+          </Button>
+          <Button
+            variant='outline'
+            onClick={() => { fillRandomData(setValue, account.address) }}
+            className="w-full py-3 px-6 rounded-lg shadow-md text-sm font-semibold text-indigo-300 bg-transparent border border-indigo-500 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-200 ease-in-out"
+          >
+            Fill with Random Data
+          </Button>
+        </div>
+      </form>
+      {isError && <p className="text-red-500 mt-4">Error: {error?.message}</p>}
+      {isLoading && <p className="text-yellow-500 mt-4">Transaction confirming...</p>}
+      {isSuccess && <p className="text-green-500 mt-4">Launchpad created successfully!</p>}
+      {hash && (
+        <p className="text-blue-400 mt-4">
+          Transaction hash: <a href={`https://sepolia.etherscan.io/tx/${hash}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-300">{hash}</a>
+        </p>
+      )}
+    </section>
+  </Container>
   );
 }

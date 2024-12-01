@@ -20,8 +20,7 @@ export default function TokenPage({ params }: { params: Promise<{ id: string }> 
     if (isLoading) return <SkeletonLoading />;
     if (isError) return <ErrorComponent message={error?.message || 'An error occurred'} />;
     if (!tokenInfo) return <NoTokenInfoComponent />;
-    const { address } = useAccount()
-    if (!address) {
+    if (!account.address) {
         return (
           <Container>
             <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">

@@ -10,13 +10,13 @@ type LaunchpadCreated = {
 
 // GraphQL query
 const TOKENS_QUERY = `
-query newTokens($first: Int!, $skip: Int!) {
+query newTokens($first: Int!, $skip: Int!,$address:String!) {
   tokenCreateds(
     first: $first
     skip: $skip
     orderDirection: desc
     orderBy: timestamp_
-    where: {owner_contains: "0x583d98c6fa793b9eff80674f9dca1bbc7cc6f9f2"}
+    where: {owner_contains: $address}
   ) {
     id
     timestamp_
@@ -28,6 +28,11 @@ query newTokens($first: Int!, $skip: Int!) {
 
 // Function to fetch tokens
 const fetchTokens = async (address: `0x${string}`, first: number, skip: number): Promise<any[]> => {
+  address = address.toLowerCase() as `0x${string}`;
+  console.log(JSON.stringify({
+    query: TOKENS_QUERY,
+    variables: { address, first, skip },
+  }))
   const response = await fetch('https://api.goldsky.com/api/public/project_cm40m9frcp0uf01sa8as570rr/subgraphs/StakedUSDeMinterFactory-sepolia/1.0.0/gn', {
     method: 'POST',
     headers: {
@@ -38,13 +43,14 @@ const fetchTokens = async (address: `0x${string}`, first: number, skip: number):
       variables: { address, first, skip },
     }),
   });
-
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
 
   const data: any = await response.json();
+  console.log({data})
   const tokens = data.data.tokenCreateds
+  console.log('fixAddress:', address);
   return tokens;
 };
 
@@ -56,3 +62,4 @@ export const useTokenOwner = (address: `0x${string}`, first: number = 4, skip: n
     queryFn: () => fetchTokens(address, first, skip),
   });
 };
+

@@ -10,5 +10,4 @@ export const fillRandomData = (setValue: UseFormSetValue<FormValues>, accountAdd
   setValue('countdownDays', Math.floor(Math.random() * 30) + 1);
   setValue('rate', faker.number.int({ min: 1, max: 100 }));
   setValue('maxSupply', faker.number.int({ min: 1e6, max: 1e8 }));
-  setValue('initialOwner', accountAddress || '');
 };

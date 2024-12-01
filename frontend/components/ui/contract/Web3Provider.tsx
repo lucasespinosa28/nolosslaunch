@@ -7,7 +7,7 @@ import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 const config = createConfig(
   getDefaultConfig({
     // Your dApps chains
-    chains: [foundry,sepolia],
+    chains: [sepolia],
     transports: {
       // RPC URL for each chain
       // [foundry.id]: http("http://127.0.0.1:8545/"),

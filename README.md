@@ -1,6 +1,6 @@
 # NoLossToken
 # [Website Demo](https://frontend-bice-one-73.vercel.app/)
-
+# [Video Demoe](https://youtu.be/KAjPqUFk__U)
 NoLossToken is a decentralized platform for launching new tokens with a unique "no loss" feature. This project combines smart contracts for token minting and refunding with a React-based frontend for user interaction.
 ![localhost_3000_create (1)](https://github.com/user-attachments/assets/c2d5567b-85ab-4e64-b87d-3e436973bddb)
 

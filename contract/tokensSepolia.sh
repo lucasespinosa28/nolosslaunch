@@ -19,7 +19,7 @@ create_launchpad() {
     echo "Countdown Days: $countdownDays"
     echo "Rate: $rate"
     echo "Max Supply: $maxSupply"
-    cast send 0xbF6446dDE4c1b0DA1Cb6F7073f1a55630D072082 "function createToken(string,string,string,uint256,uint16,uint256,bytes32)" "$tokenName" "$tokenSymbol" "$imageUrl" "$countdownDays" "$rate" "$maxSupply" "$salt" --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
+    cast send 0xa7789E9e954E0D10cf4c60f3b0994596D8125C20 "function createToken(string,string,string,uint256,uint16,uint256,bytes32)" "$tokenName" "$tokenSymbol" "$imageUrl" "$countdownDays" "$rate" "$maxSupply" "$salt" --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
     echo "Launchpad ${id} created."
     echo "-----------------------------"
 }

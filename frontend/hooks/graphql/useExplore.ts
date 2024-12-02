@@ -1,38 +1,20 @@
 import { useQuery } from '@tanstack/react-query';
 
-// Define the LaunchpadCreated type
-type LaunchpadCreated = {
-  id: string;
-  launchpadAddress: string;
-  refundDate: string;
-  timestamp_: string;
-};
-
-// Define the response type
-type TokensResponse = {
-  data: {
-    launchpadCreateds: LaunchpadCreated[];
-  };
-};
-
 // GraphQL query
 const TOKENS_QUERY = `
-   query newTokens($first: Int!, $skip: Int!) {
-  tokenCreateds(
-    first: $first
-    skip: $skip
-    orderDirection: desc
-    orderBy: timestamp_
-  ) {
-    id
-    timestamp_
+   query Explore($first: Int!, $skip: Int!) {
+    tokenCreateds(first: $first, skip: $skip) {
     tokenAddress
+    imageUrl
+    timestamp_
+    owner
+    cuntdownEnd
   }
 }
   `;
 
-const GRAPHQL_ENDPOINT = 'https://api.goldsky.com/api/public/project_cm40m9frcp0uf01sa8as570rr/subgraphs/RefundableTokenFactory-sepolia/1.0.0/gn';
-
+  const GRAPHQL_ENDPOINT = 'https://api.goldsky.com/api/public/project_cm40m9frcp0uf01sa8as570rr/subgraphs/RefundableTokenFactory-sepolia/1.0.0/gn';
+// Function to fetch tokens
 const fetchTokens = async (first: number, skip: number): Promise<any[]> => {
   const response = await fetch(GRAPHQL_ENDPOINT, {
     method: 'POST',
@@ -56,9 +38,9 @@ const fetchTokens = async (first: number, skip: number): Promise<any[]> => {
 
 
 // Hook to get tokens
-export const useNewTokens = (first: number = 4, skip: number = 0) => {
+export const useExplore = (first: number = 10, skip: number = 0) => {
   return useQuery<any[], Error>({
-    queryKey: ['newTokens', first, skip],
+    queryKey: ['Tokens', first, skip],
     queryFn: () => fetchTokens(first, skip),
   });
 };

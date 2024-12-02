@@ -1,0 +1,17 @@
+{
+    "version": "1",
+    "name": "staked-usde-minter-factory-graph",
+    "abis": {
+        "RefundableTokenFactory": {
+            "path": "./RefundableTokenFactory.json"
+        }
+    },
+    "instances": [
+        {
+            "abi": "RefundableTokenFactory",
+            "address": "0xa7789E9e954E0D10cf4c60f3b0994596D8125C20",
+            "startBlock": 7192400,
+            "chain": "sepolia"
+        }
+    ]
+}

@@ -1,50 +1,67 @@
 import React from 'react';
-import { useUnstakeRewards } from '@/hooks/contract/write/useUnstakeRewards';
-import { useUnstakeAllRewards } from '@/hooks/contract/write/useUnstakeAllRewards';
-import { useRewardsUnstaked } from '@/hooks/contract/read/useRewardsUnstaked';
+import { useUnstakeCreatorAllRewards } from '@/hooks/contract/write/useUnstakeCreatorAllRewards';
+import { useUnstakeCreatorReward } from '@/hooks/contract/write/useUnstakeCreatorReward';
+import { useCreatorRewardsUnstaked } from '@/hooks/contract/read/useCreatorRewardsUnstaked';
 import Button from '../Button';
+import { useReadContract } from 'wagmi';
+import { useGetData } from '@/hooks/contract/read/useGetData';
 
 interface RewardTokenProps {
   contractAddress: `0x${string}`;
-  symbol: string;
+  amount: number;
 }
 
+const UnstakEToken: React.FC<RewardTokenProps> = ({ contractAddress, amount }) => {
+  const {
+    unstakeCreatorAllRewards,
+    isUnstaking: isUnstakingAll,
+    isUnstaked: isUnstakedAll
+  } = useUnstakeCreatorAllRewards(contractAddress);
 
-const UnstakEToken: React.FC<RewardTokenProps> = ({ contractAddress }) => {
-  const { unstakeRewards, isUnstaking, isUnstaked, isPending, isError, error } = useUnstakeRewards(contractAddress);
-  const { unstakeAllRewards, isUnstakingAll, isUnstakedAll, isPendingAll, isErrorAll, errorAll } = useUnstakeAllRewards(contractAddress);
-  const { rewardsUnstaked, isLoading: isLoadingRewards } = useRewardsUnstaked(contractAddress);
+  const {
+    unstakeCreatorReward,
+    isUnstaking: isUnstakingSingle,
+    isUnstaked: isUnstakedSingle
+  } = useUnstakeCreatorReward(contractAddress);
 
-  const handleUnstake = () => {
-    unstakeRewards();
-  };
   const handleUnstakeAll = () => {
-    unstakeAllRewards();
+    unstakeCreatorAllRewards();
   };
-  console.log(rewardsUnstaked);
+
+  const handleUnstakeSingle = () => {
+    unstakeCreatorReward();
+  };
+  const { data, isError, isLoading } = useGetData(contractAddress);
+  const timer = new Date(Number(data) * 1000);
+  console.log(timer);
+  //data.
   return (
-    <div className="flex flex-col items-end">
-      {isLoadingRewards ? (
-        <p className="text-gray-400">Loading rewards...</p>
-      ) : (
-        <p className="text-white">
-          {rewardsUnstaked ? <></> : <>
-            <Button onClick={handleUnstake} disabled={isUnstaking || isPending} className='mx-4'>
-              {isUnstaking ? 'Unstaking...' : isPending ? 'Pending...' : `Unstake sUSDe`}
-            </Button>
-            <Button onClick={handleUnstakeAll} disabled={isUnstakingAll || isPendingAll} className='mx-4'>
-              {isUnstakingAll ? 'Unstaking...' : isUnstakedAll ? 'Pending...' : `Get after 1 hour reward USDe`}
-            </Button>
-            </>}
-        </p>
+    <div>
+      <p className="font-bold">
+        Creator Rewards: {Math.max(0, amount).toFixed(2)} USDe
+      </p>
+      <div>
+        <pre>Blockchain date {JSON.stringify(timer.toLocaleString())}</pre>
+      </div>
+      {amount > 0 && (
+        <>
+         <Button
+        onClick={handleUnstakeAll}
+        disabled={isUnstakingAll}
+      >
+        {isUnstakingAll ? 'Unstaking All...' : '1 - Unstake All Creator Rewards'}
+      </Button>
+      <Button
+        onClick={handleUnstakeSingle}
+        disabled={isUnstakingSingle}
+        className='mx-2'
+      >
+        {isUnstakingSingle ? 'Unstaking...' : '2 - Get Reward'}
+      </Button>
+        </>
       )}
-      {isError && <div className="text-red-500 mt-2">Error unstaking: {error?.message}</div>}
-      {isUnstaked && <div className="text-green-500 mt-2">Unstake successful!</div>}
-      {isErrorAll && <div className="text-red-500 mt-2">Error unstaking: {errorAll?.message}</div>}
-      {isUnstakedAll && <div className="text-green-500 mt-2">Unstake successful!</div>}
     </div>
   );
 };
 
 export default UnstakEToken;
-

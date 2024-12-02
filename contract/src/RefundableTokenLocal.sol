@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./StakedUSDeV2.sol";
 
-contract RefundableToken is ERC20, Ownable {
+contract RefundableTokenLocal is ERC20, Ownable {
     using SafeERC20 for IERC20;
     uint256 public immutable countdownEnd;
     IERC20 public immutable usdeToken;
@@ -40,7 +40,7 @@ contract RefundableToken is ERC20, Ownable {
     ) ERC20(name, symbol) Ownable(initialOwner) {
         usdeToken = IERC20(_usdeTokenAddress);
         stakedUsdeV2 = StakedUSDeV2(_stakedUsdeV2);
-        countdownEnd = block.timestamp + (_countdownDays * 1 hours);
+        countdownEnd = block.timestamp + (_countdownDays * 1 minutes);
         rate = _rate;
         imageUrl = _imageUrl;
         maxSupply = _maxSupply;
@@ -56,7 +56,7 @@ contract RefundableToken is ERC20, Ownable {
         _;
     }
 
-    function depositToStakedUSDeV2(uint256 amount) external countdownNotEnded {
+    function depositToStakedUSDeV2(uint256 amount) external {
         require(
             totalSupply() + (amount * rate) <= maxSupply,
             "Max supply reached"
@@ -68,7 +68,7 @@ contract RefundableToken is ERC20, Ownable {
         _mint(msg.sender, amount * rate);
     }
 
-    function unstakeCreatorAllRewars() public onlyOwner countdownEnded {
+    function unstakeCreatorAllRewars() public onlyOwner  {
         uint256 shares = stakedUsdeV2.balanceOf(address(this));
         uint256 assets = stakedUsdeV2.convertToAssets(shares);
         uint256 tokens = totalSupply() / rate;
@@ -77,14 +77,14 @@ contract RefundableToken is ERC20, Ownable {
         creatorRewardsUnstaked = true;
     }
 
-    function unstakeCreatorReward() public onlyOwner countdownEnded {
+    function unstakeCreatorReward() public onlyOwner  {
         stakedUsdeV2.unstake(address(this));
         uint256 rewards = usdeToken.balanceOf(address(this));
         usdeToken.transfer(owner(), rewards);
         creatorRewardsUnstaked = false;
     }
 
-    function unstakeToken(uint256 amount) public countdownEnded {
+    function unstakeToken(uint256 amount) public  {
         if (lastCaller.amount > 0) {
             require(
                 block.timestamp >= lastUnstakeTimestamp + 1 minutes,
@@ -100,7 +100,7 @@ contract RefundableToken is ERC20, Ownable {
         lastUnstakeTimestamp = block.timestamp;
     }
 
-    function withdrawalTokenReward() public countdownEnded {
+    function withdrawalTokenReward() public  {
         require(
             block.timestamp >= lastUnstakeTimestamp + 1 minutes,
             "Must wait 1 hour after unstaking"

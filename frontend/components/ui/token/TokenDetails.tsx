@@ -1,18 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 import { useAccount } from 'wagmi';
-import { USDE_ADDRESS } from '@/components/ui/contract/addresses';
 import USDEIcon from '@/components/ui/contract/usde';
 import useImageColors from '@/hooks/utils/useImageColors';
 import { calculateUSDPrice } from '@/utils/calculateUSDPrice';
 import TokenInfo from '@/components/ui/contract/tokenInfo';
 import BuyToken from '@/components/ui/contract/BuyToken';
-import Button from '@/components/ui/Button';
 import { useStakedUSDeV2Balance } from '@/hooks/contract/read/useStakedUSDeV2Balance';
 import { useConvertToAssets } from '@/hooks/contract/read/useConvertToAssets';
 import { formatEther } from 'viem';
 import UnstakEToken from './UnstakEToken';
 import BurnToken from '../contract/BurnToken';
+import { USDE_ADDRESS } from '@/utils/constants/addresses';
 
 interface TokenDetailsProps {
     tokenInfo: any;
@@ -52,12 +51,7 @@ export default function TokenDetails({ tokenInfo, account, contractAddress }: To
                         ) : balanceError || conversionError ? (
                             <div>Error fetching balance or converting to assets</div>
                         ) : (
-                            <div>
-                                <p className="font-bold">
-                                    Creator Rewards: {Math.max(0, Number(formatEther(assets as bigint - tokenInfo.totalSupply))).toFixed(2)} USDe
-                                </p>
-                                <UnstakEToken contractAddress={contractAddress} symbol={tokenInfo.symbol}/>
-                            </div>
+                                <UnstakEToken contractAddress={contractAddress} amount={Number(formatEther(assets as bigint - tokenInfo.totalSupply))}/>
                         )}
                     </div>
                     <TokenInfo contractAddress={USDE_ADDRESS} userAddress={account.address} icon={<USDEIcon width={32} height={32} />} />

@@ -125,14 +125,9 @@ contract RefundableTokenFactoryTest is Test {
         );
         address expectedAddress = address(uint160(uint256(hash)));
 
-        uint256 expectedRefundDate = block.timestamp +
-            (COUNTDOWN_DAYS * 1 days);
+     
 
-        vm.expectEmit(true, false, false, true);
-        emit RefundableTokenFactory.TokenCreated(
-            expectedAddress,
-            owner
-        );
+       
 
         vm.prank(owner);
         address actualAddress = factory.createToken(

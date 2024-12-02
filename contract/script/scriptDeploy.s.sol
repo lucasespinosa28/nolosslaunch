@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Script, console} from "forge-std/Script.sol";
 import {USDe} from "../src/USDe.sol";
 import {StakedUSDeV2} from "../src/StakedUSDeV2.sol";
-import {RefundableTokenFactory} from "../src/RefundableTokenFactory.sol";
+import {RefundableTokenFactoryLocal} from "../src/RefundableTokenFactoryLocal.sol";
 
 contract DeployScript is Script {
     function setUp() public {}
@@ -20,10 +20,9 @@ contract DeployScript is Script {
             admin,
             admin
         );
-        stakedUSDeV2.setCooldownDuration(1 minutes);
-        vm.stopPrank();
+        stakedUSDeV2.setCooldownDuration(1 seconds);
         console.log("%s StakedUSDeV2 address", address(stakedUSDeV2));
-        RefundableTokenFactory factory = new RefundableTokenFactory(
+        RefundableTokenFactoryLocal factory = new RefundableTokenFactoryLocal(
             address(usde),
             address(stakedUSDeV2)
         );

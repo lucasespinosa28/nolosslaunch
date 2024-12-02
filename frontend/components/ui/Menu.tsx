@@ -14,9 +14,9 @@ export default function Menu() {
     <>
       <nav className="space-x-4">
         <Link href="/create" className={getLinkClassName("/create")}>Create</Link>
-        {/* <Link href="/explore" className={getLinkClassName("/explore")}>Explore</Link> */}
-        {/* <Link href="/faucet" className={getLinkClassName("/faucet")}>Faucet</Link> */}
-        <a href="https://faucet.ethena.fi/" target="_blank">Faucet</a>
+        <Link href="/explore" className={getLinkClassName("/explore")}>Explore</Link> 
+        <Link href="/faucet" className={getLinkClassName("/faucet")}>Faucet</Link>
+        {/* <a href="https://faucet.ethena.fi/" target="_blank">Faucet</a> */}
         <Link href ="#" className={getLinkClassName("#")}>Docs</Link>
         <Link href="/profile" className={getLinkClassName("/profile")}>Profile</Link>
       </nav>

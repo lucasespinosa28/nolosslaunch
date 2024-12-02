@@ -9,9 +9,11 @@ const TOKENS_QUERY = `
       }
     }
   `;
-// Function to fetch tokens
+
+const GRAPHQL_ENDPOINT = 'https://api.goldsky.com/api/public/project_cm40m9frcp0uf01sa8as570rr/subgraphs/RefundableTokenFactory-sepolia/1.0.0/gn';
+
 const fetchTokens = async (first: number, skip: number): Promise<any[]> => {
-  const response = await fetch('https://api.goldsky.com/api/public/project_cm40m9frcp0uf01sa8as570rr/subgraphs/StakedUSDeMinterFactory-sepolia/1.0.0/gn', {
+  const response = await fetch(GRAPHQL_ENDPOINT, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

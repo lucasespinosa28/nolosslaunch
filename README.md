@@ -1,4 +1,3 @@
-![localhost_3000_token_0x7F73ebD8DaBef2EfCBB91dFFcFBb970A89A2b929 (1)](https://github.com/user-attachments/assets/9729b72a-972c-4cb5-b3a0-3bc50eca0965)# NoLossToken
 # [Website Demo](https://frontend-bice-one-73.vercel.app/)
 # [Video Demo](https://youtu.be/KAjPqUFk__U)
 NoLossToken is a decentralized platform for launching new tokens with a unique "no loss" feature. This project combines smart contracts for token minting and refunding with a React-based frontend for user interaction.
@@ -28,7 +27,7 @@ This mechanism creates a "no loss" situation for users, as they can always recla
 7. **Ethena USDe**: Our platform leverages Ethena's USDe stablecoin for yield generation. USDe provides a stable and reliable foundation for our no-loss mechanism, ensuring that users' deposits maintain their value while generating yield.
 
 8. **Goldsky Integration**: We utilize Goldsky, a GraphQL platform, to store and query contract events related to token creations. This allows for efficient tracking and analysis of token launch activities on our platform.
-![localhost_3000_explore (2)](https://github.com/user-attachments/assets/f176f589-774f-4232-815b-0ed49efdca80)
+![localhost_3000_explore (4)](https://github.com/user-attachments/assets/303cc918-5277-4e5b-8643-2b5fb043d4b0)
 
 
 These technological integrations enhance our platform's functionality, providing robust data management and a stable yield-generating asset for our no-loss token launches.
